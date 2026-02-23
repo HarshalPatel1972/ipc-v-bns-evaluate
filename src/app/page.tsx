@@ -14,13 +14,25 @@ export default function Home() {
   const [activeBatchId, setActiveBatchId] = useState<number>(1);
   const [grades, setGrades] = useState<GlobalGrades>({});
   const [isLoaded, setIsLoaded] = useState(false);
+  const [lastLocalChange, setLastLocalChange] = useState<number>(0);
+  const [syncStatus, setSyncStatus] = useState<"synced" | "saving" | "error">("synced");
 
   // Load from global API
   const fetchGrades = async () => {
+    // Don't overwrite if we have a very recent local change (less than 5s old)
+    if (Date.now() - lastLocalChange < 5000) return;
+
     try {
       const res = await fetch('/api/grades', { cache: 'no-store' });
+      if (!res.ok) return;
       const data = await res.json();
-      setGrades(data || {});
+      
+      // Merge strategy: Server wins unless we have a lock
+      setGrades(prev => {
+        // Simple stringify check to avoid unnecessary updates
+        if (JSON.stringify(prev) === JSON.stringify(data)) return prev;
+        return data || {};
+      });
       setIsLoaded(true);
     } catch (e) {
       console.error("Failed to load global grades", e);
@@ -31,23 +43,32 @@ export default function Home() {
   // Initial load and polling
   useEffect(() => {
     fetchGrades();
-    const interval = setInterval(fetchGrades, 5000); // Poll every 5 seconds for sync
+    const interval = setInterval(fetchGrades, 8000); // Poll every 8 seconds
     return () => clearInterval(interval);
-  }, []);
+  }, [lastLocalChange]);
 
   // Save to global API when grades change
   useEffect(() => {
-    if (!isLoaded) return;
+    if (!isLoaded || lastLocalChange === 0) return;
     
-    // Prevent saving empty initial state back to server
-    if (Object.keys(grades).length === 0) return;
+    const saveData = async () => {
+      setSyncStatus("saving");
+      try {
+        const res = await fetch('/api/grades', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(grades),
+        });
+        if (res.ok) setSyncStatus("synced");
+        else setSyncStatus("error");
+      } catch (e) {
+        setSyncStatus("error");
+      }
+    };
 
-    fetch('/api/grades', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(grades),
-    }).catch(e => console.error("Failed to save global grades", e));
-  }, [grades, isLoaded]);
+    const timeout = setTimeout(saveData, 1000); // Debounce saves
+    return () => clearTimeout(timeout);
+  }, [grades, isLoaded, lastLocalChange]);
 
   const handleGradeChange = (
     batchId: number,
@@ -55,6 +76,7 @@ export default function Home() {
     model: string,
     grade: Grade
   ) => {
+    setLastLocalChange(Date.now());
     setGrades((prev) => {
       const next = { ...prev };
       if (!next[batchId]) next[batchId] = {};
@@ -150,10 +172,31 @@ export default function Home() {
                 <span className="text-sm font-bold text-slate-700 w-12 text-right">{gradedQuestionsCount}/{totalQuestions}</span>
               </div>
             </div>
+
+            <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-100 min-w-[100px] justify-center">
+              {syncStatus === "saving" && (
+                <>
+                  <div className="w-2 h-2 rounded-full bg-yellow-400 animate-pulse" />
+                  <span className="text-[11px] font-bold text-slate-500 uppercase tracking-wider">Saving...</span>
+                </>
+              )}
+              {syncStatus === "synced" && (
+                <>
+                  <div className="w-2 h-2 rounded-full bg-green-500" />
+                  <span className="text-[11px] font-bold text-slate-500 uppercase tracking-wider">Synced</span>
+                </>
+              )}
+              {syncStatus === "error" && (
+                <>
+                  <div className="w-2 h-2 rounded-full bg-red-500" />
+                  <span className="text-[11px] font-bold text-slate-500 uppercase tracking-wider">Sync Error</span>
+                </>
+              )}
+            </div>
             
             <button
               onClick={handleExport}
-              className="flex items-center gap-2 px-4 py-2 bg-slate-900 hover:bg-slate-800 text-white text-sm font-medium rounded-lg transition-colors shadow-sm ml-4"
+              className="flex items-center gap-2 px-4 py-2 bg-slate-900 hover:bg-slate-800 text-white text-sm font-medium rounded-lg transition-colors shadow-sm"
             >
               <Download size={16} />
               Export JSON
