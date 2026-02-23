@@ -302,13 +302,6 @@ export default function Home() {
                 </span>
               </div>
               
-              <button 
-                onClick={() => setShowLogs(true)}
-                className="p-2 border-l border-slate-100 hover:bg-indigo-50 text-indigo-400 hover:text-indigo-600 transition-all"
-                title="View Team Activity"
-              >
-                <Users size={16} />
-              </button>
             </div>
             
             <button onClick={handleExport} className="p-2.5 bg-slate-900 hover:bg-slate-800 text-white rounded-xl transition-all shadow-sm">
