@@ -260,26 +260,42 @@ export default function Home() {
               </span>
             </div>
 
-            {/* User Profile */}
-            <button 
-              onClick={() => userName ? setShowLogs(true) : setShowUserModal(true)}
-              className="flex items-center gap-2 px-3 py-1.5 bg-indigo-50 border border-indigo-100 rounded-xl hover:bg-indigo-100 transition-all text-indigo-700 group"
-            >
-              {userName ? (
-                <>
-                  <div className="w-6 h-6 rounded-lg bg-indigo-600 text-white flex items-center justify-center text-[10px] font-black uppercase">
-                    {userName.split(' ').map(n => n[0]).join('').toUpperCase().substring(0, 2)}
-                  </div>
-                  <span className="text-xs font-bold whitespace-nowrap hidden sm:block">{userName}</span>
-                  <Users size={14} className="text-indigo-400 group-hover:text-indigo-600" />
-                </>
-              ) : (
-                <>
-                  <LogIn size={14} />
-                  <span className="text-xs font-bold">Sign In</span>
-                </>
-              )}
-            </button>
+            {/* User Profile & My Contributions */}
+            <div className="flex items-center bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm">
+              <button 
+                onClick={() => setShowUserModal(true)}
+                className="flex items-center gap-2 px-3 py-1.5 hover:bg-slate-50 border-r border-slate-100 transition-all text-slate-700"
+              >
+                {userName ? (
+                  <>
+                    <div className="w-6 h-6 rounded-lg bg-indigo-600 text-white flex items-center justify-center text-[10px] font-black uppercase">
+                      {userName.split(' ').map(n => n[0]).join('').toUpperCase().substring(0, 2)}
+                    </div>
+                    <span className="text-xs font-bold whitespace-nowrap hidden sm:block">{userName}</span>
+                  </>
+                ) : (
+                  <>
+                    <LogIn size={14} />
+                    <span className="text-xs font-bold">Sign In</span>
+                  </>
+                )}
+              </button>
+              
+              <div className="px-3 py-1.5 flex flex-col items-center justify-center min-w-[80px]">
+                <span className="text-[9px] font-bold text-slate-400 uppercase tracking-tighter">My Score</span>
+                <span className="text-xs font-black text-indigo-600">
+                  {userName ? (data.userStats?.[userName] || 0) : 0}
+                </span>
+              </div>
+              
+              <button 
+                onClick={() => setShowLogs(true)}
+                className="p-2 border-l border-slate-100 hover:bg-indigo-50 text-indigo-400 hover:text-indigo-600 transition-all"
+                title="View Team Activity"
+              >
+                <Users size={16} />
+              </button>
+            </div>
             
             <button onClick={handleExport} className="p-2.5 bg-slate-900 hover:bg-slate-800 text-white rounded-xl transition-all shadow-sm">
               <Download size={18} />

@@ -34,7 +34,7 @@ export default function UserLogs({ logs, isOpen, onClose }: UserLogsProps) {
             <div className="bg-indigo-600 p-2 rounded-lg text-white">
               <Activity size={20} />
             </div>
-            <h2 className="text-xl font-bold text-slate-900">User Activity</h2>
+            <h2 className="text-xl font-bold text-slate-900">Team Contributions</h2>
           </div>
           <button onClick={onClose} className="p-2 hover:bg-slate-100 rounded-full text-slate-400">
             <User size={20} />
