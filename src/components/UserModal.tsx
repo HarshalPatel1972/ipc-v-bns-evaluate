@@ -46,7 +46,7 @@ export default function UserModal({ onNameSubmit, isOpen, onClose }: UserModalPr
             <div className="relative">
               <input
                 type="text"
-                placeholder="Ex: Khushi Mishra"
+                placeholder="Ex: Harshal Patel"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 autoFocus
