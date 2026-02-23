@@ -1,11 +1,17 @@
 import { NextResponse } from 'next/server';
-import { kv } from '@vercel/kv';
+import { createClient } from '@vercel/kv';
 import { promises as fs } from 'fs';
 import path from 'path';
 
 export const dynamic = 'force-dynamic';
 
 const LOCAL_GRADES_FILE = path.join(process.cwd(), 'grades_data.json');
+
+// Manual client to support the 'STORAGE' prefix from your screenshot
+const kv = createClient({
+  url: process.env.STORAGE_REST_API_URL || process.env.KV_REST_API_URL || '',
+  token: process.env.STORAGE_REST_API_TOKEN || process.env.KV_REST_API_TOKEN || '',
+});
 
 // Helper to check if we are on Vercel or Local
 const isVercel = process.env.VERCEL === '1';
