@@ -21,9 +21,21 @@ export default function QuestionCard({
   gradedBy = {}
 }: QuestionCardProps) {
 
-  // Calculate initials from name
-  const getInitials = (name: string) => {
-    return name?.split(' ').map(n => n[0]).join('').toUpperCase().substring(0, 2);
+  // Calculate initials and unique color from name
+  const getUserStyle = (name: string) => {
+    if (!name) return { initials: '', color: 'indigo' };
+    
+    const initials = name.split(' ').map(n => n[0]).join('').toUpperCase().substring(0, 2);
+    
+    // Simple hash to get a consistent color for the same name
+    const colors = ['indigo', 'blue', 'purple', 'emerald', 'rose', 'amber', 'cyan', 'pink'];
+    let hash = 0;
+    for (let i = 0; i < name.length; i++) {
+      hash = name.charCodeAt(i) + ((hash << 5) - hash);
+    }
+    const color = colors[Math.abs(hash) % colors.length];
+    
+    return { initials, color };
   };
 
   // Calculate how many are graded in this question
@@ -59,7 +71,19 @@ export default function QuestionCard({
             const answer = modelAnswers[model][questionIndex] || "No answer extracted";
             const currentGrade = grades[model];
             const authorName = gradedBy[model];
-            const initials = authorName ? getInitials(authorName) : null;
+            const { initials, color } = getUserStyle(authorName || '');
+
+            // dynamic class names based on user color
+            const borderColors: Record<string, string> = {
+              indigo: 'border-indigo-500 text-indigo-600',
+              blue: 'border-blue-500 text-blue-600',
+              purple: 'border-purple-500 text-purple-600',
+              emerald: 'border-emerald-500 text-emerald-600',
+              rose: 'border-rose-500 text-rose-600',
+              amber: 'border-amber-500 text-amber-600',
+              cyan: 'border-cyan-500 text-cyan-600',
+              pink: 'border-pink-500 text-pink-600',
+            };
 
             return (
               <div 
@@ -73,9 +97,9 @@ export default function QuestionCard({
                 }`}
               >
                 {/* User Active Badge/Initials */}
-                {initials && (
+                {authorName && (
                   <div 
-                    className="absolute -top-2 -right-2 w-7 h-7 bg-white border-2 border-indigo-500 text-indigo-600 rounded-lg flex items-center justify-center text-[10px] font-black z-10 shadow-sm"
+                    className={`absolute -top-2 -right-2 w-7 h-7 bg-white border-2 ${borderColors[color]} rounded-lg flex items-center justify-center text-[10px] font-black z-10 shadow-sm`}
                     title={`Graded by ${authorName}`}
                   >
                     {initials}

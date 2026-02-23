@@ -52,10 +52,29 @@ export default function UserLogs({ logs, isOpen, onClose }: UserLogsProps) {
               <p className="text-slate-400 italic">No activity recorded yet.</p>
             </div>
           ) : (
-            sortedLogs.map((log) => (
-              <div key={log.name} className="flex items-center justify-between p-4 bg-white border border-slate-100 rounded-xl hover:border-indigo-200 transition-all shadow-sm group">
+            sortedLogs.map((log) => {
+              const colors = ['indigo', 'blue', 'purple', 'emerald', 'rose', 'amber', 'cyan', 'pink'];
+              let hash = 0;
+              for (let i = 0; i < log.name.length; i++) {
+                hash = log.name.charCodeAt(i) + ((hash << 5) - hash);
+              }
+              const color = colors[Math.abs(hash) % colors.length];
+
+              const colorVariants: Record<string, string> = {
+                indigo: 'bg-indigo-50 text-indigo-600 group-hover:bg-indigo-600',
+                blue: 'bg-blue-50 text-blue-600 group-hover:bg-blue-600',
+                purple: 'bg-purple-50 text-purple-600 group-hover:bg-purple-600',
+                emerald: 'bg-emerald-50 text-emerald-600 group-hover:bg-emerald-600',
+                rose: 'bg-rose-50 text-rose-600 group-hover:bg-rose-600',
+                amber: 'bg-amber-50 text-amber-600 group-hover:bg-amber-600',
+                cyan: 'bg-cyan-50 text-cyan-600 group-hover:bg-cyan-600',
+                pink: 'bg-pink-50 text-pink-600 group-hover:bg-pink-600',
+              };
+
+              return (
+              <div key={log.name} className="flex items-center justify-between p-4 bg-white border border-slate-100 rounded-xl hover:border-slate-300 transition-all shadow-sm group">
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-indigo-50 text-indigo-600 rounded-lg flex items-center justify-center font-bold text-sm group-hover:bg-indigo-600 group-hover:text-white transition-all">
+                  <div className={`w-10 h-10 ${colorVariants[color]} rounded-lg flex items-center justify-center font-bold text-sm group-hover:text-white transition-all`}>
                     {log.name.split(' ').map(n => n[0]).join('').toUpperCase().substring(0, 2)}
                   </div>
                   <div>
@@ -68,7 +87,7 @@ export default function UserLogs({ logs, isOpen, onClose }: UserLogsProps) {
                   <span className="text-[10px] text-slate-400 block uppercase font-bold">Grades</span>
                 </div>
               </div>
-            ))
+            )})
           )}
         </div>
 
