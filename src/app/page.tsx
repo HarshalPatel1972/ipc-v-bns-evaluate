@@ -78,6 +78,16 @@ export default function Home() {
     return () => clearInterval(interval);
   }, [lastLocalChange]);
 
+  // Loading state
+  if (!isLoaded) {
+    return (
+      <div className="min-h-screen bg-slate-50 flex flex-col items-center justify-center p-4">
+        <div className="w-16 h-16 border-4 border-indigo-600 border-t-transparent rounded-full animate-spin mb-4" />
+        <h2 className="text-xl font-bold text-slate-900">Loading Evaluation Workspace...</h2>
+      </div>
+    );
+  }
+
   // Save to global API when data changes
   useEffect(() => {
     if (!isLoaded || lastLocalChange === 0) return;
@@ -193,17 +203,23 @@ export default function Home() {
   if (!activeBatch) return null;
 
   // Calculate overall progress
-  const totalQuestions = ALL_BATCHES.reduce((acc, b) => acc + b.questions.length, 0);
+  const totalQuestions = ALL_BATCHES.reduce((acc, b) => acc + (b?.questions?.length || 0), 0);
   let gradedQuestionsCount = 0;
-  ALL_BATCHES.forEach((b) => {
-    b.questions.forEach((_, qIndex) => {
-      const qGrades = data?.grades?.[b.batchId]?.[qIndex];
-      if (qGrades) {
-        const hasAllModelsGraded = MODELS.every((m) => qGrades[m] !== undefined && qGrades[m] !== null);
-        if (hasAllModelsGraded) gradedQuestionsCount++;
+  
+  if (data?.grades) {
+    ALL_BATCHES.forEach((b) => {
+      const batchGrades = data.grades[b.batchId];
+      if (batchGrades) {
+        b.questions.forEach((_, qIndex) => {
+          const qGrades = batchGrades[qIndex];
+          if (qGrades) {
+            const hasAllModelsGraded = MODELS.every((m) => qGrades[m] !== undefined && qGrades[m] !== null);
+            if (hasAllModelsGraded) gradedQuestionsCount++;
+          }
+        });
       }
     });
-  });
+  }
   
   const progressPercentage = Math.round((gradedQuestionsCount / totalQuestions) * 100) || 0;
 
