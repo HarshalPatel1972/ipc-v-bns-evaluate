@@ -7,18 +7,24 @@ export const dynamic = 'force-dynamic';
 
 const LOCAL_GRADES_FILE = path.join(process.cwd(), 'grades_data.json');
 
-// Manual client to support the 'STORAGE' prefix from your screenshot
+// Manual client to support various prefixes found in Vercel Marketplace
+const kvUrl = process.env.KV_REST_API_URL || process.env.STORAGE_REST_API_URL || process.env.REDIS_REST_API_URL || '';
+const kvToken = process.env.KV_REST_API_TOKEN || process.env.STORAGE_REST_API_TOKEN || process.env.REDIS_REST_API_TOKEN || '';
+
 const kv = createClient({
-  url: process.env.STORAGE_REST_API_URL || process.env.KV_REST_API_URL || '',
-  token: process.env.STORAGE_REST_API_TOKEN || process.env.KV_REST_API_TOKEN || '',
+  url: kvUrl,
+  token: kvToken,
 });
 
-// Redepoy to pick up new KV environment variables
 // Helper to check if we are on Vercel or Local
 const isVercel = process.env.VERCEL === '1';
 
 async function getGrades() {
   if (isVercel) {
+    if (!kvUrl || !kvToken) {
+      console.error('KV Environment variables missing');
+      return null;
+    }
     try {
       return await kv.get('bns_eval_grades');
     } catch (e) {
@@ -37,52 +43,68 @@ async function getGrades() {
 
 async function setGrades(data: any) {
   if (isVercel) {
-    try {
-      await kv.set('bns_eval_grades', data);
-      return true;
-    } catch (e) {
-      console.error('KV Set Error:', e);
-      return false;
-    }
+    if (!kvUrl || !kvToken) throw new Error('KV_REST_API_URL or TOKEN is missing in Vercel environment variables');
+    await kv.set('bns_eval_grades', data);
+    return true;
   } else {
     try {
       await fs.writeFile(LOCAL_GRADES_FILE, JSON.stringify(data, null, 2), 'utf8');
       return true;
-    } catch {
-      return false;
+    } catch (e) {
+      throw e;
     }
   }
 }
 
 export async function GET() {
-  const json = await getGrades();
-  const fallback = { grades: {}, gradedBy: {}, userStats: {} };
+  try {
+    const json = await getGrades();
+    const fallback = { grades: {}, gradedBy: {}, userStats: {} };
 
-  if (!json) return NextResponse.json(fallback);
+    if (!json) return NextResponse.json(fallback);
 
-  // MIGRATION LOGIC: If it's old dev data format (not an object with 'grades'), wrap it
-  if (json && !json.grades && Object.keys(json).length > 0) {
-    console.log('[GRADES API] Migrating old data format');
-    return NextResponse.json({
-      grades: json,
-      gradedBy: {},
-      userStats: {}
-    });
+    // Parse if it's a string (sometimes KV returns stringified JSON)
+    let parsedData = json;
+    if (typeof json === 'string') {
+      try {
+        parsedData = JSON.parse(json);
+      } catch (e) {
+        // Not JSON, return fallback
+        return NextResponse.json(fallback);
+      }
+    }
+
+    // MIGRATION LOGIC
+    if (parsedData && !parsedData.grades && Object.keys(parsedData).length > 0) {
+      return NextResponse.json({
+        grades: parsedData,
+        gradedBy: {},
+        userStats: {}
+      });
+    }
+
+    return NextResponse.json(parsedData || fallback);
+  } catch (err) {
+    return NextResponse.json({ grades: {}, gradedBy: {}, userStats: {} });
   }
-
-  return NextResponse.json(json || fallback);
 }
 
 export async function POST(request: Request) {
   try {
     const data = await request.json();
-    const success = await setGrades(data);
-    if (success) {
-      return NextResponse.json({ success: true });
-    } else {
-      return NextResponse.json({ error: 'Failed to save to storage' }, { status: 500 });
-    }
-  } catch (err) {
-    return NextResponse.json({ error: String(err) }, { status: 500 });
+    if (!data) return NextResponse.json({ error: 'No data provided' }, { status: 400 });
+    
+    await setGrades(data);
+    return NextResponse.json({ success: true });
+  } catch (err: any) {
+    console.error('POST Error:', err);
+    return NextResponse.json({ 
+      error: 'Server Error', 
+      details: err.message,
+      vars_present: {
+        url: !!kvUrl,
+        token: !!kvToken
+      }
+    }, { status: 500 });
   }
 }
