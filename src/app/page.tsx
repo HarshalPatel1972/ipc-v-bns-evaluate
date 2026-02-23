@@ -130,12 +130,15 @@ export default function Home() {
       // Ensure structure exists
       if (!next.grades) next.grades = {};
       if (!next.gradedBy) next.gradedBy = {};
+      if (!next.userStats) next.userStats = {};
       
+      // Get previous state for this specific answer
+      const prevGrade = next.grades[batchId]?.[questionIndex]?.[model];
+      const prevAuthor = next.gradedBy[batchId]?.[questionIndex]?.[model];
+
       // Update Grade
       if (!next.grades[batchId]) next.grades[batchId] = {};
       if (!next.grades[batchId][questionIndex]) next.grades[batchId][questionIndex] = {};
-      
-      const prevGrade = next.grades[batchId][questionIndex][model];
       next.grades[batchId][questionIndex][model] = grade;
 
       // Update Attribution
@@ -148,17 +151,28 @@ export default function Home() {
         next.gradedBy[batchId][questionIndex][model] = userName;
       }
 
-      // Update userStats (only if new or changed)
-      if (userName) {
-        if (!next.userStats) next.userStats = {};
-        
-        // If they changed a grade or added a new one, count it
-        if (!prevGrade && grade) {
-          next.userStats[userName] = (next.userStats[userName] || 0) + 1;
-        } else if (prevGrade && !grade) {
-          next.userStats[userName] = Math.max(0, (next.userStats[userName] || 0) - 1);
+      // Logic for userStats (Scoring)
+      // CASE 1: Adding a new grade where there was nothing
+      if (!prevGrade && grade) {
+        next.userStats[userName] = (next.userStats[userName] || 0) + 1;
+      }
+      // CASE 2: Removing a grade entirely (un-clicking)
+      else if (prevGrade && !grade) {
+        if (prevAuthor) {
+          next.userStats[prevAuthor] = Math.max(0, (next.userStats[prevAuthor] || 0) - 1);
         }
       }
+      // CASE 3: Changing a grade that was set by SOMEONE ELSE
+      else if (prevGrade && grade && prevAuthor !== userName) {
+        // Take 1 away from the previous person
+        if (prevAuthor) {
+          next.userStats[prevAuthor] = Math.max(0, (next.userStats[prevAuthor] || 0) - 1);
+        }
+        // Give 1 to the new person
+        next.userStats[userName] = (next.userStats[userName] || 0) + 1;
+      }
+      // CASE 4: Changing the grade value (e.g. Correct to Wrong) by the SAME person
+      // No change needed to counts!
 
       return next;
     });
