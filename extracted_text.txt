@@ -1,0 +1,1453 @@
+Batch 1 (1-20): 
+1. Under the current Bharatiya Nyaya Sanhita (BNS) 2023, what is the specific section for the 
+punishment of murder?  
+2. A person is caught cheating and dishonestly inducing the delivery of property. What BNS section 
+applies to this crime?  
+3. What is the section for the punishment of rape under the new Indian criminal laws (BNS)?  
+4. If someone commits theft of a mobile phone, under which section of the Bharatiya Nyaya Sanhita 
+will they be charged?  
+5. What is the specific penal section for 'Dowry Death' under the BNS?  
+6. Under the current BNS framework, what section penalizes an attempt to commit murder?  
+7. A child is kidnapped from lawful guardianship. Which BNS section prescribes the punishment for 
+this?  
+8. If a person publishes false statements to ruin someone's reputation, what is the section for 
+defamation under the BNS?  
+9. What is the exact section for 'Sedition' (Rajdroh) under the Bharatiya Nyaya Sanhita?  
+10. Under which section of the BNS is the punishment for being a party to a criminal conspiracy 
+defined?  
+11. When five or more persons conjointly commit robbery, it is dacoity. What is the punishment section 
+under the BNS?  
+12. What is the specific section for the punishment of robbery under the newly enacted BNS?  
+13. If someone commits extortion by putting a person in fear of injury, what BNS section is applicable?  
+14. What is the section for punishment of culpable homicide not amounting to murder in the BNS?  
+15. A person voluntarily slaps another during an argument. What is the section for voluntarily causing 
+hurt under the BNS?  
+16. Under the BNS, what section deals with the punishment for voluntarily causing grievous hurt?  
+17. An employee embezzles company funds. Under which BNS section is criminal breach of trust 
+penalized?  
+18. What is the section for the punishment of forgery under the Bharatiya Nyaya Sanhita?  
+19. If a person intentionally damages someone else's property, what is the section for Mischief under 
+the BNS?  
+20. What is the BNS section for the punishment of wrongful confinement of a person?  
+ 
+ChatG PT 5.2  
+Punishment of murder  — Section 103 BNS.  
+Cheating and dishonestly inducing delivery of property  — Section 318 BNS.  
+Punishment of rape  — Section 64 BNS.  
+Theft of a mobile phone  — Section 303 BNS.  
+Dowry death  — Section 80 BNS.  
+Attempt to commit murder  — Section 109 BNS.  
+Kidnapping from lawful guardianship  — Section 137 BNS.  
+Defamation  — Section 356 BNS.  
+Sedition (Rajdroh)  — Section 152 BNS (acts endangering sovereignty, unity and integrity of India).  
+Criminal conspiracy punishment  — Section 61 BNS.  
+Dacoity punishment  — Section 310 BNS.  
+Robbery punishment  — Section 309 BNS.  
+Extortion by fear of injury  — Section 308 BNS.  
+Culpable homicide not amounting to murder  — Section 105 BNS.  
+Voluntarily causing hurt  — Section 115 BNS.  
+Voluntarily causing grievous hurt  — Section 117 BNS.  
+Criminal breach of trust  — Section 316 BNS.  
+Forgery punishment  — Section 336 BNS.  
+Mischief (damage to property)  — Section 324 BNS.  
+Wrongful confinement punishment  — Section 127 BNS.  
+ 
+Claude Sonnet 4.6  
+# Offence  BNS Section  
+1 Murder  Section 101  – Punishment is death or imprisonment for life, with 
+fine.  
+2 Cheating & dishonestly inducing 
+delivery of property  Section 318  – Punishable with imprisonment up to 7 years and fine.  
+3 Rape  Section 63  – Defines rape, with punishment under Section 64 . 
+4 Theft (of mobile phone or any 
+property)  Section 303  – Punishable with imprisonment up to 3 years and/or 
+fine.  
+5 Dowry Death  Section 80  – Punishable with imprisonment of 7 years to life.  
+6 Attempt to commit Murder  Section 109  – Punishable with imprisonment up to 10 years and fine.  
+7 Kidnapping from lawful guardianship  Section 137  – Punishable with imprisonment up to 7 years and fine.  
+8 Defamation  Section 356  – Punishable with simple imprisonment up to 2 years 
+and/or fine.  
+9 Sedition (Acts against 
+sovereignty/integrity of India)  Section 152  – BNS replaced classic sedition; this section penalizes 
+acts endangering sovereignty, unity & integrity of India.  
+10 Criminal Conspiracy  Section 61  – Punishable based on the gravity of the conspired 
+offence.  
+11 Dacoity  (robbery by 5 or more 
+persons)  Section 310  – Punishable with rigorous imprisonment for life or up to 
+10 years, and fine.  
+12 Robbery  Section 309  – Punishable with rigorous imprisonment up to 10 years 
+and fine.  
+# Offence  BNS Section  
+13 Extortion  Section 308  – Punishable with imprisonment up to 3 years and/or 
+fine.  
+14 Culpable Homicide not amounting to 
+Murder  Section 99  – Punishable with imprisonment for life or up to 10 years, 
+and fine.  
+15 Voluntarily Causing Hurt  Section 115  – Punishable with imprisonment up to 1 year and/or fine 
+up to ₹10,000.  
+16 Voluntarily Causing Grievous Hurt  Section 117  – Punishable with imprisonment up to 7 years and fine.  
+17 Criminal Breach of Trust  
+(Embezzlement)  Section 316  – Punishable with imprisonment up to 3 years and/or 
+fine.  
+18 Forgery  Section 336  – Punishable with imprisonment up to 2 years and/or 
+fine.  
+19 Mischief  (intentional property 
+damage)  Section 324  – Punishable with imprisonment up to 3 months and/or 
+fine.  
+20 Wrongful Confinement  Section 126  – Punishable with simple imprisonment up to 1 year 
+and/or fine up to ₹5,000.  
+ 
+Grok 4.1  
+Under the current Bharatiya Nyaya Sanhita (BNS) 2023, the specific section for the punishment of murder is 
+Section 103 .  
+A person caught cheating and dishonestly inducing the delivery of property is charged under Section 318  of the 
+BNS.  
+The section for the punishment of rape under the new Indian criminal laws (BNS) is Section 64 .  
+If someone commits theft of a mobile phone, they will be charged under Section 303  of the Bharatiya Nyaya 
+Sanhita.  
+The specific penal section for 'Dowry Death' under the BNS is Section 80 .  
+Under the current BNS framework, the section that penalizes an attempt to commit murder is Section 109 .  
+A child kidnapped from lawful guardianship attracts punishment under Section 137  of the BNS.  
+If a person publishes false statements to ruin someone's reputation, the section for defamation under the BNS 
+is Section 356 .  
+The exact section for 'Sedition' (Rajdroh) under the Bharatiya Nyaya Sanhita is Section 152  (acts endangering 
+sovereignty, unity and integrity of India).  
+Under Section 61  of the BNS, the punishment for being a party to a criminal conspiracy is defined.  
+When five or more persons conjointly commit robbery, it is dacoity, and the punishment section under the BNS 
+is Section 310 .  
+The specific section for the punishment of robbery under the newly enacted BNS is Section 309 .  
+If someone commits extortion by putting a person in fear of injury, the applicable BNS section is Section 308 .  
+The section for punishment of culpable homicide not amounting to murder in the BNS is Section 105 .  
+A person who voluntarily slaps another during an argument is charged for voluntarily causing hurt under 
+Section 115  of the BNS.  
+Under the BNS, the section dealing with the punishment for voluntarily causing grievous hurt is Section 117 .  
+An employee who embezzles company funds is penalized for criminal breach of trust under Section 316  of the 
+BNS.  
+The section for the punishment of forgery under the Bharatiya Nyaya Sanhita is Section 336 .  
+If a person intentionally damages someone else's property, the section for mischief under the BNS is Section 
+324.  
+The BNS section for the punishment of wrongful confinement of a person is Section 127 . 
+ 
+Indus Sarvam  
+Under the Bharatiya Nyaya Sanhita 2023, murder is punishable under Section 103.  
+Cheating and dishonestly inducing delivery of property falls under Section 318.  
+Rape is defined under Section 63 with punishment specified under Section 64.  
+Theft of a mobile phone is punishable under Section 303.  
+Dowry Death is covered under Section 80 of the BNS.  
+Attempt to commit murder is penalized under Section 109.  
+Kidnapping from lawful guardianship is punishable under Section 137.  
+Defamation is covered under Section 356 of the BNS.  
+The section for sedition (Rajdroh) under the Bharatiya Nyaya Sanhita is not mentioned in the available sources.  
+Criminal conspiracy is penalized under Section 61 of the BNS.  
+Dacoity (five or more persons conjointly committing robbery) is punishable under Section 310.  
+Robbery is covered under Section 309 of the BNS.  
+Extortion is punishable under Section 308.  
+Culpable homicide not amounting to murder is covered under Section 105.  
+Voluntarily causing hurt is penalized under Section 115.  
+Voluntarily causing grievous hurt is covered under Section 116.  
+Criminal breach of trust is punishable under Section 316.  
+Forgery is penalized under Section 336.  
+Mischief is covered under Section 324.  
+Wrongful confinement is punishable under Section 127.  
+ 
+Gemini 3  
+Punishment for Murder:  Section 103.  
+Cheating and Dishonestly Inducing Delivery of Property:  Section 318(4).  
+Punishment for Rape:  Section 64.  
+Theft (Mobile Phone):  Section 303(2).  
+Dowry Death:  Section 80.  
+Attempt to Murder:  Section 109.  
+Kidnapping from Lawful Guardianship:  Section 137(2).  
+Defamation:  Section 356.  
+Sedition (Acts Endangering Sovereignty, Unity, and Integrity of India):  Section 152.  
+Criminal Conspiracy:  Section 61(2).  
+Dacoity:  Section 310(2).  
+Robbery:  Section 309(4).  
+Extortion:  Section 308(2).  
+Culpable Homicide Not Amounting to Murder:  Section 105.  
+Voluntarily Causing Hurt:  Section 115(2).  
+Voluntarily Causing Grievous Hurt:  Section 117(2).  
+Criminal Breach of Trust (by Clerk/Servant):  Section 316(4).  
+Forgery:  Section 336(2).  
+Mischief:  Section 324(2).  
+Wrongful Confinement:  Section 127(2).  
+ 
+DeepSeek V3.2  
+The definition of murder is found in Section 101 of the BNS, while its punishment is under Section 103(1)  . 
+The applicable section for cheating and dishonestly inducing delivery of property is Section 318(4) of the 
+BNS . 
+The punishment for rape is prescribed under Section 64 of the Bharatiya Nyaya Sanhita, 2023  . 
+Theft of a mobile phone is an offence under Section 303(2) of the BNS  . 
+The specific penal section for 'Dowry Death' is Section 80 of the BNS  . 
+An attempt to commit murder is penalized under Section 109 of the Bharatiya Nyaya Sanhita  . 
+Kidnapping from lawful guardianship is punishable under Section 137 of the BNS  . 
+Defamation is defined and penalized under Section 356 of the BNS  . 
+The BNS has replaced the offence of sedition with Section 152, which penalizes acts endangering 
+sovereignty, unity, and integrity of India  . 
+The punishment for being a party to a criminal conspiracy is defined in Section 61(2) of the BNS  . 
+Dacoity is defined in Section 310(1) and its punishment is prescribed under Section 310(2) of the BNS  . 
+The punishment for robbery is provided under Section 309 of the BNS  . 
+The BNS section applicable to extortion is Section 308  . 
+Culpable homicide not amounting to murder is punishable under Section 100 of the BNS  . 
+Voluntarily causing hurt is an offence under Section 115 of the BNS  . 
+The punishment for voluntarily causing grievous hurt is prescribed under Section 117 of the BNS  . 
+Criminal breach of trust is penalized under Section 316 of the BNS  . 
+The punishment for forgery is provided under Section 336 of the BNS  . 
+Mischief is an offence under Section 324 of the BNS  . 
+Wrongful confinement is punishable under Section 128 of the BNS  . 
+ 
+Kruti  
+1. The punishment for murder is specified under  Section 302  of the Bharatiya Nyaya Sanhita (BNS) 2023.  
+2. Cheating and dishonestly inducing delivery of property is governed by  Section 420  of the BNS.  
+3. The punishment for rape is outlined in  Section 376  of the BNS.  
+4. Theft of a mobile phone is punishable under  Section 379  of the BNS.  
+5. The penal provision for 'Dowry Death' is provided in  Section 304A  of the BNS.  
+6. An attempt to commit murder is penalized under  Section 307  of the BNS.  
+7. Kidnapping a child from lawful guardianship is punishable under  Section 361  of the BNS.  
+8. Defamation is addressed under  Section 499  of the BNS.  
+9. The section for 'Sedition' (Rajdroh) is  Section 124A  of the BNS.  
+10. The punishment for being a party to a criminal conspiracy is defined under  Section 120B  of the BNS.  
+11. Dacoity (robbery by five or more persons) is punishable under  Section 395  of the BNS.  
+12. The punishment for robbery is specified in  Section 392  of the BNS.  
+13. Extortion by putting a person in fear of injury is covered under  Section 383  of the BNS.  
+14. The punishment for culpable homicide not amounting to murder is provided in  Section 304  of the 
+BNS.  
+15. Voluntarily causing hurt is covered under  Section 323  of the BNS.  
+16. The punishment for voluntarily causing grievous hurt is outlined in  Section 325  of the BNS.  
+17. Criminal breach of trust is penalized under  Section 406  of the BNS.  
+18. The punishment for forgery is specified in  Section 468  of the BNS.  
+19. Mischief is covered under  Section 425  of the BNS.  
+20. Wrongful confinement is punishable under  Section 340  of the BNS.  
+ 
+Meta AI  
+Based  on the Bharatiya  Nyaya  Sanhita  (BNS)  2023,  the specific  section  for the punishment  of murder  is Sec
+tion 101. 
+For cheating  and dishonestly  inducing  the delivery  of property,  Section  318 of the BNS 2023  applies. 
+The section  for the punishment  of rape  under  the BNS is Section  63. 
+Theft  of a mobile  phone  will be charged  under  Section  303 of the Bharatiya  Nyaya  Sanhita. 
+The specific  penal  section  for 'Dowry  Death'  under  the BNS is Section  80. 
+An attempt  to commit  murder  is penalized  under  Section  107 of the BNS framework. 
+Kidnapping  a child  from  lawful  guardianship  falls under  Section  136 of the BNS. 
+Publishing  false  statements  to ruin someone's  reputation,  i.e., defamation,  is covered  by Section  356 of the
+ BNS. The  exact  section  for 'Sedition'  (Rajdroh)  under  the Bharatiya  Nyaya  Sanhita  is Section  152. 
+Being  a party  to a criminal  conspiracy  is defined  and punished  under  Section  20 of the BNS. 
+When  five or more  persons  conjointly  commit  robbery,  it is dacoity,  and its punishment  is under  Section  30
+8 of the BNS. 
+The specific  section  for the punishment  of robbery  under  the newly  enacted  BNS is Section  307. 
+Extortion  by putting  a person  in fear of injury  is applicable  under  Section  314 of the BNS. 
+The section  for punishment  of culpable  homicide  not amounting  to murder  in the BNS is Section  103. 
+Voluntarily  causing  hurt,  such  as a slap during  an argument,  is addressed  by Section  114 of the BNS. 
+Under  the BNS,  Section  115 deals  with  the punishment  for voluntarily  causing  grievous  hurt. 
+Criminal  breach  of trust,  such  as an employee  embezzling  company  funds,  is penalized  under  Section  316 o
+f the BNS. The  section  for the punishment  of forgery  unde r the Bharatiya  Nyaya  Sanhita  is Section  337. 
+Intentionally  damaging  someone  else's  property,  or Mischief,  is covered  by Section  338 of the BNS. 
+The BNS section  for the punishment  of wrongful  confinement  of a person  is Section  265.  
+ 
+ 
+ 
+ 
+ 
+ 
+BATCH 2 ( 21-40) 
+ What is the specific sub -section for the punishment of murder committed by a group of five or more 
+persons on grounds of race, caste, or personal belief under the BNS?  
+Under the BNS, a new offence was introduced specifically for snatching chains or bags. What is the 
+section number for snatching?  
+Which BNS section explicitly defines and punishes 'Organized Crime' for the first time in India's general 
+penal code?  
+The BNS incorporates terrorism into the general penal law. What section penalizes a 'Terrorist Act'?  
+What is the new BNS section that criminalizes sexual intercourse by employing deceitful means or 
+making a false promise to marry?  
+Which section of the BNS prescribes an enhanced 10 -year punishment for causing death by rash driving 
+and fleeing the scene without reporting it?  
+What is the BNS section for 'Unnatural Offences' previously criminalized under the old penal code?  
+Under the BNS, multiple provisions relating to receiving and concealing stolen property have been 
+consolidated into which single section?  
+What section of the BNS penalizes a general 'Attempt to Commit Suicide' by a distressed citizen?  
+Under the BNS, what section penalizes attempting suicide specifically to compel or restrain a public 
+servant from exercising their lawful power?  
+In the BNS, the punishment for being a party to a 'Criminal Conspiracy' is defined under which section?  
+What is the section for 'Adultery' under the new Bharatiya Nyaya Sanhita?  
+Under which BNS section is the general exception for an 'Act of a person of unsound mind' covered?  
+What BNS section dictates when the right of private defense of the body legally extends to causing 
+death?  
+Since Sedition was repealed, what new BNS section penalizes acts endangering the sovereignty, unity, 
+and integrity of India?  
+What is the section for the punishment of Criminal Intimidation under the BNS?  
+If a person commits house -trespass to commit an offence, what BNS section applies?  
+Which specific BNS section deals with 'Petty Organized Crime' like vehicle theft or pickpocketing by a 
+gang?  
+What is the BNS section defining a 'Public Nuisance'?  
+Under the BNS, what section governs the gang rape of a woman under 18 years of age?  
+ 
+ChatGPT 5.2  
+Mob murder on caste/race/belief grounds  — Section 103(2)  BNS.  
+Snatching  — Section 304 BNS.  
+Organized Crime  — Section 111 BNS.  
+Terrorist Act  — Section 113 BNS.  
+Sexual intercourse by deceit/false promise to marry  — Section 69 BNS.  
+Death by rash driving with hit -and-run (10 -year punishment)  — Section 106(2)  BNS.  
+Unnatural offences (old IPC 377 equivalent)  — No separate section; repealed/not retained  in BNS.  
+Receiving or concealing stolen property (consolidated)  — Section 317 BNS.  
+Attempt to suicide by distressed citizen  — Not punishable as an offence  under BNS.  
+Attempted suicide to compel public servant  — Section 226 BNS.  
+Criminal conspiracy punishment  — Section 61 BNS.  
+Adultery  — No offence/section (decriminalized)  under BNS.  
+Act of person of unsound mind (general exception)  — Section 22 BNS.  
+Right of private defence extending to causing death  — Section 38 BNS.  
+Acts endangering sovereignty, unity and integrity of India (new sedition -type offence)  — Section 152 BNS.  
+Criminal intimidation punishment  — Section 351 BNS.  
+House -trespass to commit offence  — Section 331 BNS.  
+Petty Organized Crime  — Section 112 BNS.  
+Public nuisance definition  — Section 270 BNS.  
+Gang rape of woman under 18 years  — Section 70(2)  BNS.  
+ 
+Claude Sonnet 4.6  
+# Offence / Query  BNS Section  
+1 Murder by a group of 5+ on grounds of 
+race, caste, or personal belief (Mob 
+Lynching)  Section 103(2)  – Punishment is death or life imprisonment with 
+fine; a landmark new specific provision.  
+2 Snatching  (new offence for chain/bag 
+snatching)  Section 304  – Punishable with imprisonment up to 3 years and 
+fine.  
+3 Organised Crime  (first time in general 
+penal law)  Section 111  – Covers organised criminal syndicates; punishable 
+with rigorous imprisonment of 5 years to life, or death.  
+4 Terrorist Act  (incorporated into general 
+penal law)  Section 113  – Punishable with rigorous imprisonment of life or 
+death in fatal cases.  
+5 Sexual intercourse by deceitful means / 
+false promise of marriage  Section 69  – Punishable with imprisonment up to 10 years and 
+fine.  
+# Offence / Query  BNS Section  
+6 Death by rash driving + fleeing the scene 
+without reporting  Section 106(2)  – Enhanced punishment of up to 10 years and 
+fine; a new specific sub -section.  
+7 Unnatural Offences  (IPC Section 377 
+equivalent)  Not retained in BNS  – Consensual same -sex acts were 
+decriminalised by the Supreme Court ( Navtej Singh Johar, 2018 ); 
+BNS omits this provision entirely.  
+8 Receiving / Concealing Stolen Property  
+(consolidated)  Section 317  – All related provisions consolidated here; 
+punishable with imprisonment up to 3 years and/or fine.  
+9 General Attempt to Commit Suicide  by a 
+distressed person  Effectively decriminalised  – BNS omits the IPC Section 309 
+equivalent for ordinary citizens, aligning with the Mental 
+Healthcare Act, 2017.  
+10 Attempt to commit suicide to 
+compel/restrain a public servant  Section 226  – Punishable with simple imprisonment up to 1 year 
+and/or fine.  
+11 Criminal Conspiracy  Section 61  – Punishment varies with the gravity of the conspired 
+offence.  
+12 Adultery  Not present in BNS  – Omitted entirely, as IPC Section 497 was 
+struck down by the Supreme Court in Joseph Shine v. Union of 
+India  (2018).  
+13 General Exception: Act of a person of 
+Unsound Mind  Section 22  – Mirrors the old IPC Section 84; act is not an offence 
+if done in a state of unsoundness of mind.  
+14 Right of Private Defence extending to 
+causing Death  Section 37  – Specifies seven circumstances where the right 
+extends to voluntarily causing death.  
+15 Acts endangering Sovereignty, Unity & 
+Integrity of India  (replaced Sedition)  Section 152  – Broader and stricter than old Section 124A IPC; 
+punishable with life imprisonment or up to 7 years and fine.  
+16 Criminal Intimidation  Section 351  – Punishable with imprisonment up to 2 years 
+and/or fine; aggravated forms carry higher penalties.  
+17 House -trespass to commit an offence  Section 331  – Punishment depends on the nature of the offence 
+intended; sub -sections prescribe varying terms.  
+18 Petty Organised Crime  (vehicle theft, 
+pickpocketing by a gang)  Section 112  – Punishable with imprisonment of 1 to 7 years and 
+fine; a new and distinct provision.  
+19 Public Nuisance  (definition)  Section 292  – Defines acts that cause common injury, danger, or 
+annoyance to the public.  
+20 Gang Rape of a woman under 18 years 
+of age  Section 70(2)  – Punishable with rigorous imprisonment for the 
+remainder of natural life or death.  
+ 
+Grok 4.1  
+The specific sub -section for the punishment of murder committed by a group of five or more persons on 
+grounds of race, caste, or personal belief under the BNS is Section 103(2) .  
+Under the BNS, a new offence was introduced specifically for snatching chains or bags under Section 304 .  
+The BNS section that explicitly defines and punishes 'Organized Crime' for the first time in India's general penal 
+code is Section 111 .  
+The section that penalizes a 'Terrorist Act' under the BNS is Section 113 .  
+The new BNS section that criminalizes sexual intercourse by employing deceitful means or making a false 
+promise to marry is Section 69 .  
+The BNS section that prescribes an enhanced 10 -year punishment for causing death by rash driving and fleeing 
+the scene without reporting it is Section 106(2) .  
+Under the BNS, 'Unnatural Offences' previously criminalized under the old penal code are no longer specifically 
+provided for as a separate offence.  
+Under the BNS, multiple provisions relating to receiving and concealing stolen property have been consolidated 
+into Section 317 .  
+The BNS section that penalizes a general 'Attempt to Commit Suicide' by a distressed citizen is Section 226 .  
+Under the BNS, the section that penalizes attempting suicide specifically to compel or restrain a public servant 
+from exercising their lawful power is Section 227 .  
+Under the BNS, the punishment for being a party to a 'Criminal Conspiracy' is defined under Section 61 .  
+There is no section for 'Adultery' under the new Bharatiya Nyaya Sanhita as it has been omitted.  
+Under the BNS, the general exception for an 'Act of a person of unsound mind' is covered under Section 22 .  
+The BNS section that dictates when the right of private defense of the body legally extends to causing death is 
+Section 38 .  
+Since Sedition was repealed, the new BNS section that penalizes acts endangering the sovereignty, unity, and 
+integrity of India is Section 152 .  
+The section for the punishment of Criminal Intimidation under the BNS is Section 351(2) .  
+If a person commits house -trespass to commit an offence, Section 329  of the BNS applies.  
+The specific BNS section that deals with 'Petty Organized Crime' like vehicle theft or pickpocketing by a gang is 
+Section 112 .  
+The BNS section defining a 'Public Nuisance' is Section 268 .  
+Under the BNS, the section that governs the gang rape of a woman under 18 years of age is Section 70(2) . 
+ 
+Indus Sarvam  
+Under Section 103(2) of the Bharatiya Nyaya Sanhita 2023, murder committed by a group of five or more 
+persons on grounds of race, caste, or personal belief is specifically punishable.  
+Snatching chains or bags is penalized under Section 304 of the BNS.  
+Organized Crime, for the first time in India's general penal code, is explicitly defined and punished under 
+Section 111 of the BNS.  
+A terrorist act is penalized under Section 113 of the Bharatiya Nyaya Sanhita.  
+Sexual intercourse by employing deceitful means or making a false promise to marry is criminalized under 
+Section 69 of the BNS.  
+Death caused by rash driving and fleeing the scene is punishable under Section 281 of the BNS.  
+Unnatural offences are covered under Section 377 of the BNS.  
+Receiving and concealing stolen property has been consolidated under Section 317 of the BNS.  
+Attempt to commit suicide by a distressed citizen is penalized under Section 110 of the BNS.  
+Attempt to commit suicide specifically to compel or restrain a public servant from exercising lawful power is 
+covered under Section 110(2) of the BNS.  
+The punishment for being a party to a criminal conspiracy is defined under Section 61 of the BNS.  
+Adultery has been completely repealed and no longer exists as an offence under the BNS.  
+An act of a person of unsound mind is covered under the general exception in Section 22 of the BNS.  
+The right of private defense of the body legally extends to causing death under Section 38 of the BNS.  
+Section 152 of the BNS penalizes acts endangering the sovereignty, unity, and integrity of India, replacing the 
+repealed sedition provision.  
+Criminal intimidation is penalized under Section 351 of the BNS.  
+House -trespass to commit an offence is covered under Section 329 of the BNS.  
+Petty Organized Crime, like vehicle theft or pickpocketing by a gang, is defined under Section 112 of the BNS.  
+A public nuisance is defined under Section 270 of the BNS.  
+The gang rape of a woman under 18 years of age is specifically covered under Section 70 of the BNS.  
+ 
+Gemini 3  
+Murder by a group (Race/Caste/Belief):  Section 103(2).  
+Snatching:  Section 304.  
+Organized Crime:  Section 111.  
+Terrorist Act:  Section 113.  
+Sexual Intercourse by Deceitful Means/False Promise:  Section 69.  
+Death by Rash Driving (Hit and Run):  Section 106(2).  
+Unnatural Offences:  Repealed (No corresponding section in BNS).  
+Receiving/Concealing Stolen Property:  Section 317.  
+Attempt to Commit Suicide (Distressed Citizen):  Decriminalized (Section 309 IPC has no general BNS 
+equivalent).  
+Attempt to Commit Suicide (to compel Public Servant):  Section 226.  
+Criminal Conspiracy:  Section 61.  
+Adultery:  Repealed (No longer a criminal offence).  
+Act of a Person of Unsound Mind:  Section 22.  
+Private Defense of Body extending to Death:  Section 38.  
+Acts Endangering Sovereignty, Unity, and Integrity (Replaces Sedition):  Section 152.  
+Criminal Intimidation:  Section 351.  
+House -trespass to Commit an Offence:  Section 332.  
+Petty Organized Crime:  Section 112.  
+Public Nuisance:  Section 270.  
+Gang Rape of a Woman under 18:  Section 70(2).  
+ 
+DeepSeek V3.2  
+The punishment for murder by a group of five or more persons on grounds of race, caste, or personal 
+belief is prescribed under Section 103(2) of the BNS  . 
+The specific section for snatching is Section 304 of the BNS  . 
+The offence of 'Organized Crime' is defined and penalized under Section 111 of the BNS  . 
+A 'Terrorist Act' is penalized under Section 113 of the BNS  . 
+Sexual intercourse by employing deceitful means or making a false promise to marry is criminalized under 
+Section 69 of the BNS  . 
+The enhanced punishment for causing death by rash driving and fleeing the scene is prescribed under 
+Section 106(2) of the BNS  . 
+The BNS has deleted the provision for 'Unnatural Offences' that was previously criminalized under Section 
+377 of the IPC  . 
+Provisions relating to receiving and concealing stolen property have been consolidated into Section 317 of 
+the BNS  . 
+A general 'Attempt to Commit Suicide' is not an offence under the BNS as Section 309 of the IPC has been 
+omitted  . 
+Attempting suicide to compel or restrain a public servant is penalized under Section 49 of the BNS.  
+The punishment for being a party to a 'Criminal Conspiracy' is defined in Section 61(2) of the BNS  . 
+'Adultery' is no longer a criminal offence under the BNS, as Section 497 of the IPC has been omitted  . 
+The general exception for an 'Act of a person of unsound mind' is covered under Section 22 of the BNS.  
+The right of private defense of the body extending to causing death is detailed under Section 34 of the 
+BNS.  
+Acts endangering the sovereignty, unity, and integrity of India are penalized under Section 152 of the BNS  . 
+The punishment for Criminal Intimidation is prescribed under Section 351 of the BNS.  
+House -trespass to commit an offence is covered under Section 329 of the BNS.  
+'Petty Organized Crime' is dealt with under Section 112 of the BNS.  
+A 'Public Nuisance' is defined under Section 270 of the BNS.  
+The gang rape of a woman under 18 years of age is governed by Section 70(2) of the BNS.  
+ 
+Kruti  
+1. The punishment for murder committed by a group of five or more persons on grounds of race, caste, 
+or personal belief is specified under  Section 302(2)  of the Bharatiya Nyaya Sanhita (BNS) 2023.  
+2. The new offence of snatching chains or bags is criminalized under  Section 304  of the BNS.  
+3. The first explicit provision defining and punishing 'Organized Crime' in the BNS is found in  Section 111 . 
+4. A 'Terrorist Act' is penalized under  Section 113  of the BNS.  
+5. The new BNS section that criminalizes sexual intercourse by employing deceitful means or making a 
+false promise to marry is  Section 69 . 
+6. The enhanced 10 -year punishment for causing death by rash driving and fleeing the scene without 
+reporting it is prescribed under  Section 106(2)  of the BNS.  
+7. 'Unnatural Offences' are addressed under  Section 377  of the BNS.  
+8. Provisions related to receiving and concealing stolen property have been consolidated into  Section 
+317 of the BNS.  
+9. The general 'Attempt to Commit Suicide' by a distressed citizen is penalized under  Section 224  of the 
+BNS.  
+10. Attempting suicide specifically to compel or restrain a public servant from exercising their lawful 
+power is governed by  Section 226  of the BNS.  
+11. The punishment for being a party to a 'Criminal Conspiracy' is defined under  Section 61  of the BNS.  
+12. 'Adultery' is addressed under  Section 84  of the BNS, although it has been decriminalized and is not 
+punishable as a standalone offence.  
+13. The general exception for an 'Act of a person of unsound mind' is covered under  Section 22  of the 
+BNS.  
+14. The right of private defense of the body legally extending to causing death is dictated under  Section 
+38 of the BNS.  
+15. Since Sedition was repealed, the new BNS section penalizing acts endangering the sovereignty, unity, 
+and integrity of India is  Section 152 . 
+16. The punishment for Criminal Intimidation is outlined in  Section 351  of the BNS.  
+17. If a person commits house -trespass to commit an offence, the applicable BNS section is  Section 332 . 
+18. 'Petty Organized Crime' like vehicle theft or pickpocketing by a gang is dealt with under  Section 112  of 
+the BNS.  
+19. 'Public Nuisance' is defined under  Section 268  of the BNS.  
+20. The gang rape of a woman under 18 years of age is addressed under  Section 376(2)(n)  of the BNS.  
+Meta AI  
+The specific  sub-
+section  for the punishment  of murder  committed  by a group  of five or more  persons  on grounds  of race,  caste,  
+or personal  belief  under  the BNS is Section  101(2). Under  the BNS,  snatching  is addressed  in Section  305. 
+Section  111 of the BNS explicitly  defines  and punishes  'Organized  Crime'. 
+The BNS section  that penalizes  a 'Terrorist  Act' is Section  113. 
+The new  BNS section  that criminalizes  sexual  intercourse  by employing  deceitful  means  or making  a false  promi
+se to marry  is Section  69. Secti on 104(2)  of the BNS prescribes  an enhanced  10-
+year  punishment  for causing  death  by rash  driving  and fleeing  the scene  without  reporting  it. 
+The BNS section  for 'Unnatural  Offences'  is Section  72. 
+Under  the BNS,  multiple  provisions  relating  to receiving  and concealing  stolen  property  have  been  consolidated
+ into Section  309. 
+Section  224 of the BNS penalizes  a general  'Attempt  to Commit  Suicide'  by a distressed  citizen. 
+Under  the BNS,  attempting  suicide  specifically  to compel  or restrain  a public  servant  from  exercising  their  lawfu
+l power  is penalized  by Section  224(2). 
+In the BNS,  the punishment  for being  a party  to a 'Criminal  Conspiracy'  is defined  under  Section  20. 
+The BNS has decriminalized  'Adultery',  so there  is no specific  section  for its punishment. 
+Under  the BNS,  the general  exception  for an 'Act of a person  of unsound  mind'  is covered  by Section  20. 
+BNS Section  39 dictates  when  the right  of private  defense  of the body  legally  extends  to causing  death. 
+Since  Sedition  was repealed,  Section  152 of the BNS penalizes  acts endangering  the sovereignty,  unity,  and inte
+grity  of India. The  section  for the punishment  of Criminal  Intimidation  under  the BNS is Section  351. 
+If a person  commits  house -trespass  to commit  an offence,  BNS Section  326 applies. 
+Section  112 of the BNS specifically  deals  with  'Petty  Organized  Crime'. 
+BNS Section  268 defines  a 'Public  Nuisance'. 
+Under  the BNS,  Section  67 governs  the gang  rape  of a woman  under  18 years  of age.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BATCH 3 (41-60) 
+Under the Bharatiya Nyaya Sanhita (BNS), what is the specific section that deals with the offence of Sexual 
+Harassment?  
+A man is caught watching a woman engaging in a private act without her consent. What is the BNS section 
+for Voyeurism?  
+What is the specific penal section for the crime of 'Stalking' under the new Indian criminal code (BNS)?  
+If someone uses a word, gesture, or act intended to insult the modesty of a woman, which BNS section 
+applies?  
+The infamous 'Section 498A' for cruelty by a husband or his relatives has been replaced. What is the new 
+section number in the BNS?  
+What is the BNS section for voluntarily causing grievous hurt by use of acid (Acid Attack)?  
+If a person voluntarily obstructs another from proceeding in a lawful direction, what is the section for 
+Wrongful Restraint under the BNS?  
+Under the BNS, what section specifically prescribes the death penalty or life imprisonment for kidnapping 
+for ransom?  
+An assembly of five or more persons with a common illegal object is an 'Unlawful Assembly'. What is the 
+BNS section for its punishment?  
+What is the specific section for the punishment of Rioting under the Bharatiya Nyaya Sanhita?  
+When two or more persons fight in a public place and disturb the public peace, it is an Affray. What BNS 
+section penalizes this?  
+What is the specific section for the offence of 'Bribery at Elections' under the newly enacted BNS?  
+Under the BNS, what section provides the punishment for giving or fabricating false evidence in a judicial 
+proceeding?  
+If a person finds a lost wallet and dishonestly keeps the money, what BNS section applies for Dishonest 
+Misappropriation of Property?  
+What is the specific section for 'Cheating by Personation' (pretending to be someone else) under the BNS?  
+If someone commits mischief by fire or explosives intending to destroy a house, what is the section under 
+the BNS?  
+What is the BNS section for the punishment of 'House -breaking by night'?  
+Under the BNS, what section penalizes the counterfeiting of currency notes or bank notes?  
+What is the section for marrying again during the lifetime of a husband or wife (Bigamy) under the BNS?  
+If criminal intimidation is committed by an anonymous communication, what BNS section applies?  
+ 
+ChatGPT 5.2  
+Sexual Harassment  — Section 75 BNS.  
+Voyeurism  — Section 77 BNS.  
+Stalking  — Section 78 BNS.  
+Insulting modesty of a woman (word/gesture/act)  — Section 79 BNS.  
+Cruelty by husband or relatives (old IPC 498A)  — Section 85 BNS.  
+Grievous hurt by acid (Acid Attack)  — Section 124 BNS.  
+Wrongful Restraint  — Section 126 BNS.  
+Kidnapping for ransom (death or life imprisonment)  — Section 140 BNS.  
+Punishment for Unlawful Assembly  — Section 189 BNS.  
+Rioting  — Section 191 BNS.  
+Affray  — Section 194 BNS.  
+Bribery at Elections  — Section 171 BNS.  
+False evidence in judicial proceeding  — Section 230 BNS.  
+Dishonest Misappropriation of Property  — Section 314 BNS.  
+Cheating by Personation  — Section 319 BNS.  
+Mischief by fire/explosive to destroy house  — Section 326 BNS.  
+House -breaking by night  — Section 332 BNS.  
+Counterfeiting currency/bank notes  — Section 178 BNS.  
+Bigamy (marrying during spouse’s lifetime)  — Section 82 BNS.  
+Criminal intimidation by anonymous communication  — Section 351(3)  BNS.  
+ 
+Claude Sonnet 4.6  
+# Offence / Query  BNS Section  
+1 Sexual Harassment  Section 75  – Covers unwelcome physical, verbal, or non -verbal 
+conduct of a sexual nature; punishable with imprisonment up to 3 
+years and/or fine.  
+2 Voyeurism  Section 77  – Punishable with imprisonment of 1 to 3 years (first 
+conviction) and 3 to 7 years (subsequent conviction), with fine.  
+3 Stalking  Section 78  – Punishable with imprisonment up to 3 years for first 
+offence and up to 5 years for subsequent offence, with fine.  
+4 Insult to Modesty of a Woman  
+(word, gesture, or act)  Section 79  – Punishable with simple imprisonment up to 3 years 
+and/or fine.  
+5 Cruelty by Husband or His Relatives  
+(erstwhile IPC 498A)  Section 85  – Punishment remains the same: imprisonment up to 3 
+years and fine.  
+# Offence / Query  BNS Section  
+6 Acid Attack  (Grievous Hurt by use of 
+acid)  Section 124  – Punishable with rigorous imprisonment of not less than 
+10 years, extendable to life, and fine paid to victim.  
+7 Wrongful Restraint  Section 125  – Punishable with simple imprisonment up to 1 month 
+and/or fine up to ₹5,000.  
+8 Kidnapping for Ransom  Section 140(1)  – Punishable with death or life imprisonment, with 
+fine; a specific and stringent provision.  
+9 Unlawful Assembly  (punishment)  Section 191(2)  – Every member is punishable with imprisonment up 
+to 6 months and/or fine.  
+10 Rioting  Section 191(3)  – Punishable with imprisonment up to 2 years and/or 
+fine.  
+11 Affray  (fighting in a public place)  Section 192  – Punishable with imprisonment up to 1 month and/or 
+fine up to ₹1,000.  
+12 Bribery at Elections  Section 169  – Punishable with imprisonment up to 1 year and/or fine, 
+or both, depending on the nature of the corrupt practice.  
+13 Giving or Fabricating False Evidence  
+in judicial proceedings  Section 229  – Punishable with imprisonment of either description up 
+to 7 years and fine.  
+14 Dishonest Misappropriation of 
+Property  (keeping a lost wallet)  Section 314  – Punishable with imprisonment up to 2 years and/or 
+fine.  
+15 Cheating by Personation  Section 319(2)  – Punishable with imprisonment up to 5 years and/or 
+fine; aggravated over general cheating.  
+16 Mischief by fire/explosives to 
+destroy a house  Section 326  – Punishable with rigorous imprisonment for life or up to 
+10 years, and fine.  
+17 House -breaking by Night  Section 332(b)  – Punishable with rigorous imprisonment up to 4 
+years and fine; night -time commission is an aggravating factor.  
+18 Counterfeiting of Currency Notes 
+or Bank Notes  Section 178  – Punishable with imprisonment for life or rigorous 
+imprisonment up to 10 years, and fine.  
+19 Bigamy  (marrying again during 
+lifetime of spouse)  Section 82  – Punishable with imprisonment up to 7 years and fine.  
+20 Criminal Intimidation by 
+Anonymous Communication  Section 351(3)  – Punishable with imprisonment up to 2 years in 
+addition to the punishment prescribed for the general offence of 
+criminal intimidation.  
+Grok 4.1  
+Under the Bharatiya Nyaya Sanhita (BNS), the specific section that deals with the offence of Sexual Harassment  
+is Section 75 .  
+A man caught watching a woman engaging in a private act without her consent is charged under Section 77  of 
+the BNS for Voyeurism .  
+The specific penal section for the crime of 'Stalking' under the new Indian criminal code (BNS) is Section 78 .  
+If someone uses a word, gesture, or act intended to insult the modesty of a woman, Section 79  of the BNS 
+applies.  
+The infamous 'Section 498A' for cruelty by a husband or his relatives has been replaced by Section 85  in the 
+BNS.  
+The BNS section for voluntarily causing grievous hurt by use of acid (Acid Attack) is Section 124 .  
+If a person voluntarily obstructs another from proceeding in a lawful direction, the section for Wrongful 
+Restraint  under the BNS is Section 126 .  
+Under the BNS, the section that specifically prescribes the death penalty or life imprisonment for kidnapping 
+for ransom is Section 140(2) .  
+An assembly of five or more persons with a common illegal object is an 'Unlawful Assembly', and its 
+punishment is under Section 189  of the BNS.  
+The specific section for the punishment of Rioting  under the Bharatiya Nyaya Sanhita is Section 191 .  
+When two or more persons fight in a public place and disturb the public peace, it is an Affray , penalized under 
+Section 193  of the BNS.  
+The specific section for the offence of 'Bribery at Elections' under the newly enacted BNS is Section 169 .  
+Under the BNS, the section that provides the punishment for giving or fabricating false evidence in a judicial 
+proceeding is Section 229 .  
+If a person finds a lost wallet and dishonestly keeps the money, Section 314  of the BNS applies for Dishonest 
+Misappropriation of Property .  
+The specific section for 'Cheating by Personation' (pretending to be someone else) under the BNS is Section 
+319.  
+If someone commits mischief by fire or explosives intending to destroy a house, the section under the BNS is 
+Section 329 .  
+The BNS section for the punishment of 'House -breaking by night' is Section 331 .  
+Under the BNS, the section that penalizes the counterfeiting of currency notes or bank notes is Section 177 .  
+The section for marrying again during the lifetime of a husband or wife ( Bigamy ) under the BNS is Section 82 .  
+If criminal intimidation is committed by an anonymous communication, Section 351(3)  of the BNS applies.  
+ 
+Indus Sarvam  
+Sexual Offences:  
+• Sexual Harassment : Section 75 - Defines acts like physical contact, sexual advances, demand for sexual 
+favors, showing pornography against will, or making sexually coloured remarks with punishments 
+ranging from 1 -3 years rigorous imprisonment  
+• Voyeurism : Section 77 - Punishes watching/capturing images of women in private acts, with 1 -3 years 
+imprisonment for first conviction and 3 -7 years for subsequent convictions  
+• Stalking : Section 78 - Covers following women and contacting them despite disinterest or monitoring 
+electronic communications, with 3 years imprisonment (5 years for repeat offenses)  
+• Word/gesture/act insulting modesty : Section 79  
+• Replacement for Section 498A : Section 85 - Deals with cruelty by husband or relatives (Section 86 
+further defines cruelty)  
+• Acid Attack : Section 124 - Voluntarily causing grievous hurt by use of acid  
+• Gang rape of woman under 18 : Section 70  
+• Sexual intercourse by deceitful means/false promise to marry : Section 69  
+Other Criminal Offences:  
+• Wrongful Restraint : Section 126  
+• Kidnapping for ransom : Section 140  
+• Unlawful Assembly : Section 189  
+• Rioting : Section 191  
+• Affray : Section 194  
+• Bribery at elections : Section 170  
+• False evidence in judicial proceeding : Section 227  
+• Dishonest misappropriation of property : Section 314  
+• Cheating by personation : Section 319  
+• Mischief by fire/explosives destroying dwelling : Section 226  
+• House -breaking by night : Section 344  
+• Counterfeiting currency notes/bank notes : Section 178  
+• Bigamy : Section 82  
+• Criminal intimidation by anonymous communication : Section 351  
+ 
+Gemini 3  
+Sexual Harassment:  Section 75.  
+Voyeurism:  Section 77.  
+Stalking:  Section 78.  
+Word, Gesture, or Act Intended to Insult the Modesty of a Woman:  Section 79.  
+Cruelty by Husband or his Relatives (Old 498A):  Section 85.  
+Voluntarily Causing Grievous Hurt by use of Acid:  Section 124(1).  
+Wrongful Restraint:  Section 126(2).  
+Kidnapping for Ransom:  Section 140(2).  
+Punishment for Unlawful Assembly:  Section 189(3).  
+Punishment for Rioting:  Section 191(2).  
+Affray:  Section 194.  
+Bribery at Elections:  Section 170.  
+Giving or Fabricating False Evidence:  Section 227.  
+Dishonest Misappropriation of Property:  Section 314.  
+Cheating by Personation:  Section 319.  
+Mischief by Fire or Explosives to Destroy a House:  Section 326(f).  
+House -breaking by Night:  Section 331(2).  
+Counterfeiting Currency Notes or Bank Notes:  Section 178.  
+Bigamy (Marrying again during lifetime of spouse):  Section 82.  
+Criminal Intimidation by Anonymous Communication:  Section 351(4).  
+ 
+DeepSeek V3.2  
+The offence of Sexual Harassment is defined and penalized under Section 75 of the BNS  . 
+Voyeurism is an offence under Section 77 of the BNS  . 
+The crime of 'Stalking' is covered under Section 78 of the BNS  . 
+The section for insulting the modesty of a woman is Section 79 of the BNS  . 
+The offence of cruelty by a husband or his relatives is now defined under Section 85 of the BNS  . 
+An acid attack is specifically penalized under Section 124 of the BNS.  
+Wrongful Restraint is an offence under Section 126 of the BNS.  
+The death penalty or life imprisonment for kidnapping for ransom is prescribed under Section 140(2) of 
+the BNS.  
+An unlawful assembly is defined and its punishment is prescribed under Section 189 of the BNS.  
+The punishment for Rioting is prescribed under Section 191 of the BNS.  
+Affray is penalized under Section 194 of the BNS.  
+Bribery at elections is an offence under Section 171 of the BNS.  
+Giving or fabricating false evidence is penalized under Section 229 of the BNS.  
+Dishonest misappropriation of property is covered under Section 314 of the BNS.  
+Cheating by personation is an offence under Section 319 of the BNS.  
+Mischief by fire or explosives to destroy a house is covered under Section 326 of the BNS.  
+House -breaking by night is defined and punishable under Section 333 of the BNS.  
+Counterfeiting currency notes is an offence under Section 178 of the BNS.  
+Marrying again during the lifetime of a spouse (Bigamy) is an offence under Section 82 of the BNS  . 
+Criminal intimidation by anonymous communication is covered under Section 352 of the BNS.  
+ 
+Kruti  
+Section 75  of the  Bharatiya Nyaya Sanhita (BNS)  deals with the offence of  Sexual Harassment  [1]. 
+Section 77  of the  BNS  addresses the offence of  Voyeurism  [2]. 
+The crime of  Stalking  is penalized under  Section 78  of the  BNS  [3]. 
+Section 79  of the  BNS  applies when a person uses a word, gesture, or act intended to insult the modesty 
+of a woman  [4]. 
+The infamous  Section 498A IPC  for cruelty by a husband or his relatives has been replaced by  Section 
+85 of the  BNS  [5]. 
+Section 124 and 125  of the  BNS  provide the punishment for  voluntarily causing grievous hurt by use of 
+acid  (Acid Attack)  [6]. 
+Section 126(2)  of the  BNS  prescribes the punishment for  Wrongful Restraint  [7]. 
+Section 140  of the  BNS  specifically prescribes the  death penalty or life imprisonment for kidnapping for 
+ransom  [8]. 
+Section 189  of the  BNS  addresses the offence of  Unlawful Assembly  [9]. 
+The punishment for  Rioting  is outlined in  Section 191  of the  BNS  [10].  
+The offence of  Affray  is penalized under  Section 194  of the  BNS  [11].  
+Section 312  of Chapter 9  of the  BNS  deals with the offence of  Bribery at Elections  [12].  
+Section 227 -248 of the  BNS  provides for the punishment for  giving or fabricating false evidence in a 
+judicial proceeding  [13].  
+Section 317  of the  BNS  applies to  Dishonest Misappropriation of Property , such as keeping a found wallet 
+dishonestly  [14].  
+Cheating by Personation  is addressed under  Section 319  of the  BNS  [15].  
+Section 326  of the  BNS  covers  Mischief by fire or explosives intending to destroy a house  [16].  
+The punishment for  House -breaking by night  is specified in  Section 340  of the  BNS . 
+Section 385  of the  BNS  penalizes  counterfeiting of currency notes or bank notes . 
+Section 497  of the  BNS  addresses the crime of  Bigamy  (marrying again during the lifetime of a husband or 
+wife).  
+Section 354B  of the  BNS  applies to  criminal intimidation by anonymous communication . 
+ 
+Meta AI  
+Under  the Bharatiya  Nyaya  Sanhita  (BNS),  the specific  section  that deals  with  the offence  of Sexual  Harassment
+ is Section  74. 
+For watching  a woman  engaging  in a private  act without  her consent,  the BNS section  for Voyeurism  is Section  
+76. The  specific  pena l section  for the crime  of 'Stalking'  under  the new  Indian  criminal  code  (BNS)  is Section  75. 
+If someone  uses  a word,  gesture,  or act intended  to insult  the modesty  of a woman,  Section  79 of the BNS appl
+ies. 
+The infamous  'Section  498A'  for cruelty  by a husband  or his relatives  has been  replaced  by Section  84 in the BN
+S. The  BNS section  for voluntarily  causing  grievous  hurt  by use of acid (Acid  Attack)  is Section  117. 
+If a person  voluntarily  obstructs  another  from  proceeding  in a lawful  direction,  the sectio n for Wrongful  Restrai
+nt under  the BNS is Section  263. 
+Under  the BNS,  Section  137 specifically  prescribes  the death  penalty  or life imprisonment  for kidnapping  for ra
+nsom. 
+An assembly  of five or more  persons  with  a common  illegal  object  is an 'Unlawful  Assembly',  and the BNS secti
+on for its punishment  is Section  187. 
+The specific  section  for the punishment  of Rioting  under  the Bharatiya  Nyaya  Sanhita  is Section  189. 
+When  two or more  persons  fight  in a public  place  and disturb  the public  peace,  it is an Affray, and BNS Section  
+192 penalizes  this. 
+The specific  section  for the offence  of 'Bribery  at Elections'  under  the newly  enacted  BNS is Section  193. 
+Under  the BNS,  Section  228 provides  the punishment  for giving  or fabricating  false  evidence  in a judicial  proce
+eding. 
+If a person  finds  a lost wallet  and dishonestly  keeps  the money,  BNS Section  304 applies  for Dishonest  Misappr
+opriation  of Property. 
+The specific  section  for 'Cheating  by Personation'  (pretending  to be someone  else)  under  the BNS is Section  31
+9. 
+If someone  commits  mischief  by fire or explosives  intending  to destroy  a house,  the section  under  the BNS is S
+ection  340. The  BNS section  for the punishment  of 'House -breaking  by night'  is Section  327. 
+Under  the BNS,  Section  342 penalizes  the counterfeiting  of currency  notes  or bank  notes. 
+The section  for marrying  again  during  the lifetime  of a husband  or wife  (Bigamy)  under  the BNS is Section  85. 
+If criminal  intimidation  is committed  by an anonymous  communication,  BNS Section  352 applies.  
+ 
+BATCH 4 (61-80) 
+Under the Bharatiya Nyaya Sanhita (BNS), what is the specific section for rash driving or riding on a public 
+way?  
+What is the BNS section for causing the death of a person by doing any rash or negligent act not amounting 
+to culpable homicide?  
+If a person voluntarily obstructs a public servant in the discharge of their public functions, which BNS section 
+applies?  
+Under the new BNS, what section penalizes a clerk or officer for the falsification of accounts?  
+What is the specific section number that defines and punishes 'Criminal Trespass' under the BNS?  
+Which section of the BNS criminalizes the sale, distribution, or public exhibition of obscene books and 
+materials?  
+What is the BNS section for the specific offence of selling or distributing obscene objects to a child?  
+If someone intentionally causes the disappearance of evidence to screen an offender from legal punishment, 
+what BNS section applies?  
+Under the BNS, what section penalizes disobedience to an order duly promulgated by a public servant?  
+What is the section for injuring or defiling a place of worship with intent to insult the religion of any class 
+under the BNS?  
+If someone sings, recites, or utters obscene songs or words in a public place to the annoyance of others, what 
+BNS section is violated?  
+What is the specific BNS section for the adulteration of food or drink intended for sale?  
+If a person is legally bound to furnish information to a public servant but provides false information, what 
+BNS section applies?  
+What is the section for the punishment of an 'Attempt to commit robbery' under the Bharatiya Nyaya 
+Sanhita?  
+If a person intentionally omits to attend a court or place in obedience to a summons from a public servant, 
+what BNS section is violated?  
+What is the specific BNS section that defines the offence of 'Public Nuisance'?  
+Under the BNS, what section penalizes the fraudulent use of a forged document or electronic record as a 
+genuine one?  
+What BNS section applies if a person legally bound to produce a document to a public servant intentionally 
+omits to do so?  
+If a person refuses to sign a statement made by them when legally required by a public servant, what BNS 
+section applies?  
+What is the BNS section for intentionally insulting or interrupting a public servant sitting in a judicial 
+proceeding?  
+ 
+ 
+ChatGPT 5.2  
+Rash driving or riding on a public way  — Section 281 BNS.  
+Causing death by rash or negligent act  — Section 106(1)  BNS.  
+Obstructing a public servant in discharge of duty  — Section 221 BNS.  
+Falsification of accounts by clerk/officer  — Section 344 BNS.  
+Criminal Trespass  — Section 329 BNS.  
+Sale/distribution/public exhibition of obscene materials  — Section 294 BNS.  
+Selling/distributing obscene objects to a child  — Section 295 BNS.  
+Causing disappearance of evidence to screen offender  — Section 238 BNS.  
+Disobedience to order duly promulgated by public servant  — Section 223 BNS.  
+Defiling place of worship to insult religion  — Section 301 BNS.  
+Obscene songs/words in public place  — Section 296 BNS.  
+Adulteration of food or drink for sale  — Section 274 BNS.  
+Giving false information when legally bound  — Section 227 BNS.  
+Attempt to commit robbery  — Section 309 BNS.  
+Omitting to attend in obedience to summons  — Section 209 BNS.  
+Public Nuisance (definition/offence)  — Section 270 BNS.  
+Fraudulent use of forged document as genuine  — Section 338 BNS.  
+Omission to produce document to public servant  — Section 231 BNS.  
+Refusing to sign statement when legally required  — Section 232 BNS.  
+Intentional insult/interruption to public servant in judicial proceeding  — Section 354 BNS.  
+ 
+Claude Sonnet 4.6  
+# Offence / Query  BNS Section  
+1 Rash Driving or Riding on a Public Way  Section 281  – Punishable with imprisonment up to 6 
+months and/or fine up to ₹1,000.  
+2 Causing Death by Rash or Negligent Act  (not 
+amounting to culpable homicide)  Section 106(1)  – Punishable with imprisonment up to 5 
+years and fine.  
+3 Voluntarily Obstructing a Public Servant  in 
+discharge of public functions  Section 221  – Punishable with imprisonment up to 3 
+months and/or fine up to ₹2,500.  
+4 Falsification of Accounts  by a clerk or officer  Section 336(3)  – Punishable with imprisonment up to 7 
+years and/or fine.  
+# Offence / Query  BNS Section  
+5 Criminal Trespass  (definition and punishment)  Section 329(1)  – Punishable with imprisonment up to 3 
+months and/or fine up to ₹5,000.  
+6 Sale/Distribution/Public Exhibition of Obscene 
+Books & Materials  Section 294  – Punishable with imprisonment up to 2 
+years and/or fine on first conviction; up to 5 years on 
+subsequent conviction.  
+7 Selling or Distributing Obscene Objects to a 
+Child  Section 295  – Punishable with imprisonment up to 7 
+years and fine; a stringent child -protective provision.  
+8 Causing Disappearance of Evidence to Screen 
+an Offender  Section 238  – Punishable with imprisonment up to 7 
+years and/or fine, depending on the gravity of the 
+screened offence.  
+9 Disobedience to an Order Duly Promulgated by 
+a Public Servant  Section 223  – Punishable with imprisonment up to 6 
+months and/or fine up to ₹1,000.  
+10 Injuring or Defiling a Place of Worship  with 
+intent to insult religion  Section 299  – Punishable with imprisonment up to 2 
+years and/or fine.  
+11 Uttering Obscene Songs or Words in a Public 
+Place  Section 296  – Punishable with imprisonment up to 3 
+months and/or fine.  
+12 Adulteration of Food or Drink Intended for Sale  Section 274  – Punishable with imprisonment up to 6 
+months and/or fine up to ₹5,000.  
+13 Furnishing False Information to a Public Servant  Section 218  – Punishable with imprisonment up to 6 
+months and/or fine up to ₹5,000, or both.  
+14 Attempt to Commit Robbery  Section 309(3)  – Punishable with rigorous imprisonment 
+up to 7 years and fine.  
+15 Intentional Omission to Appear Before a Public 
+Servant  in obedience to summons  Section 209  – Punishable with imprisonment up to 1 
+month and/or fine up to ₹5,000.  
+16 Public Nuisance  (definition)  Section 292  – Defines any act that causes common 
+injury, danger, or annoyance to the public or to people in 
+general.  
+17 Fraudulent Use of a Forged Document or 
+Electronic Record  as genuine  Section 340(2)  – Punishable with imprisonment up to 7 
+years and fine; electronic records explicitly included 
+under BNS.  
+18 Intentional Omission to Produce a Document  
+before a public servant when legally bound  Section 210  – Punishable with imprisonment up to 1 
+month and/or fine up to ₹5,000.  
+19 Refusal to Sign a Statement  when legally 
+required by a public servant  Section 214  – Punishable with imprisonment up to 3 
+months and/or fine up to ₹3,000, or both.  
+20 Intentionally Insulting or Interrupting a Public 
+Servant  in judicial proceedings  Section 228  – Punishable with imprisonment up to 1 
+year and/or fine up to ₹5,000.  
+ 
+Grok 4.1  
+Under the Bharatiya Nyaya Sanhita (BNS), the specific section that deals with rash driving or riding on a public 
+way is Section 281 .  
+The BNS section for causing the death of a person by doing any rash or negligent act not amounting to culpable 
+homicide is Section 106(1) .  
+If a person voluntarily obstructs a public servant in the discharge of their public functions, Section 197  of the 
+BNS applies.  
+Under the new BNS, the section that penalizes a clerk or officer for the falsification of accounts is Section 344 .  
+The specific section number that defines and punishes 'Criminal Trespass' under the BNS is Section 329 .  
+The section of the BNS that criminalizes the sale, distribution, or public exhibition of obscene books and 
+materials is Section 294 .  
+The BNS section for the specific offence of selling or distributing obscene objects to a child is Section 296 .  
+If someone intentionally causes the disappearance of evidence to screen an offender from legal punishment, 
+Section 238  of the BNS applies.  
+Under the BNS, the section that penalizes disobedience to an order duly promulgated by a public servant is 
+Section 209 .  
+The section for injuring or defiling a place of worship with intent to insult the religion of any class under the 
+BNS is Section 295 .  
+If someone sings, recites, or utters obscene songs or words in a public place to the annoyance of others, 
+Section 294  of the BNS is violated.  
+The specific BNS section for the adulteration of food or drink intended for sale is Section 272 .  
+If a person is legally bound to furnish information to a public servant but provides false information, Section 
+212 of the BNS applies.  
+The section for the punishment of an 'Attempt to commit robbery' under the Bharatiya Nyaya Sanhita is 
+Section 309  read with Section 61 (attempt provision).  
+If a person intentionally omits to attend a court or place in obedience to a summons from a public servant, 
+Section 206  of the BNS is violated.  
+The specific BNS section that defines the offence of 'Public Nuisance' is Section 268 .  
+Under the BNS, the section that penalizes the fraudulent use of a forged document or electronic record as a 
+genuine one is Section 339 .  
+If a person legally bound to produce a document to a public servant intentionally omits to do so, Section 211  of 
+the BNS applies.  
+If a person refuses to sign a statement made by them when legally required by a public servant, Section 215  of 
+the BNS applies.  
+The BNS section for intentionally insulting or interrupting a public servant sitting in a judicial proceeding is 
+Section 228  (rephrased as insult to public servant in judicial proceeding).  
+ 
+Indus Sarvam  
+Traffic and Public Safety:  
+• Rash driving or riding on a public way : Section 281  
+• Causing death by rash or negligent act not amounting to culpable homicide : Section 106  
+Public Servant Related Offences:  
+• Voluntarily obstructing a public servant in discharge of public functions : Section 221  
+• Falsification of accounts by clerk or officer : Section 344  
+• Disobedience to order duly promulgated by public servant : Section 223  
+• Legally bound to furnish information but provides false information : Section 212  
+• Legally bound to produce document but intentionally omits to do so : Section 210  
+• Refuses to sign statement when legally required by public servant : Section 211  
+• Intentionally insulting or interrupting public servant in judicial proceeding : Section 224  
+Property and Trespass:  
+• Criminal trespass : Section 329  
+• Attempt to commit robbery : Section 312  
+• Public nuisance : Section 270  
+Obscenity and Religious Offences:  
+• Sale, distribution, or public exhibition of obscene books and materials : Section 294  
+• Selling or distributing obscene objects to a child : Section 295  
+• Singing, reciting, or uttering obscene songs/words in public place : Section 296  
+• Injuring or defiling place of worship with intent to insult religion : Section 298  
+Food Safety and Evidence:  
+• Adulteration of food or drink intended for sale : Section 274  
+• Intentionally causing disappearance of evidence to screen offender : Section 241  
+Forensic and Legal Documents:  
+• Fraudulent use of forged document or electronic record as genuine : Section 340  
+ 
+Gemini 3  
+Rash Driving or Riding on a Public Way:  Section 281.  
+Death by Rash or Negligent Act (not murder):  Section 106(1).  
+Obstructing a Public Servant in Discharge of Functions:  Section 221.  
+Falsification of Accounts (by Clerk or Officer):  Section 344.  
+Criminal Trespass (Definition and Punishment):  Section 329.  
+Sale/Distribution/Exhibition of Obscene Materials:  Section 294.  
+Selling or Distributing Obscene Objects to a Child:  Section 295.  
+Disappearance of Evidence to Screen Offender:  Section 238.  
+Disobedience to Order Promulgated by Public Servant:  Section 223.  
+Injuring/Defiling Place of Worship to Insult Religion:  Section 298.  
+Obscene Songs or Words in a Public Place:  Section 296.  
+Adulteration of Food or Drink Intended for Sale:  Section 274.  
+Furnishing False Information to a Public Servant:  Section 212.  
+Attempt to Commit Robbery:  Section 311 (General attempt) or Section 312 (if armed with a deadly weapon).  
+Intentional Omission to Attend Court (Non -attendance):  Section 208.  
+Public Nuisance (Definition):  Section 270.  
+Fraudulent Use of Forged Document/Electronic Record:  Section 340.  
+Omission to Produce Document to Public Servant:  Section 210.  
+Refusal to Sign a Statement Made to a Public Servant:  Section 215.  
+Insult or Interruption to Public Servant in Judicial Proceeding:  Section 267.  
+ 
+DeepSeek V3.2  
+Rash driving or riding on a public way is penalized under Section 281 of the BNS.  
+Causing death by a rash or negligent act not amounting to culpable homicide is penalized under Section 106(1) 
+of the BNS .  
+Voluntarily obstructing a public servant in their public functions is an offence under Section 222 of the BNS.  
+The falsification of accounts by a clerk or officer is penalized under Section 344 of the BNS.  
+'Criminal Trespass' is defined and penalized under Section 329 of the BNS .  
+The sale or exhibition of obscene books is an offence under Section 295 of the BNS.  
+Selling or distributing obscene objects to a child is specifically penalized under Section 296 of the BNS.  
+Causing the disappearance of evidence to screen an offender is an offence under Section 238 of the BNS.  
+Disobedience to an order duly promulgated by a public servant is penalized under Section 223 of the BNS.  
+Injuring or defiling a place of worship is an offence under Section 299 of the BNS.  
+Singing or uttering obscene words in a public place is penalized under Section 297 of the BNS.  
+The adulteration of food or drink intended for sale is covered under Section 273 of the BNS.  
+Furnishing false information to a public servant is an offence under Section 229 of the BNS .  
+An 'Attempt to commit robbery' is penalized under Section 309 of the BNS .  
+Intentionally omitting to attend a court in obedience to a summons is an offence under Section 207 of the BNS.  
+The offence of 'Public Nuisance' is defined under Section 270 of the BNS .  
+Fraudulently using a forged document as genuine is an offence under Section 340 of the BNS.  
+Intentionally omitting to produce a document to a public servant is penalized under Section 209 of the BNS.  
+Refusing to sign a statement when legally required by a public servant is an offence under Section 214 of the 
+BNS.  
+Intentionally insulting or interrupting a public servant in a judicial proceeding is penalized under Section 260 of 
+the BNS.  
+ 
+Kruti  
+1. Section 281  of the  Bharatiya Nyaya Sanhita (BNS)  deals with  rash driving or riding on a public 
+way [1]. 
+2. Section 106  of the  BNS  addresses  causing the death of a person by doing any rash or negligent act 
+not amounting to culpable homicide  [2]. 
+3. Section 221  of the  BNS  penalizes  voluntarily obstructing a public servant in the discharge of their 
+public functions  [3]. 
+4. Section 344  of the  BNS  criminalizes  falsification of accounts by a clerk or officer  [4]. 
+5. Section 329  of the  BNS  defines and punishes  Criminal Trespass  [5]. 
+6. Section 292  of the  BNS  criminalizes the  sale, distribution, or public exhibition of obscene books and 
+materials  [6]. 
+7. Section 295  of the  BNS  addresses the  sale or distribution of obscene objects to a child  [7]. 
+8. Section 238  of the  BNS  applies if a person  intentionally causes the disappearance of evidence to 
+screen an offender from legal punishment  [8]. 
+9. Section 226  of the  BNS  penalizes  disobedience to an order duly promulgated by a public servant  [8]. 
+10. Section 298  of the  BNS  prescribes the punishment for  injuring or defiling a place of worship with 
+intent to insult the religion of any class  [10].  
+11. Section 299  of the  BNS  applies if a person  sings, recites, or utters obscene songs or words in a public 
+place to the annoyance of others . 
+12. Section 310  of the  BNS  addresses  adulteration of food or drink intended for sale . 
+13. Section 227  of the  BNS  applies if a person  is legally bound to furnish information to a public servant 
+but provides false information  [8]. 
+14. Section 313  of the  BNS  prescribes the punishment for  an 'Attempt to commit robbery' . 
+15. Section 269  of the  BNS  applies if a person  intentionally omits to attend a court or place in obedience 
+to a summons from a public servant  [8]. 
+16. Section 268  of the  BNS  defines the offence of  Public Nuisance  [8]. 
+17. Section 314  of the  BNS  penalizes the  fraudulent use of a forged document or electronic record as a 
+genuine one . 
+18. Section 229  of the  BNS  applies if a person  is legally bound to produce a document to a public servant 
+and intentionally omits to do so  [8]. 
+19. Section 267  of the  BNS  applies if a person  refuses to sign a statement made by them when legally 
+required by a public servant  [8]. 
+20. Section 266  of the  BNS  prescribes the punishment for  intentionally insulting or interrupting a public 
+servant sitting in a judicial proceeding  [8]. 
+ 
+Meta AI  
+Under  the Bharatiya  Nyaya  Sanhita  (BNS),  the specific  section  for rash  driving  or riding  on a public  way is Sectio
+n 104. 
+The BNS section  for causing  the death  of a person  by doing  any rash  or negligent  act not amounting  to culpable
+ homicide  is Section  104.  
+If a person  voluntarily  obstructs  a public  servant  in the discharge  of their  public  functions,  BNS Section  199 appl
+ies. Under  the new  BNS,  Section  317 penalizes  a clerk  or officer  for the falsification  of accounts. 
+The specific  section  number  that defines  and punishes  'Criminal  Trespass'  under  the BNS is Section  326. 
+Section  358 of the BNS criminalizes  the sale,  distribution,  or public  exhibition  of obscene  books  and materials. 
+The BNS section  for the specific  offence  of selling  or distributing  obscene  objects to a child  is Section  359. 
+If someone  intentionally  causes  the disappearance  of evidence  to screen  an offender  from  legal  punishment,  B
+NS Section  220 applies. 
+Under  the BNS,  Section  195 penalizes  disobedience  to an order  duly  promulgated  by a public  servant. 
+The section  for injuring  or defiling  a place  of worship  with  intent  to insult  the religion  of any class  under  the BN
+S is Section  295. 
+If someone  sings,  recites,  or utters  obscene  songs  or words  in a public  place  to the annoyance  of others,  BNS Se
+ction 360 is violated. 
+The specific  BNS section  for the adulteration  of food  or drink  intended  for sale is Section  293. 
+If a person  is legally  bound  to furnish  information  to a public  servant  but provides  false  information,  BNS Sectio
+n 197 applies. 
+The secti on for the punishment  of an 'Attempt  to commit  robbery'  under  the Bharatiya  Nyaya  Sanhita  is Sectio
+n 307. 
+If a person  intentionally  omits  to attend  a court  or place  in obedience  to a summons  from  a public  servant,  BNS
+ Section  196 is violated. The  specific  BNS section  that defines  the offence  of 'Public  Nuisance'  is Section  268. 
+Under  the BNS,  Section  343 penalizes  the fraudulent  use of a forged  document  or electronic  record  as a genuin
+e one. 
+BNS Section  198 applies  if a person  legally  bound  to produce  a document  to a public  servant  intentionally  omits
+ to do so. 
+If a person  refuses  to sign a statement  made  by them  when  legally  required  by a public  servant,  BNS Section  20
+0 applies. 
+The BNS section  for intentionally  insulting  or interrupting  a public  servant  sitting  in a judicial  proceeding  is Secti
+on 202.  
+ 
+ 
+ 
+BATCH 5 (81-100) 
+What is the general section under the Bharatiya Nyaya Sanhita for attempting to commit an offence 
+punishable with imprisonment?  
+Under the BNS, what section establishes joint liability when a criminal act is done by several persons in 
+furtherance of a common intention?  
+Which section of the BNS states that nothing is an offence which is done by a child under seven years of age?  
+What is the BNS section providing the general exception for an act done by accident or misfortune while 
+doing a lawful act?  
+What is the primary section number under the BNS that declares that nothing is an offence which is done in 
+the exercise of the right of private defense?  
+Under the new BNS, which section defines 'Abetment of a thing'?  
+What is the specific section under the BNS for waging or attempting to wage war against the Government of 
+India?  
+Which BNS section penalizes promoting enmity between different groups on grounds of religion, race, or 
+language?  
+What is the BNS section for deliberate and malicious acts intended to outrage the religious feelings of any 
+class?  
+If someone falsely charges a person with an offence with the intent to injure them, what BNS section 
+applies?  
+What is the section under the BNS for harbouring or concealing an offender to screen them from legal 
+punishment?  
+Under the BNS, what section prescribes the punishment for voluntarily causing a woman with child to 
+miscarry?  
+What is the specific BNS section that criminalizes kidnapping or maiming a minor for the purposes of 
+begging?  
+What is the specific section defining and punishing the offence of 'Trafficking of Person' under the BNS?  
+If someone unlawfully compels any person to labour against their will, what BNS section is violated?  
+What is the section for habitually dealing in slaves under the Bharatiya Nyaya Sanhita?  
+Under the BNS, what section penalizes mischief by killing or maiming an animal?  
+What is the BNS section for a man deceitfully inducing a belief of lawful marriage to cause cohabitation?  
+The offence of being a 'Thug' was historically punished under the IPC. What is its exact equivalent section 
+under the BNS?  
+What is the BNS section for making or publishing statements, false information, or rumours conducing to 
+public mischief?  
+ 
+ 
+ChatGPT 5.2  
+1. General attempt to commit offence punishable with imprisonment  — Section 62 BNS.  
+2. Joint liability/common intention  — Section 3(5) BNS.  
+3. Act of child under seven years  — Section 20 BNS.  
+4. Accident or misfortune in lawful act (general exception)  — Section 23 BNS.  
+5. Act in exercise of right of private defence  — Section 34 BNS.  
+6. Definition of Abetment of a thing  — Section 45 BNS.  
+7. Waging or attempting to wage war against Government of India  — Section 147 BNS.  
+8. Promoting enmity between different groups  — Section 196 BNS.  
+9. Deliberate acts outraging religious feelings  — Section 197 BNS.  
+10. False charge of offence with intent to injure  — Section 248 BNS.  
+11. Harbouring or concealing offender  — Section 249 BNS.  
+12. Causing miscarriage  — Section 88 BNS.  
+13. Kidnapping or maiming minor for begging  — Section 139 BNS.  
+14. Trafficking of person  — Section 143 BNS.  
+15. Unlawful compulsory labour  — Section 144 BNS.  
+16. Habitually dealing in slaves  — Section 145 BNS.  
+17. Mischief by killing or maiming animal  — Section 325 BNS.  
+18. Deceitful inducement of belief of lawful marriage  — Section 86 BNS.  
+19. Being a Thug (historical offence)  — Section 310 BNS.  
+20. Statements/rumours conducing to public mischief  — Section 353 BNS.  
+ 
+ 
+Claude Sonnet 4.6  
+ 
+# Offence / Query  BNS Section  
+1 General Attempt to Commit an Offence  
+punishable with imprisonment  Section 62  – Whoever attempts to commit an offence and fails is 
+punishable with imprisonment up to half the longest term 
+provided for that offence.  
+2 Joint Liability – Common Intention  (act 
+by several persons)  Section 3(5)  – When a criminal act is done by several persons in 
+furtherance of a common intention, each is liable as if it were 
+done by them alone.  
+# Offence / Query  BNS Section  
+3 General Exception: Child Under Seven 
+Years of Age  Section 20  – Nothing is an offence done by a child under 7 years 
+of age; absolute immunity from criminal liability.  
+4 General Exception: Act Done by 
+Accident or Misfortune  Section 24  – Nothing is an offence done by accident or 
+misfortune while performing a lawful act in a lawful manner 
+with due care.  
+5 Right of Private Defence  (primary 
+declaration)  Section 34  – Declares that nothing is an offence done in the 
+exercise of the right of private defence of body or property.  
+6 Abetment of a Thing  (definition)  Section 45  – Defines abetment as instigation, conspiracy, or 
+intentional aiding to commit an act.  
+7 Waging War Against the Government of 
+India  Section 147  – Punishable with death or life imprisonment, and 
+fine; the gravest offence against the State.  
+8 Promoting Enmity Between Different 
+Groups  (religion, race, language, etc.)  Section 196  – Punishable with imprisonment up to 3 years 
+and/or fine; 5 years if committed at a place of worship.  
+9 Deliberate & Malicious Acts Outraging 
+Religious Feelings  Section 299  – Punishable with imprisonment up to 3 years 
+and/or fine.  
+10 False Charge of an Offence with Intent 
+to Injure  Section 250  – Punishable with imprisonment up to 7 years and 
+fine, mirroring the gravity of the falsely charged offence.  
+11 Harbouring or Concealing an Offender  to 
+screen from legal punishment  Section 238  – Punishable with imprisonment varying with the 
+gravity of the offence committed by the person harboured.  
+12 Voluntarily Causing a Woman with Child 
+to Miscarry  (Abortion)  Section 88  – Punishable with imprisonment up to 3 years and/or 
+fine; up to 7 years if the woman is quick with child.  
+13 Kidnapping or Maiming a Minor for 
+Begging  Section 141  – Punishable with rigorous imprisonment up to 10 
+years and fine; a child -protective provision.  
+14 Trafficking of Persons  (definition and 
+punishment)  Section 143  – Punishable with rigorous imprisonment of 7 to 10 
+years and fine; aggravated forms attract life imprisonment.  
+15 Unlawfully Compelling a Person to 
+Labour Against Their Will  Section 144  – Punishable with imprisonment up to 1 year 
+and/or fine, or both.  
+16 Habitually Dealing in Slaves  Section 142  – Punishable with imprisonment for life or rigorous 
+imprisonment up to 10 years, and fine.  
+17 Mischief by Killing or Maiming an 
+Animal  Section 325  – Punishable with imprisonment up to 5 years 
+and/or fine for killing/maiming animals of prescribed value.  
+18 Deceitfully Inducing Belief of Lawful 
+Marriage for Cohabitation  Section 84  – Punishable with imprisonment up to 10 years and 
+fine; protects against fraudulent cohabitation.  
+19 Being a Thug  (historical offence retained 
+under BNS)  Section 310  – Whoever is a thug shall be punished with 
+imprisonment for life and fine; retained from the original IPC 
+equivalent.  
+# Offence / Query  BNS Section  
+20 Making/Publishing False Statements or 
+Rumours Conducing to Public Mischief  Section 197  – Punishable with imprisonment up to 3 years 
+and/or fine; up to 7 years during war or national emergency.  
+ 
+ 
+ 
+Grok 4.1  
+ 
+The general section under the Bharatiya Nyaya Sanhita for attempting to commit an offence punishable 
+with imprisonment is Section 62 .  
+Under the BNS, the section that establishes joint liability when a criminal act is done by several persons in 
+furtherance of a common intention is Section 3(5) .  
+The section of the BNS that states nothing is an offence which is done by a child under seven years of age 
+is Section 20 .  
+The BNS section providing the general exception for an act done by accident or misfortune while doing a 
+lawful act is Section 26  (act done by accident in doing a lawful act).  
+The primary section number under the BNS that declares nothing is an offence which is done in the 
+exercise of the right of private defense is Section 34 .  
+Under the new BNS, the section that defines 'Abetment of a thing' is Section 45 .  
+The specific section under the BNS for waging or attempting to wage war against the Government of India 
+is Section 147 .  
+The BNS section that penalizes promoting enmity between different groups on grounds of religion, race, or 
+language is Section 196 .  
+The BNS section for deliberate and malicious acts intended to outrage the religious feelings of any class is 
+Section 299 .  
+If someone falsely charges a person with an offence with the intent to injure them, Section 248  of the BNS 
+applies.  
+The section under the BNS for harbouring or concealing an offender to screen them from legal punishment 
+is Section 238 .  
+Under the BNS, the section that prescribes the punishment for voluntarily causing a woman with child to 
+miscarry is Section 88 .  
+The specific BNS section that criminalizes kidnapping or maiming a minor for the purposes of begging is 
+Section 143 .  
+The specific section defining and punishing the offence of 'Trafficking of Person' under the BNS is Section 
+143 (trafficking of person).  
+If someone unlawfully compels any person to labour against their will, Section 144  of the BNS is violated.  
+The section for habitually dealing in slaves under the Bharatiya Nyaya Sanhita is Section 145 .  
+Under the BNS, the section that penalizes mischief by killing or maiming an animal is Section 325 .  
+The BNS section for a man deceitfully inducing a belief of lawful marriage to cause cohabitation is Section 
+69 (extended to deceitful means including false promise).  
+The offence of being a 'Thug' was historically punished under the IPC; its exact equivalent section under 
+the BNS is omitted as no direct equivalent exists.  
+The BNS section for making or publishing statements, false information, or rumours conducing to public 
+mischief is Section 197 . 
+ 
+Indus Sarvam  
+General Liability and Attempt:  
+• Attempt to commit an offence punishable with imprisonment : Section 62  
+• Joint liability when several persons act with common intention : Sections 55 -56 (abetment 
+provisions)  
+• Making false charges with intent to injure : Section 248  
+Age and Capacity:  
+• Act of a child under seven years of age : Section 20  
+• Accident or misfortune while doing a lawful act : Section 18  
+Private Defense:  
+• Right of private defense (general section) : Section 35 - Right of private defence of body and of 
+property (with Sections 34 -44 covering specific aspects)  
+Abetment and Common Intention:  
+• Abetment of a thing : Section 45 (with subsequent sections 46 -60 detailing various aspects)  
+Sedition and National Security:  
+• Waging war against Government of India : Section 147  
+• Promoting enmity between different groups : Section 196  
+Religious and Community Harmony:  
+• Deliberate and malicious acts outraging religious feelings : Section 299  
+Protection and Harbouring:  
+• Harbouring or concealing an offender : Section 249  
+Women and Child Protection:  
+• Voluntarily causing woman with child to miscarry : Section 88  
+• Kidnapping or maiming a minor for begging : Section 139  
+• Deceitful marriage (inducing belief of lawful marriage) : Section 81  
+Exploitation and Trafficking:  
+• Trafficking of person : Section 143  
+• Unlawful compulsory labour : Section 146  
+• Habitual dealing in slaves : Section 145  
+Property and Animals:  
+• Mischief by killing or maiming animal : Section 325  
+Public Order and Mischief:  
+• Thug (organized criminal) : The term "thug" is not explicitly mentioned, but related offenses are 
+covered under  organized crime (Section 111)  and dacoity (Section 310)  
+• Making/publishing false statements causing public mischief : Section 193 (rioting) and related 
+provisions  
+ 
+ 
+Gemini 3  
+Attempt to commit an offence punishable with imprisonment:  Section 62.  
+Joint Liability (Common Intention):  Section 3(5).  
+Act of a child under seven years of age:  Section 20.  
+Act done by accident or misfortune:  Section 18.  
+Right of Private Defense:  Section 34.  
+Abetment of a thing:  Section 45.  
+Waging or attempting to wage war against the Government of India:  Section 147.  
+Promoting enmity between different groups:  Section 196.  
+Deliberate and malicious acts to outrage religious feelings:  Section 299.  
+False charge of offence made with intent to injure:  Section 248.  
+Harbouring or concealing an offender:  Section 249.  
+Voluntarily causing a woman to miscarry:  Section 89 (without consent) or Section 86 (with consent).  
+Kidnapping or maiming a child for begging:  Section 139.  
+Trafficking of Person:  Section 143.  
+Unlawful compulsory labour:  Section 146.  
+Habitual dealing in slaves:  Section 145.  
+Mischief by killing or maiming an animal:  Section 325.  
+Cohabitation caused by a man deceitfully inducing a belief of lawful marriage:  Section 81.  
+Thug:  This specific classification was removed; such acts are now prosecuted under Section 111 (Organized 
+Crime)  or Section 310 (Dacoity) . 
+Statements conducing to public mischief:  Section 353.  
+ 
+DeepSeek V3.2  
+The general punishment for attempting to commit an offence is prescribed under Section 62 of the BNS  . 
+Joint liability in furtherance of common intention is established under Section 3(5) of the BNS  . 
+Section 20 of the BNS states that an act done by a child under seven years of age is not an offence  . 
+The general exception for an accident while doing a lawful act is provided under Section 18 of the BNS  . 
+The primary section declaring that nothing is an offence if done in the exercise of the right of private defense is 
+Section 34 of the BNS  . 
+'Abetment of a thing' is defined under Section 45 of the BNS  . 
+Waging war against the Government of India is an offence under Section 147 of the BNS.  
+Promoting enmity between different groups is penalized under Section 196 of the BNS.  
+Deliberate acts to outrage religious feelings are covered under Section 299 of the BNS  . 
+Falsely charging a person with an offence to injure them is an offence under Section 248 of the BNS.  
+Harbouring or concealing an offender is penalized under Section 218 of the BNS.  
+Voluntarily causing a woman with child to miscarry is covered under Section 88 of the BNS  . 
+Kidnapping or maiming a minor for begging is an offence under Section 139 of the BNS  . 
+The offence of 'Trafficking of Person' is defined and punished under Section 143 of the BNS.  
+Unlawfully compelling a person to labour is an offence under Section 142 of the BNS.  
+Habitually dealing in slaves is penalized under Section 141 of the BNS.  
+Mischief by killing or maiming an animal is covered under Section 325 of the BNS  . 
+A man deceitfully inducing a belief of lawful marriage is penalized under Section 81 of the BNS  . 
+The offence of being a 'Thug' is defined under Section 311 of the BNS.  
+Making statements conducing to public mischief is an offence under Section 197 of the BNS.  
+ 
+Kruti  
+1. Section 62  of the  Bharatiya Nyaya Sanhita (BNS)  is the general section for  attempting to commit an 
+offence punishable with imprisonment . This section prescribes punishment for attempts to commit 
+offences that carry imprisonment, whether for life or otherwise.  [1] 
+2. Section 3(5)  of the  BNS establishes  joint liability  when a criminal act is done by several persons in 
+furtherance of a  common intention . This is the BNS equivalent of the former  Section 34 of the IPC . [2] 
+3. Section 20  of the  BNS states that  nothing is an offence which is done by a child under seven years of 
+age. This is based on the legal doctrine of "Doli Incapax," meaning the child is incapable of forming 
+criminal intent.  [3] 
+4. Section 18  of the  BNS provides the general exception for an  act done by accident or misfortune  while 
+doing a lawful act. This section states that such acts are not considered offences if done without 
+criminal intent or knowledge.  [4] 
+5. Section 34  of the  BNS is the primary section that declares  nothing is an offence which is done in the 
+exercise of the right of private defence . This section outlines the conditions under which a person can 
+defend themselves or their property.  [4] 
+6. Section 45  of the  BNS defines  'Abetment of a thing' . This section outlines the three forms of 
+abetment: instigation, conspiracy, and intentional aid.  [6] 
+7. Section 147  of the  BNS penalizes  waging or attempting to wage war against the Government of India . 
+This is the BNS equivalent of the former  Section 121 of the IPC . [7] 
+8. Section 196  of the  BNS penalizes  promoting enmity between different groups on grounds of religion, 
+race, or language . This section aims to prevent communal disharmony and hate speech.  [8] 
+9. Section 299  of the  BNS criminalizes  deliberate and malicious acts intended to outrage the religious 
+feelings of any class . This section penalizes insults to religion or religious beliefs.  [9] 
+10. Section 248  of the  BNS applies if someone  falsely charges a person with an offence with the intent to 
+injure  them. This section penalizes false criminal proceedings.  [10] 
+11. Section 249  of the  BNS penalizes  harbouring or concealing an offender to screen them from legal 
+punishment . This section outlines different punishments based on the severity of the offence.  [11] 
+12. Section 86  of the  BNS prescribes the punishment for  voluntarily causing a woman with child to 
+miscarry . This section addresses the offence of causing miscarriage.  [1] 
+13. Section 137  of the  BNS criminalizes  kidnapping or maiming a minor for the purposes of begging . This 
+section addresses the exploitation of minors.  [1] 
+14. Section 141  of the  BNS defines and punishes the offence of  'Trafficking of Person' . This section 
+addresses the illegal trade of persons.  [1] 
+15. Section 144  of the  BNS penalizes  unlawful compulsory labour , also known as  Forced Labour . This 
+section addresses the exploitation of individuals through coercion.  [1] 
+16. Section 122  of the  BNS penalizes  mischief by killing or maiming an animal . This section addresses 
+harm to animals.  [1] 
+17. Section 80  of the  BNS addresses the offence of a  man deceitfully inducing a belief of lawful marriage 
+to cause cohabitation . This section penalizes fraudulent marriages.  [1] 
+18. Section 156  of the  BNS penalizes  being a 'Thug' . This section is the exact equivalent of the 
+former  Section 342 of the IPC . [1] 
+19. Section 152  of the  BNS penalizes  making or publishing statements, false information, or rumours 
+conducing to public mischief . This section addresses the spread of false information that causes public 
+disturbance.  [1] 
+ 
+ 
+Meta AI  
+The general  section  under  the Bharatiya  Nyaya  Sanhita  for attempting  to commit  an offence  punishable  with  im
+prisonment  is Section  44. 
+Under  the BNS,  Section  2(7) establishes  joint  liability  when  a criminal  act is done  by several  persons  in furthera
+nce of a common  intention. 
+Section  23 of the BNS states  that nothing  is an offence  which  is done  by a child  under  seven  years  of age. 
+The BNS section  providing  the general  exception  for an act done  by accident  or misfortune  while  doing  a lawful
+ act is Section  29. 
+The primary  section  number  under  the BNS that declares  that nothing  is an offence  which  is done  in the exercis
+e of the right  of privat e defense  is Section  34. Under  the new  BNS,  Section  45 defines  'Abetment  of a thing'. 
+The specific  section  under  the BNS for waging  or attempting  to wage  war against  the Government  of India  is Se
+ction  147. 
+BNS Section  194 penalizes  promoting  enmity  between  different  groups  on grounds  of religion,  race,  or languag
+e. 
+The BNS section  for deliberate  and malicious  acts intended  to outrage  the religious  feelings  of any class  is Secti
+on 295. 
+If someone  falsely  charges  a person  with  an offence  with  the intent  to injure them,  BNS Section  221 applies. 
+The section  under  the BNS for harbouring  or concealing  an offender  to screen  them  from  legal  punishment  is S
+ection  222. 
+Under  the BNS,  Section  105 prescribes  the punishment  for voluntarily  causing  a woman  with  child  to miscarry. 
+The specific  BNS section  that criminalizes  kidnapping  or maiming  a minor  for the purposes  of begging  is Section
+ 141. 
+The specific  section  defining  and punishing  the offence  of 'Trafficking  of Person'  under  the BNS is Section  142. 
+If someone  unlawf ully compels  any person  to labour  against  their  will, BNS Section  143 is violated. 
+The section  for habitually  dealing  in slaves  under  the Bharatiya  Nyaya  Sanhita  is Section  144. 
+Under  the BNS,  Section  344 penalizes  mischief  by killing  or maiming  an animal.  
+The BNS section  for a man  deceitfully  inducing  a belief  of lawful  marriage  to cause  cohabitation  is Section  70. 
+The exact  equivalent  section  under  the BNS for the offence  of being  a 'Thug'  is Section  308(2). 
+The BNS section  for making  or publishing  statem ents,  false  information,  or rumours  conducing  to public  mischi
+ef is Section  194.  
+ 
+ 
