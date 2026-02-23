@@ -1,0 +1,14 @@
+
+C:\Users\Harshal Patel\Desktop\RP26\ipc_bns_evaluator\src\app\api\grades\route.ts
+  14:12  warning  'error' is defined but never used  @typescript-eslint/no-unused-vars
+  24:12  warning  'error' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\Harshal Patel\Desktop\RP26\ipc_bns_evaluator\src\app\page.tsx
+  67:48  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Harshal Patel\Desktop\RP26\ipc_bns_evaluator\src\components\QuestionCard.tsx
+   2:27  warning  'HelpCircle' is defined but never used  @typescript-eslint/no-unused-vars
+  15:3   warning  'batchId' is defined but never used     @typescript-eslint/no-unused-vars
+
+Γ£û 5 problems (1 error, 4 warnings)
+

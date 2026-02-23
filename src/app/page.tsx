@@ -5,7 +5,7 @@ import { ALL_BATCHES, MODELS } from "@/lib/data";
 import QuestionCard from "@/components/QuestionCard";
 import { Download, CheckCircle, FolderOpen } from "lucide-react";
 
-export type Grade = "correct" | "incorrect" | "empty" | null;
+export type Grade = "correct" | "somewhat correct" | "wrong" | "no answer" | null;
 
 // The state structure: grades[batchId][questionIndex][modelName] = Grade
 export type GlobalGrades = Record<number, Record<number, Record<string, Grade>>>;
@@ -13,25 +13,31 @@ export type GlobalGrades = Record<number, Record<number, Record<string, Grade>>>
 export default function Home() {
   const [activeBatchId, setActiveBatchId] = useState<number>(1);
   const [grades, setGrades] = useState<GlobalGrades>({});
+  const [isLoaded, setIsLoaded] = useState(false);
 
-  // Load from localStorage on mount
+  // Load from global API on mount
   useEffect(() => {
-    const saved = localStorage.getItem("bns_eval_grades_v2");
-    if (saved) {
-      try {
-        setGrades(JSON.parse(saved));
-      } catch (e) {
-        console.error("Failed to load grades from local storage", e);
-      }
-    }
+    fetch('/api/grades')
+      .then(res => res.json())
+      .then(data => {
+        setGrades(data || {});
+        setIsLoaded(true);
+      })
+      .catch(e => {
+        console.error("Failed to load global grades", e);
+        setIsLoaded(true);
+      });
   }, []);
 
-  // Save to localStorage when grades change
+  // Save to global API when grades change
   useEffect(() => {
-    if (Object.keys(grades).length > 0) {
-      localStorage.setItem("bns_eval_grades_v2", JSON.stringify(grades));
-    }
-  }, [grades]);
+    if (!isLoaded) return;
+    fetch('/api/grades', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(grades),
+    }).catch(e => console.error("Failed to save global grades", e));
+  }, [grades, isLoaded]);
 
   const handleGradeChange = (
     batchId: number,
@@ -58,7 +64,7 @@ export default function Home() {
       batches: ALL_BATCHES.map((b) => ({
         batchId: b.batchId,
         questions: b.questions.map((q, qIndex) => {
-          const questionGrades: Record<string, any> = {};
+          const questionGrades: Record<string, { answer: string; evaluation: Grade | null }> = {};
           MODELS.forEach((model) => {
             const grade = grades[b.batchId]?.[qIndex]?.[model] || null;
             questionGrades[model] = {

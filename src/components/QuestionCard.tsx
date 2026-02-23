@@ -1,5 +1,5 @@
 import { Grade } from "@/app/page";
-import { Check, X, Minus, HelpCircle } from "lucide-react";
+import { Check, X, Minus } from "lucide-react";
 
 interface QuestionCardProps {
   batchId: number;
@@ -12,7 +12,6 @@ interface QuestionCardProps {
 }
 
 export default function QuestionCard({
-  batchId,
   questionIndex,
   questionText,
   models,
@@ -59,8 +58,9 @@ export default function QuestionCard({
                 key={model} 
                 className={`flex flex-col justify-between rounded-xl border p-4 transition-colors ${
                   currentGrade === 'correct' ? 'bg-green-50/50 border-green-200' :
-                  currentGrade === 'incorrect' ? 'bg-red-50/50 border-red-200' :
-                  currentGrade === 'empty' ? 'bg-slate-100/50 border-slate-200' :
+                  currentGrade === 'somewhat correct' ? 'bg-yellow-50/50 border-yellow-200' :
+                  currentGrade === 'wrong' ? 'bg-red-50/50 border-red-200' :
+                  currentGrade === 'no answer' ? 'bg-slate-100/50 border-slate-200' :
                   'bg-white border-slate-200 hover:border-indigo-300'
                 }`}
               >
@@ -68,8 +68,9 @@ export default function QuestionCard({
                   <div className="flex items-center justify-between mb-3 border-b border-slate-100 pb-2">
                     <span className="text-sm font-bold text-slate-700">{model}</span>
                     {currentGrade === 'correct' && <Check size={16} className="text-green-600" />}
-                    {currentGrade === 'incorrect' && <X size={16} className="text-red-600" />}
-                    {currentGrade === 'empty' && <Minus size={16} className="text-slate-500" />}
+                    {currentGrade === 'somewhat correct' && <Check size={16} className="text-yellow-600" />}
+                    {currentGrade === 'wrong' && <X size={16} className="text-red-600" />}
+                    {currentGrade === 'no answer' && <Minus size={16} className="text-slate-500" />}
                   </div>
                   <p className="text-sm text-slate-600 mb-4 whitespace-pre-wrap leading-relaxed font-medium">
                     {answer}
@@ -77,39 +78,54 @@ export default function QuestionCard({
                 </div>
 
                 {/* Grading Controls */}
-                <div className="flex items-center gap-1.5 mt-auto pt-3 border-t border-slate-100/50">
+                <div className="grid grid-cols-2 gap-2 mt-auto pt-3 border-t border-slate-100/50">
                   <button
-                    onClick={() => onGradeChange(model, "correct")}
-                    className={`flex-1 flex justify-center p-2 rounded-md transition-all ${
+                    onClick={() => onGradeChange(model, currentGrade === "correct" ? null : "correct")}
+                    className={`flex flex-col items-center justify-center p-2 rounded-md transition-all text-xs font-semibold ${
                       currentGrade === "correct"
-                        ? "bg-green-500 text-white shadow-sm"
+                        ? "bg-green-500 text-white shadow-sm ring-1 ring-green-600"
                         : "bg-green-50 text-green-700 hover:bg-green-100"
                     }`}
                     title="Correct"
                   >
-                    <Check size={16} />
+                    <Check size={14} className="mb-0.5" />
+                    Correct
                   </button>
                   <button
-                    onClick={() => onGradeChange(model, "incorrect")}
-                    className={`flex-1 flex justify-center p-2 rounded-md transition-all ${
-                      currentGrade === "incorrect"
-                        ? "bg-red-500 text-white shadow-sm"
+                    onClick={() => onGradeChange(model, currentGrade === "somewhat correct" ? null : "somewhat correct")}
+                    className={`flex flex-col items-center justify-center p-2 rounded-md transition-all text-xs font-semibold ${
+                      currentGrade === "somewhat correct"
+                        ? "bg-yellow-500 text-white shadow-sm ring-1 ring-yellow-600"
+                        : "bg-yellow-50 text-yellow-700 hover:bg-yellow-100"
+                    }`}
+                    title="Somewhat Correct"
+                  >
+                    <Check size={14} className="mb-0.5" />
+                    Somewhat
+                  </button>
+                  <button
+                    onClick={() => onGradeChange(model, currentGrade === "wrong" ? null : "wrong")}
+                    className={`flex flex-col items-center justify-center p-2 rounded-md transition-all text-xs font-semibold ${
+                      currentGrade === "wrong"
+                        ? "bg-red-500 text-white shadow-sm ring-1 ring-red-600"
                         : "bg-red-50 text-red-700 hover:bg-red-100"
                     }`}
-                    title="Incorrect"
+                    title="Wrong"
                   >
-                    <X size={16} />
+                    <X size={14} className="mb-0.5" />
+                    Wrong
                   </button>
                   <button
-                    onClick={() => onGradeChange(model, "empty")}
-                    className={`flex-1 flex justify-center p-2 rounded-md transition-all ${
-                      currentGrade === "empty"
-                        ? "bg-slate-600 text-white shadow-sm"
+                    onClick={() => onGradeChange(model, currentGrade === "no answer" ? null : "no answer")}
+                    className={`flex flex-col items-center justify-center p-2 rounded-md transition-all text-xs font-semibold ${
+                      currentGrade === "no answer"
+                        ? "bg-slate-500 text-white shadow-sm ring-1 ring-slate-600"
                         : "bg-slate-100 text-slate-600 hover:bg-slate-200"
                     }`}
-                    title="No Answer / Empty"
+                    title="No Answer"
                   >
-                    <Minus size={16} />
+                    <Minus size={14} className="mb-0.5" />
+                    No Answer
                   </button>
                 </div>
               </div>
