@@ -13,6 +13,7 @@ const kv = createClient({
   token: process.env.STORAGE_REST_API_TOKEN || process.env.KV_REST_API_TOKEN || '',
 });
 
+// Redepoy to pick up new KV environment variables
 // Helper to check if we are on Vercel or Local
 const isVercel = process.env.VERCEL === '1';
 
