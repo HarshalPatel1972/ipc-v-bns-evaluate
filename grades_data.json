@@ -1,0 +1,11 @@
+{
+  "1": {
+    "0": {
+      "ChatGPT 5.2": "correct",
+      "Grok 4.1": "wrong"
+    },
+    "1": {
+      "ChatGPT 5.2": "somewhat correct"
+    }
+  }
+}
