@@ -2,13 +2,13 @@ import { Grade } from "@/app/page";
 import { Check, X, Minus } from "lucide-react";
 
 interface QuestionCardProps {
-  batchId: number;
   questionIndex: number;
   questionText: string;
   models: string[];
   modelAnswers: Record<string, string[]>;
   grades: Record<string, Grade>;
   onGradeChange: (model: string, grade: Grade) => void;
+  gradedBy?: Record<string, string>; // modelName -> userName
 }
 
 export default function QuestionCard({
@@ -18,14 +18,20 @@ export default function QuestionCard({
   modelAnswers,
   grades,
   onGradeChange,
+  gradedBy = {}
 }: QuestionCardProps) {
+
+  // Calculate initials from name
+  const getInitials = (name: string) => {
+    return name?.split(' ').map(n => n[0]).join('').toUpperCase().substring(0, 2);
+  };
 
   // Calculate how many are graded in this question
   const gradedCount = models.filter((m) => grades[m] !== undefined && grades[m] !== null).length;
   const isComplete = gradedCount === models.length;
 
   return (
-    <div className={`bg-white rounded-2xl border transition-all duration-300 shadow-sm ${isComplete ? 'border-green-300 ring-1 ring-green-100' : 'border-slate-200'}`}>
+    <div className={`bg-white rounded-2xl border transition-all duration-300 shadow-sm relative ${isComplete ? 'border-green-300 ring-1 ring-green-100' : 'border-slate-200'}`}>
       
       {/* Question Header */}
       <div className="p-6 border-b border-slate-100 bg-slate-50/50 rounded-t-2xl">
@@ -52,18 +58,30 @@ export default function QuestionCard({
           {models.map((model) => {
             const answer = modelAnswers[model][questionIndex] || "No answer extracted";
             const currentGrade = grades[model];
+            const authorName = gradedBy[model];
+            const initials = authorName ? getInitials(authorName) : null;
 
             return (
               <div 
                 key={model} 
-                className={`flex flex-col justify-between rounded-xl border p-4 transition-colors ${
-                  currentGrade === 'correct' ? 'bg-green-50/50 border-green-200' :
-                  currentGrade === 'somewhat correct' ? 'bg-yellow-50/50 border-yellow-200' :
-                  currentGrade === 'wrong' ? 'bg-red-50/50 border-red-200' :
-                  currentGrade === 'no answer' ? 'bg-slate-100/50 border-slate-200' :
+                className={`flex flex-col justify-between rounded-xl border p-4 transition-all duration-300 relative group ${
+                  currentGrade === 'correct' ? 'bg-green-50/50 border-green-300 ring-1 ring-green-100' :
+                  currentGrade === 'somewhat correct' ? 'bg-yellow-50/50 border-yellow-300 ring-1 ring-yellow-100' :
+                  currentGrade === 'wrong' ? 'bg-red-50/50 border-red-300 ring-1 ring-red-100' :
+                  currentGrade === 'no answer' ? 'bg-slate-100/50 border-slate-300' :
                   'bg-white border-slate-200 hover:border-indigo-300'
                 }`}
               >
+                {/* User Active Badge/Initials */}
+                {initials && (
+                  <div 
+                    className="absolute -top-2 -right-2 w-7 h-7 bg-white border-2 border-indigo-500 text-indigo-600 rounded-lg flex items-center justify-center text-[10px] font-black z-10 shadow-sm"
+                    title={`Graded by ${authorName}`}
+                  >
+                    {initials}
+                  </div>
+                )}
+
                 <div>
                   <div className="flex items-center justify-between mb-3 border-b border-slate-100 pb-2">
                     <span className="text-sm font-bold text-slate-700">{model}</span>
@@ -136,3 +154,4 @@ export default function QuestionCard({
     </div>
   );
 }
+

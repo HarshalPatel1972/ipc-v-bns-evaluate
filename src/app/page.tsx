@@ -3,35 +3,61 @@
 import { useState, useEffect } from "react";
 import { ALL_BATCHES, MODELS } from "@/lib/data";
 import QuestionCard from "@/components/QuestionCard";
-import { Download, CheckCircle, FolderOpen } from "lucide-react";
+import UserModal from "@/components/UserModal";
+import UserLogs from "@/components/UserLogs";
+import { Download, CheckCircle, FolderOpen, Users, LogIn } from "lucide-react";
 
 export type Grade = "correct" | "somewhat correct" | "wrong" | "no answer" | null;
 
-// The state structure: grades[batchId][questionIndex][modelName] = Grade
-export type GlobalGrades = Record<number, Record<number, Record<string, Grade>>>;
+// The state structure: 
+// grades[batchId][questionIndex][modelName] = Grade
+// gradedBy[batchId][questionIndex][modelName] = userName
+export type GlobalGrades = {
+  grades: Record<number, Record<number, Record<string, Grade>>>;
+  gradedBy: Record<number, Record<number, Record<string, string>>>;
+  userStats: Record<string, number>;
+};
 
 export default function Home() {
   const [activeBatchId, setActiveBatchId] = useState<number>(1);
-  const [grades, setGrades] = useState<GlobalGrades>({});
+  const [data, setData] = useState<GlobalGrades>({ grades: {}, gradedBy: {}, userStats: {} });
   const [isLoaded, setIsLoaded] = useState(false);
   const [lastLocalChange, setLastLocalChange] = useState<number>(0);
   const [syncStatus, setSyncStatus] = useState<"synced" | "saving" | "error">("synced");
+  
+  // User Management
+  const [userName, setUserName] = useState<string | null>(null);
+  const [showUserModal, setShowUserModal] = useState(false);
+  const [showLogs, setShowLogs] = useState(false);
+
+  // Load username on mount
+  useEffect(() => {
+    const savedName = localStorage.getItem('evaluator_user_name');
+    if (savedName) {
+      setUserName(savedName);
+    } else {
+      setShowUserModal(true);
+    }
+  }, []);
+
+  const handleNameSubmit = (name: string) => {
+    setUserName(name);
+    localStorage.setItem('evaluator_user_name', name);
+    setShowUserModal(false);
+  };
 
   // Load from global API
   const fetchGrades = async () => {
-    // Don't overwrite if we have a very recent local change (less than 5s old)
     if (Date.now() - lastLocalChange < 5000) return;
 
     try {
       const res = await fetch('/api/grades', { cache: 'no-store' });
       if (!res.ok) return;
-      const data = await res.json();
+      const json = await res.json();
       
-      // Merge strategy: Server wins unless we have a lock
-      setGrades(prev => {
-        // Simple stringify check to avoid unnecessary updates
-        if (JSON.stringify(prev) === JSON.stringify(data)) return prev;
-        return data || {};
+      setData(prev => {
+        if (JSON.stringify(prev) === JSON.stringify(json)) return prev;
+        return json || { grades: {}, gradedBy: {}, userStats: {} };
       });
       setIsLoaded(true);
     } catch (e) {
@@ -40,14 +66,13 @@ export default function Home() {
     }
   };
 
-  // Initial load and polling
   useEffect(() => {
     fetchGrades();
-    const interval = setInterval(fetchGrades, 8000); // Poll every 8 seconds
+    const interval = setInterval(fetchGrades, 5000);
     return () => clearInterval(interval);
   }, [lastLocalChange]);
 
-  // Save to global API when grades change
+  // Save to global API when data changes
   useEffect(() => {
     if (!isLoaded || lastLocalChange === 0) return;
     
@@ -57,7 +82,7 @@ export default function Home() {
         const res = await fetch('/api/grades', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(grades),
+          body: JSON.stringify(data),
         });
         if (res.ok) setSyncStatus("synced");
         else setSyncStatus("error");
@@ -66,9 +91,9 @@ export default function Home() {
       }
     };
 
-    const timeout = setTimeout(saveData, 1000); // Debounce saves
+    const timeout = setTimeout(saveData, 1000);
     return () => clearTimeout(timeout);
-  }, [grades, isLoaded, lastLocalChange]);
+  }, [data, isLoaded, lastLocalChange]);
 
   const handleGradeChange = (
     batchId: number,
@@ -76,15 +101,45 @@ export default function Home() {
     model: string,
     grade: Grade
   ) => {
+    // If no name, prompt them
+    if (!userName) {
+      setShowUserModal(true);
+      return;
+    }
+
     setLastLocalChange(Date.now());
-    setGrades((prev) => {
-      const next = { ...prev };
-      if (!next[batchId]) next[batchId] = {};
-      if (!next[batchId][questionIndex]) next[batchId][questionIndex] = {};
-      next[batchId][questionIndex] = {
-        ...next[batchId][questionIndex],
-        [model]: grade,
-      };
+    setData((prev) => {
+      const next = JSON.parse(JSON.stringify(prev)) as GlobalGrades;
+      
+      // Update Grade
+      if (!next.grades[batchId]) next.grades[batchId] = {};
+      if (!next.grades[batchId][questionIndex]) next.grades[batchId][questionIndex] = {};
+      
+      const prevGrade = next.grades[batchId][questionIndex][model];
+      next.grades[batchId][questionIndex][model] = grade;
+
+      // Update Attribution
+      if (!next.gradedBy[batchId]) next.gradedBy[batchId] = {};
+      if (!next.gradedBy[batchId][questionIndex]) next.gradedBy[batchId][questionIndex] = {};
+      
+      if (grade === null) {
+        delete next.gradedBy[batchId][questionIndex][model];
+      } else {
+        next.gradedBy[batchId][questionIndex][model] = userName;
+      }
+
+      // Update userStats (only if new or changed)
+      if (userName) {
+        if (!next.userStats) next.userStats = {};
+        
+        // If they changed a grade or added a new one, count it
+        if (!prevGrade && grade) {
+          next.userStats[userName] = (next.userStats[userName] || 0) + 1;
+        } else if (prevGrade && !grade) {
+          next.userStats[userName] = Math.max(0, (next.userStats[userName] || 0) - 1);
+        }
+      }
+
       return next;
     });
   };
@@ -96,12 +151,14 @@ export default function Home() {
       batches: ALL_BATCHES.map((b) => ({
         batchId: b.batchId,
         questions: b.questions.map((q, qIndex) => {
-          const questionGrades: Record<string, { answer: string; evaluation: Grade | null }> = {};
+          const questionGrades: Record<string, { answer: string; evaluation: Grade | null, author?: string }> = {};
           MODELS.forEach((model) => {
-            const grade = grades[b.batchId]?.[qIndex]?.[model] || null;
+            const grade = data.grades[b.batchId]?.[qIndex]?.[model] || null;
+            const author = data.gradedBy[b.batchId]?.[qIndex]?.[model];
             questionGrades[model] = {
               answer: b.modelAnswers[model]?.[qIndex] || "No answer extracted",
               evaluation: grade,
+              author: author
             };
           });
           return {
@@ -113,13 +170,11 @@ export default function Home() {
       })),
     };
 
-    const blob = new Blob([JSON.stringify(exportData, null, 2)], {
-      type: "application/json",
-    });
+    const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: "application/json" });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = `bns_eval_results_all_batches_${Date.now()}.json`;
+    a.download = `bns_eval_results_complete_${Date.now()}.json`;
     a.click();
     URL.revokeObjectURL(url);
   };
@@ -127,18 +182,15 @@ export default function Home() {
   const activeBatch = ALL_BATCHES.find((b) => b.batchId === activeBatchId);
   if (!activeBatch) return null;
 
-  // Calculate overall progress across all batches
+  // Calculate overall progress
   const totalQuestions = ALL_BATCHES.reduce((acc, b) => acc + b.questions.length, 0);
   let gradedQuestionsCount = 0;
   ALL_BATCHES.forEach((b) => {
     b.questions.forEach((_, qIndex) => {
-      const qGrades = grades[b.batchId]?.[qIndex];
-      // A question is "graded" if ALL models have a non-null grade
+      const qGrades = data.grades[b.batchId]?.[qIndex];
       if (qGrades) {
         const hasAllModelsGraded = MODELS.every((m) => qGrades[m] !== undefined && qGrades[m] !== null);
-        if (hasAllModelsGraded) {
-          gradedQuestionsCount++;
-        }
+        if (hasAllModelsGraded) gradedQuestionsCount++;
       }
     });
   });
@@ -147,6 +199,9 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 font-sans pb-20">
+      <UserModal isOpen={showUserModal} onClose={() => setShowUserModal(false)} onNameSubmit={handleNameSubmit} />
+      <UserLogs isOpen={showLogs} onClose={() => setShowLogs(false)} logs={data.userStats || {}} />
+
       {/* Header */}
       <header className="sticky top-0 z-50 bg-white border-b border-slate-200 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
@@ -160,46 +215,48 @@ export default function Home() {
           </div>
           
           <div className="flex items-center gap-6">
-            <div className="flex flex-col items-end">
+            {/* Progress Bar */}
+            <div className="hidden lg:flex flex-col items-end">
               <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">Overall Progress</span>
               <div className="flex items-center gap-3">
-                <div className="w-48 h-2 rounded-full bg-slate-100 overflow-hidden">
-                  <div 
-                    className="h-full bg-indigo-500 rounded-full transition-all duration-500 ease-out"
-                    style={{ width: `${progressPercentage}%` }}
-                  />
+                <div className="w-32 h-2 rounded-full bg-slate-100 overflow-hidden">
+                  <div className="h-full bg-indigo-500 rounded-full transition-all duration-500" style={{ width: `${progressPercentage}%` }} />
                 </div>
-                <span className="text-sm font-bold text-slate-700 w-12 text-right">{gradedQuestionsCount}/{totalQuestions}</span>
+                <span className="text-sm font-bold text-slate-700">{gradedQuestionsCount}/{totalQuestions}</span>
               </div>
             </div>
 
-            <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-100 min-w-[100px] justify-center">
-              {syncStatus === "saving" && (
-                <>
-                  <div className="w-2 h-2 rounded-full bg-yellow-400 animate-pulse" />
-                  <span className="text-[11px] font-bold text-slate-500 uppercase tracking-wider">Saving...</span>
-                </>
-              )}
-              {syncStatus === "synced" && (
-                <>
-                  <div className="w-2 h-2 rounded-full bg-green-500" />
-                  <span className="text-[11px] font-bold text-slate-500 uppercase tracking-wider">Synced</span>
-                </>
-              )}
-              {syncStatus === "error" && (
-                <>
-                  <div className="w-2 h-2 rounded-full bg-red-500" />
-                  <span className="text-[11px] font-bold text-slate-500 uppercase tracking-wider">Sync Error</span>
-                </>
-              )}
+            {/* Sync Status */}
+            <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 min-w-[100px] justify-center">
+              <div className={`w-2 h-2 rounded-full ${syncStatus === "saving" ? "bg-yellow-400 animate-pulse" : syncStatus === "error" ? "bg-red-500" : "bg-green-500"}`} />
+              <span className="text-[10px] font-bold text-slate-500 uppercase tracking-widest">
+                {syncStatus === "saving" ? "Saving" : syncStatus === "error" ? "Error" : "Synced"}
+              </span>
             </div>
-            
-            <button
-              onClick={handleExport}
-              className="flex items-center gap-2 px-4 py-2 bg-slate-900 hover:bg-slate-800 text-white text-sm font-medium rounded-lg transition-colors shadow-sm"
+
+            {/* User Profile */}
+            <button 
+              onClick={() => userName ? setShowLogs(true) : setShowUserModal(true)}
+              className="flex items-center gap-2 px-3 py-1.5 bg-indigo-50 border border-indigo-100 rounded-xl hover:bg-indigo-100 transition-all text-indigo-700 group"
             >
-              <Download size={16} />
-              Export JSON
+              {userName ? (
+                <>
+                  <div className="w-6 h-6 rounded-lg bg-indigo-600 text-white flex items-center justify-center text-[10px] font-black uppercase">
+                    {userName.split(' ').map(n => n[0]).join('').toUpperCase().substring(0, 2)}
+                  </div>
+                  <span className="text-xs font-bold whitespace-nowrap hidden sm:block">{userName}</span>
+                  <Users size={14} className="text-indigo-400 group-hover:text-indigo-600" />
+                </>
+              ) : (
+                <>
+                  <LogIn size={14} />
+                  <span className="text-xs font-bold">Sign In</span>
+                </>
+              )}
+            </button>
+            
+            <button onClick={handleExport} className="p-2.5 bg-slate-900 hover:bg-slate-800 text-white rounded-xl transition-all shadow-sm">
+              <Download size={18} />
             </button>
           </div>
         </div>
@@ -224,25 +281,30 @@ export default function Home() {
           ))}
         </div>
 
-        {/* Dashboard Title */}
-        <div className="mb-8">
-          <h2 className="text-3xl font-bold text-slate-900">Batch {activeBatch.batchId} Evaluation</h2>
-          <p className="text-slate-500 mt-2 text-lg">
-            Reviewing {activeBatch.questions.length} questions. Compare the AI outputs against the official BNS framework.
-          </p>
+        <div className="mb-8 flex flex-col md:flex-row md:items-end justify-between gap-4">
+          <div>
+            <h2 className="text-3xl font-bold text-slate-900">Batch {activeBatch.batchId} Evaluation</h2>
+            <p className="text-slate-500 mt-1 text-lg">Compare AI model responses against the official BNS framework.</p>
+          </div>
+          <button 
+            onClick={() => setShowLogs(true)}
+            className="flex items-center gap-2 text-indigo-600 font-bold text-sm bg-indigo-50 px-4 py-2 rounded-lg hover:bg-indigo-100 transition-all border border-indigo-100 w-fit"
+          >
+            <Users size={16} />
+            View Team Activity
+          </button>
         </div>
 
-        {/* Questions List */}
         <div className="space-y-8">
           {activeBatch.questions.map((question, qIndex) => (
             <QuestionCard
               key={`${activeBatch.batchId}-${qIndex}`}
-              batchId={activeBatch.batchId}
               questionIndex={qIndex}
               questionText={question}
               models={MODELS}
               modelAnswers={activeBatch.modelAnswers}
-              grades={grades[activeBatch.batchId]?.[qIndex] || {}}
+              grades={data.grades[activeBatch.batchId]?.[qIndex] || {}}
+              gradedBy={data.gradedBy[activeBatch.batchId]?.[qIndex] || {}}
               onGradeChange={(model, grade) => handleGradeChange(activeBatch.batchId, qIndex, model, grade)}
             />
           ))}
@@ -251,3 +313,4 @@ export default function Home() {
     </div>
   );
 }
+
