@@ -15,23 +15,33 @@ export default function Home() {
   const [grades, setGrades] = useState<GlobalGrades>({});
   const [isLoaded, setIsLoaded] = useState(false);
 
-  // Load from global API on mount
+  // Load from global API
+  const fetchGrades = async () => {
+    try {
+      const res = await fetch('/api/grades', { cache: 'no-store' });
+      const data = await res.json();
+      setGrades(data || {});
+      setIsLoaded(true);
+    } catch (e) {
+      console.error("Failed to load global grades", e);
+      setIsLoaded(true);
+    }
+  };
+
+  // Initial load and polling
   useEffect(() => {
-    fetch('/api/grades')
-      .then(res => res.json())
-      .then(data => {
-        setGrades(data || {});
-        setIsLoaded(true);
-      })
-      .catch(e => {
-        console.error("Failed to load global grades", e);
-        setIsLoaded(true);
-      });
+    fetchGrades();
+    const interval = setInterval(fetchGrades, 5000); // Poll every 5 seconds for sync
+    return () => clearInterval(interval);
   }, []);
 
   // Save to global API when grades change
   useEffect(() => {
     if (!isLoaded) return;
+    
+    // Prevent saving empty initial state back to server
+    if (Object.keys(grades).length === 0) return;
+
     fetch('/api/grades', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
