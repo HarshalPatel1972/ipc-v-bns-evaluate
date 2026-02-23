@@ -57,7 +57,13 @@ export default function Home() {
       
       setData(prev => {
         if (JSON.stringify(prev) === JSON.stringify(json)) return prev;
-        return json || { grades: {}, gradedBy: {}, userStats: {} };
+        
+        // Ensure the data structure is always valid even if server returns partially empty
+        return {
+          grades: json?.grades || {},
+          gradedBy: json?.gradedBy || {},
+          userStats: json?.userStats || {}
+        };
       });
       setIsLoaded(true);
     } catch (e) {
@@ -111,6 +117,10 @@ export default function Home() {
     setData((prev) => {
       const next = JSON.parse(JSON.stringify(prev)) as GlobalGrades;
       
+      // Ensure structure exists
+      if (!next.grades) next.grades = {};
+      if (!next.gradedBy) next.gradedBy = {};
+      
       // Update Grade
       if (!next.grades[batchId]) next.grades[batchId] = {};
       if (!next.grades[batchId][questionIndex]) next.grades[batchId][questionIndex] = {};
@@ -153,8 +163,8 @@ export default function Home() {
         questions: b.questions.map((q, qIndex) => {
           const questionGrades: Record<string, { answer: string; evaluation: Grade | null, author?: string }> = {};
           MODELS.forEach((model) => {
-            const grade = data.grades[b.batchId]?.[qIndex]?.[model] || null;
-            const author = data.gradedBy[b.batchId]?.[qIndex]?.[model];
+            const grade = data?.grades?.[b.batchId]?.[qIndex]?.[model] || null;
+            const author = data?.gradedBy?.[b.batchId]?.[qIndex]?.[model];
             questionGrades[model] = {
               answer: b.modelAnswers[model]?.[qIndex] || "No answer extracted",
               evaluation: grade,
@@ -187,7 +197,7 @@ export default function Home() {
   let gradedQuestionsCount = 0;
   ALL_BATCHES.forEach((b) => {
     b.questions.forEach((_, qIndex) => {
-      const qGrades = data.grades[b.batchId]?.[qIndex];
+      const qGrades = data?.grades?.[b.batchId]?.[qIndex];
       if (qGrades) {
         const hasAllModelsGraded = MODELS.every((m) => qGrades[m] !== undefined && qGrades[m] !== null);
         if (hasAllModelsGraded) gradedQuestionsCount++;
@@ -303,8 +313,8 @@ export default function Home() {
               questionText={question}
               models={MODELS}
               modelAnswers={activeBatch.modelAnswers}
-              grades={data.grades[activeBatch.batchId]?.[qIndex] || {}}
-              gradedBy={data.gradedBy[activeBatch.batchId]?.[qIndex] || {}}
+              grades={data?.grades?.[activeBatch.batchId]?.[qIndex] || {}}
+              gradedBy={data?.gradedBy?.[activeBatch.batchId]?.[qIndex] || {}}
               onGradeChange={(model, grade) => handleGradeChange(activeBatch.batchId, qIndex, model, grade)}
             />
           ))}
