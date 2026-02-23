@@ -2,7 +2,8 @@ import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 
-const GRADES_FILE = path.join(process.cwd(), 'global_grades.json');
+// Save to public dir to ensure stability across hot reloads and easy access
+const GRADES_FILE = path.join(process.cwd(), 'public', 'global_grades.json');
 
 export async function GET() {
   try {

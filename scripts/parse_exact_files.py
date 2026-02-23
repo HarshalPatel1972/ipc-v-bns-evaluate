@@ -36,7 +36,8 @@ def parse():
         q_lines = [q.strip() for q in questions_text.split('\n') if q.strip()]
         questions = []
         for line in q_lines:
-            q = re.sub(r'^\D*\d+[\.\)]?\s*', '', line).strip()
+            # Only match numbering pattern exactly at the very start of the string, e.g., '1.', '2)', ' 1 '
+            q = re.sub(r'^\s*\d+[\.\)]?\s+', '', line).strip()
             if q and len(q) > 10:
                 questions.append(q)
                 
