@@ -1,0 +1,178 @@
+BATCH 2 (21-40)
+ What is the specific sub-section for the punishment of murder committed by a group of five or more persons on grounds of race, caste, or personal belief under the BNS?
+Under the BNS, a new offence was introduced specifically for snatching chains or bags. What is the section number for snatching?
+Which BNS section explicitly defines and punishes 'Organized Crime' for the first time in India's general penal code?
+The BNS incorporates terrorism into the general penal law. What section penalizes a 'Terrorist Act'?
+What is the new BNS section that criminalizes sexual intercourse by employing deceitful means or making a false promise to marry?
+Which section of the BNS prescribes an enhanced 10-year punishment for causing death by rash driving and fleeing the scene without reporting it?
+What is the BNS section for 'Unnatural Offences' previously criminalized under the old penal code?
+Under the BNS, multiple provisions relating to receiving and concealing stolen property have been consolidated into which single section?
+What section of the BNS penalizes a general 'Attempt to Commit Suicide' by a distressed citizen?
+Under the BNS, what section penalizes attempting suicide specifically to compel or restrain a public servant from exercising their lawful power?
+In the BNS, the punishment for being a party to a 'Criminal Conspiracy' is defined under which section?
+What is the section for 'Adultery' under the new Bharatiya Nyaya Sanhita?
+Under which BNS section is the general exception for an 'Act of a person of unsound mind' covered?
+What BNS section dictates when the right of private defense of the body legally extends to causing death?
+Since Sedition was repealed, what new BNS section penalizes acts endangering the sovereignty, unity, and integrity of India?
+What is the section for the punishment of Criminal Intimidation under the BNS?
+If a person commits house-trespass to commit an offence, what BNS section applies?
+Which specific BNS section deals with 'Petty Organized Crime' like vehicle theft or pickpocketing by a gang?
+What is the BNS section defining a 'Public Nuisance'?
+Under the BNS, what section governs the gang rape of a woman under 18 years of age?
+
+ChatGPT 5.2
+Mob murder on caste/race/belief grounds — Section 103(2) BNS.
+Snatching — Section 304 BNS.
+Organized Crime — Section 111 BNS.
+Terrorist Act — Section 113 BNS.
+Sexual intercourse by deceit/false promise to marry — Section 69 BNS.
+Death by rash driving with hit-and-run (10-year punishment) — Section 106(2) BNS.
+Unnatural offences (old IPC 377 equivalent) — No separate section; repealed/not retained in BNS.
+Receiving or concealing stolen property (consolidated) — Section 317 BNS.
+Attempt to suicide by distressed citizen — Not punishable as an offence under BNS.
+Attempted suicide to compel public servant — Section 226 BNS.
+Criminal conspiracy punishment — Section 61 BNS.
+Adultery — No offence/section (decriminalized) under BNS.
+Act of person of unsound mind (general exception) — Section 22 BNS.
+Right of private defence extending to causing death — Section 38 BNS.
+Acts endangering sovereignty, unity and integrity of India (new sedition-type offence) — Section 152 BNS.
+Criminal intimidation punishment — Section 351 BNS.
+House-trespass to commit offence — Section 331 BNS.
+Petty Organized Crime — Section 112 BNS.
+Public nuisance definition — Section 270 BNS.
+Gang rape of woman under 18 years — Section 70(2) BNS.
+
+Claude Sonnet 4.6
+#	Offence / Query	BNS Section
+1	Murder by a group of 5+ on grounds of race, caste, or personal belief (Mob Lynching)	Section 103(2) – Punishment is death or life imprisonment with fine; a landmark new specific provision.
+2	Snatching (new offence for chain/bag snatching)	Section 304 – Punishable with imprisonment up to 3 years and fine.
+3	Organised Crime (first time in general penal law)	Section 111 – Covers organised criminal syndicates; punishable with rigorous imprisonment of 5 years to life, or death.
+4	Terrorist Act (incorporated into general penal law)	Section 113 – Punishable with rigorous imprisonment of life or death in fatal cases.
+5	Sexual intercourse by deceitful means / false promise of marriage	Section 69 – Punishable with imprisonment up to 10 years and fine.
+6	Death by rash driving + fleeing the scene without reporting	Section 106(2) – Enhanced punishment of up to 10 years and fine; a new specific sub-section.
+7	Unnatural Offences (IPC Section 377 equivalent)	Not retained in BNS – Consensual same-sex acts were decriminalised by the Supreme Court (Navtej Singh Johar, 2018); BNS omits this provision entirely.
+8	Receiving / Concealing Stolen Property (consolidated)	Section 317 – All related provisions consolidated here; punishable with imprisonment up to 3 years and/or fine.
+9	General Attempt to Commit Suicide by a distressed person	Effectively decriminalised – BNS omits the IPC Section 309 equivalent for ordinary citizens, aligning with the Mental Healthcare Act, 2017.
+10	Attempt to commit suicide to compel/restrain a public servant	Section 226 – Punishable with simple imprisonment up to 1 year and/or fine.
+11	Criminal Conspiracy	Section 61 – Punishment varies with the gravity of the conspired offence.
+12	Adultery	Not present in BNS – Omitted entirely, as IPC Section 497 was struck down by the Supreme Court in Joseph Shine v. Union of India (2018).
+13	General Exception: Act of a person of Unsound Mind	Section 22 – Mirrors the old IPC Section 84; act is not an offence if done in a state of unsoundness of mind.
+14	Right of Private Defence extending to causing Death	Section 37 – Specifies seven circumstances where the right extends to voluntarily causing death.
+15	Acts endangering Sovereignty, Unity & Integrity of India (replaced Sedition)	Section 152 – Broader and stricter than old Section 124A IPC; punishable with life imprisonment or up to 7 years and fine.
+16	Criminal Intimidation	Section 351 – Punishable with imprisonment up to 2 years and/or fine; aggravated forms carry higher penalties.
+17	House-trespass to commit an offence	Section 331 – Punishment depends on the nature of the offence intended; sub-sections prescribe varying terms.
+18	Petty Organised Crime (vehicle theft, pickpocketing by a gang)	Section 112 – Punishable with imprisonment of 1 to 7 years and fine; a new and distinct provision.
+19	Public Nuisance (definition)	Section 292 – Defines acts that cause common injury, danger, or annoyance to the public.
+20	Gang Rape of a woman under 18 years of age	Section 70(2) – Punishable with rigorous imprisonment for the remainder of natural life or death.
+
+Grok 4.1
+The specific sub-section for the punishment of murder committed by a group of five or more persons on grounds of race, caste, or personal belief under the BNS is Section 103(2). 
+Under the BNS, a new offence was introduced specifically for snatching chains or bags under Section 304. 
+The BNS section that explicitly defines and punishes 'Organized Crime' for the first time in India's general penal code is Section 111. 
+The section that penalizes a 'Terrorist Act' under the BNS is Section 113. 
+The new BNS section that criminalizes sexual intercourse by employing deceitful means or making a false promise to marry is Section 69. 
+The BNS section that prescribes an enhanced 10-year punishment for causing death by rash driving and fleeing the scene without reporting it is Section 106(2). 
+Under the BNS, 'Unnatural Offences' previously criminalized under the old penal code are no longer specifically provided for as a separate offence. 
+Under the BNS, multiple provisions relating to receiving and concealing stolen property have been consolidated into Section 317. 
+The BNS section that penalizes a general 'Attempt to Commit Suicide' by a distressed citizen is Section 226. 
+Under the BNS, the section that penalizes attempting suicide specifically to compel or restrain a public servant from exercising their lawful power is Section 227. 
+Under the BNS, the punishment for being a party to a 'Criminal Conspiracy' is defined under Section 61. 
+There is no section for 'Adultery' under the new Bharatiya Nyaya Sanhita as it has been omitted. 
+Under the BNS, the general exception for an 'Act of a person of unsound mind' is covered under Section 22. 
+The BNS section that dictates when the right of private defense of the body legally extends to causing death is Section 38. 
+Since Sedition was repealed, the new BNS section that penalizes acts endangering the sovereignty, unity, and integrity of India is Section 152. 
+The section for the punishment of Criminal Intimidation under the BNS is Section 351(2). 
+If a person commits house-trespass to commit an offence, Section 329 of the BNS applies. 
+The specific BNS section that deals with 'Petty Organized Crime' like vehicle theft or pickpocketing by a gang is Section 112. 
+The BNS section defining a 'Public Nuisance' is Section 268. 
+Under the BNS, the section that governs the gang rape of a woman under 18 years of age is Section 70(2).
+
+Indus Sarvam
+Under Section 103(2) of the Bharatiya Nyaya Sanhita 2023, murder committed by a group of five or more persons on grounds of race, caste, or personal belief is specifically punishable.
+Snatching chains or bags is penalized under Section 304 of the BNS.
+Organized Crime, for the first time in India's general penal code, is explicitly defined and punished under Section 111 of the BNS.
+A terrorist act is penalized under Section 113 of the Bharatiya Nyaya Sanhita.
+Sexual intercourse by employing deceitful means or making a false promise to marry is criminalized under Section 69 of the BNS.
+Death caused by rash driving and fleeing the scene is punishable under Section 281 of the BNS.
+Unnatural offences are covered under Section 377 of the BNS.
+Receiving and concealing stolen property has been consolidated under Section 317 of the BNS.
+Attempt to commit suicide by a distressed citizen is penalized under Section 110 of the BNS.
+Attempt to commit suicide specifically to compel or restrain a public servant from exercising lawful power is covered under Section 110(2) of the BNS.
+The punishment for being a party to a criminal conspiracy is defined under Section 61 of the BNS.
+Adultery has been completely repealed and no longer exists as an offence under the BNS.
+An act of a person of unsound mind is covered under the general exception in Section 22 of the BNS.
+The right of private defense of the body legally extends to causing death under Section 38 of the BNS.
+Section 152 of the BNS penalizes acts endangering the sovereignty, unity, and integrity of India, replacing the repealed sedition provision.
+Criminal intimidation is penalized under Section 351 of the BNS.
+House-trespass to commit an offence is covered under Section 329 of the BNS.
+Petty Organized Crime, like vehicle theft or pickpocketing by a gang, is defined under Section 112 of the BNS.
+A public nuisance is defined under Section 270 of the BNS.
+The gang rape of a woman under 18 years of age is specifically covered under Section 70 of the BNS.
+
+Gemini 3
+Murder by a group (Race/Caste/Belief): Section 103(2).
+Snatching: Section 304.
+Organized Crime: Section 111.
+Terrorist Act: Section 113.
+Sexual Intercourse by Deceitful Means/False Promise: Section 69.
+Death by Rash Driving (Hit and Run): Section 106(2).
+Unnatural Offences: Repealed (No corresponding section in BNS).
+Receiving/Concealing Stolen Property: Section 317.
+Attempt to Commit Suicide (Distressed Citizen): Decriminalized (Section 309 IPC has no general BNS equivalent).
+Attempt to Commit Suicide (to compel Public Servant): Section 226.
+Criminal Conspiracy: Section 61.
+Adultery: Repealed (No longer a criminal offence).
+Act of a Person of Unsound Mind: Section 22.
+Private Defense of Body extending to Death: Section 38.
+Acts Endangering Sovereignty, Unity, and Integrity (Replaces Sedition): Section 152.
+Criminal Intimidation: Section 351.
+House-trespass to Commit an Offence: Section 332.
+Petty Organized Crime: Section 112.
+Public Nuisance: Section 270.
+Gang Rape of a Woman under 18: Section 70(2).
+
+DeepSeek V3.2
+The punishment for murder by a group of five or more persons on grounds of race, caste, or personal belief is prescribed under Section 103(2) of the BNS .
+The specific section for snatching is Section 304 of the BNS .
+The offence of 'Organized Crime' is defined and penalized under Section 111 of the BNS .
+A 'Terrorist Act' is penalized under Section 113 of the BNS .
+Sexual intercourse by employing deceitful means or making a false promise to marry is criminalized under Section 69 of the BNS .
+The enhanced punishment for causing death by rash driving and fleeing the scene is prescribed under Section 106(2) of the BNS .
+The BNS has deleted the provision for 'Unnatural Offences' that was previously criminalized under Section 377 of the IPC .
+Provisions relating to receiving and concealing stolen property have been consolidated into Section 317 of the BNS .
+A general 'Attempt to Commit Suicide' is not an offence under the BNS as Section 309 of the IPC has been omitted .
+Attempting suicide to compel or restrain a public servant is penalized under Section 49 of the BNS.
+The punishment for being a party to a 'Criminal Conspiracy' is defined in Section 61(2) of the BNS .
+'Adultery' is no longer a criminal offence under the BNS, as Section 497 of the IPC has been omitted .
+The general exception for an 'Act of a person of unsound mind' is covered under Section 22 of the BNS.
+The right of private defense of the body extending to causing death is detailed under Section 34 of the BNS.
+Acts endangering the sovereignty, unity, and integrity of India are penalized under Section 152 of the BNS .
+The punishment for Criminal Intimidation is prescribed under Section 351 of the BNS.
+House-trespass to commit an offence is covered under Section 329 of the BNS.
+'Petty Organized Crime' is dealt with under Section 112 of the BNS.
+A 'Public Nuisance' is defined under Section 270 of the BNS.
+The gang rape of a woman under 18 years of age is governed by Section 70(2) of the BNS.
+
+Kruti
+1.	The punishment for murder committed by a group of five or more persons on grounds of race, caste, or personal belief is specified under Section 302(2) of the Bharatiya Nyaya Sanhita (BNS) 2023.
+2.	The new offence of snatching chains or bags is criminalized under Section 304 of the BNS.
+3.	The first explicit provision defining and punishing 'Organized Crime' in the BNS is found in Section 111.
+4.	A 'Terrorist Act' is penalized under Section 113 of the BNS.
+5.	The new BNS section that criminalizes sexual intercourse by employing deceitful means or making a false promise to marry is Section 69.
+6.	The enhanced 10-year punishment for causing death by rash driving and fleeing the scene without reporting it is prescribed under Section 106(2) of the BNS.
+7.	'Unnatural Offences' are addressed under Section 377 of the BNS.
+8.	Provisions related to receiving and concealing stolen property have been consolidated into Section 317 of the BNS.
+9.	The general 'Attempt to Commit Suicide' by a distressed citizen is penalized under Section 224 of the BNS.
+10.	Attempting suicide specifically to compel or restrain a public servant from exercising their lawful power is governed by Section 226 of the BNS.
+11.	The punishment for being a party to a 'Criminal Conspiracy' is defined under Section 61 of the BNS.
+12.	'Adultery' is addressed under Section 84 of the BNS, although it has been decriminalized and is not punishable as a standalone offence.
+13.	The general exception for an 'Act of a person of unsound mind' is covered under Section 22 of the BNS.
+14.	The right of private defense of the body legally extending to causing death is dictated under Section 38 of the BNS.
+15.	Since Sedition was repealed, the new BNS section penalizing acts endangering the sovereignty, unity, and integrity of India is Section 152.
+16.	The punishment for Criminal Intimidation is outlined in Section 351 of the BNS.
+17.	If a person commits house-trespass to commit an offence, the applicable BNS section is Section 332.
+18.	'Petty Organized Crime' like vehicle theft or pickpocketing by a gang is dealt with under Section 112 of the BNS.
+19.	'Public Nuisance' is defined under Section 268 of the BNS.
+20.	The gang rape of a woman under 18 years of age is addressed under Section 376(2)(n) of the BNS.
+Meta AI
+The specific sub-section for the punishment of murder committed by a group of five or more persons on grounds of race, caste, or personal belief under the BNS is Section 101(2). Under the BNS, snatching is addressed in Section 305. Section 111 of the BNS explicitly defines and punishes 'Organized Crime'. The BNS section that penalizes a 'Terrorist Act' is Section 113. The new BNS section that criminalizes sexual intercourse by employing deceitful means or making a false promise to marry is Section 69. Section 104(2) of the BNS prescribes an enhanced 10-year punishment for causing death by rash driving and fleeing the scene without reporting it. The BNS section for 'Unnatural Offences' is Section 72. Under the BNS, multiple provisions relating to receiving and concealing stolen property have been consolidated into Section 309. Section 224 of the BNS penalizes a general 'Attempt to Commit Suicide' by a distressed citizen. Under the BNS, attempting suicide specifically to compel or restrain a public servant from exercising their lawful power is penalized by Section 224(2). In the BNS, the punishment for being a party to a 'Criminal Conspiracy' is defined under Section 20. The BNS has decriminalized 'Adultery', so there is no specific section for its punishment. Under the BNS, the general exception for an 'Act of a person of unsound mind' is covered by Section 20. BNS Section 39 dictates when the right of private defense of the body legally extends to causing death. Since Sedition was repealed, Section 152 of the BNS penalizes acts endangering the sovereignty, unity, and integrity of India. The section for the punishment of Criminal Intimidation under the BNS is Section 351. If a person commits house-trespass to commit an offence, BNS Section 326 applies. Section 112 of the BNS specifically deals with 'Petty Organized Crime'. BNS Section 268 defines a 'Public Nuisance'. Under the BNS, Section 67 governs the gang rape of a woman under 18 years of age.

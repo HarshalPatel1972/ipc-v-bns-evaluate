@@ -1,0 +1,185 @@
+BATCH 4 (61-80)
+Under the Bharatiya Nyaya Sanhita (BNS), what is the specific section for rash driving or riding on a public way?
+What is the BNS section for causing the death of a person by doing any rash or negligent act not amounting to culpable homicide?
+If a person voluntarily obstructs a public servant in the discharge of their public functions, which BNS section applies?
+Under the new BNS, what section penalizes a clerk or officer for the falsification of accounts?
+What is the specific section number that defines and punishes 'Criminal Trespass' under the BNS?
+Which section of the BNS criminalizes the sale, distribution, or public exhibition of obscene books and materials?
+What is the BNS section for the specific offence of selling or distributing obscene objects to a child?
+If someone intentionally causes the disappearance of evidence to screen an offender from legal punishment, what BNS section applies?
+Under the BNS, what section penalizes disobedience to an order duly promulgated by a public servant?
+What is the section for injuring or defiling a place of worship with intent to insult the religion of any class under the BNS?
+If someone sings, recites, or utters obscene songs or words in a public place to the annoyance of others, what BNS section is violated?
+What is the specific BNS section for the adulteration of food or drink intended for sale?
+If a person is legally bound to furnish information to a public servant but provides false information, what BNS section applies?
+What is the section for the punishment of an 'Attempt to commit robbery' under the Bharatiya Nyaya Sanhita?
+If a person intentionally omits to attend a court or place in obedience to a summons from a public servant, what BNS section is violated?
+What is the specific BNS section that defines the offence of 'Public Nuisance'?
+Under the BNS, what section penalizes the fraudulent use of a forged document or electronic record as a genuine one?
+What BNS section applies if a person legally bound to produce a document to a public servant intentionally omits to do so?
+If a person refuses to sign a statement made by them when legally required by a public servant, what BNS section applies?
+What is the BNS section for intentionally insulting or interrupting a public servant sitting in a judicial proceeding?
+
+
+ChatGPT 5.2
+Rash driving or riding on a public way — Section 281 BNS.
+Causing death by rash or negligent act — Section 106(1) BNS.
+Obstructing a public servant in discharge of duty — Section 221 BNS.
+Falsification of accounts by clerk/officer — Section 344 BNS.
+Criminal Trespass — Section 329 BNS.
+Sale/distribution/public exhibition of obscene materials — Section 294 BNS.
+Selling/distributing obscene objects to a child — Section 295 BNS.
+Causing disappearance of evidence to screen offender — Section 238 BNS.
+Disobedience to order duly promulgated by public servant — Section 223 BNS.
+Defiling place of worship to insult religion — Section 301 BNS.
+Obscene songs/words in public place — Section 296 BNS.
+Adulteration of food or drink for sale — Section 274 BNS.
+Giving false information when legally bound — Section 227 BNS.
+Attempt to commit robbery — Section 309 BNS.
+Omitting to attend in obedience to summons — Section 209 BNS.
+Public Nuisance (definition/offence) — Section 270 BNS.
+Fraudulent use of forged document as genuine — Section 338 BNS.
+Omission to produce document to public servant — Section 231 BNS.
+Refusing to sign statement when legally required — Section 232 BNS.
+Intentional insult/interruption to public servant in judicial proceeding — Section 354 BNS.
+
+Claude Sonnet 4.6
+#	Offence / Query	BNS Section
+1	Rash Driving or Riding on a Public Way	Section 281 – Punishable with imprisonment up to 6 months and/or fine up to ₹1,000.
+2	Causing Death by Rash or Negligent Act (not amounting to culpable homicide)	Section 106(1) – Punishable with imprisonment up to 5 years and fine.
+3	Voluntarily Obstructing a Public Servant in discharge of public functions	Section 221 – Punishable with imprisonment up to 3 months and/or fine up to ₹2,500.
+4	Falsification of Accounts by a clerk or officer	Section 336(3) – Punishable with imprisonment up to 7 years and/or fine.
+5	Criminal Trespass (definition and punishment)	Section 329(1) – Punishable with imprisonment up to 3 months and/or fine up to ₹5,000.
+6	Sale/Distribution/Public Exhibition of Obscene Books & Materials	Section 294 – Punishable with imprisonment up to 2 years and/or fine on first conviction; up to 5 years on subsequent conviction.
+7	Selling or Distributing Obscene Objects to a Child	Section 295 – Punishable with imprisonment up to 7 years and fine; a stringent child-protective provision.
+8	Causing Disappearance of Evidence to Screen an Offender	Section 238 – Punishable with imprisonment up to 7 years and/or fine, depending on the gravity of the screened offence.
+9	Disobedience to an Order Duly Promulgated by a Public Servant	Section 223 – Punishable with imprisonment up to 6 months and/or fine up to ₹1,000.
+10	Injuring or Defiling a Place of Worship with intent to insult religion	Section 299 – Punishable with imprisonment up to 2 years and/or fine.
+11	Uttering Obscene Songs or Words in a Public Place	Section 296 – Punishable with imprisonment up to 3 months and/or fine.
+12	Adulteration of Food or Drink Intended for Sale	Section 274 – Punishable with imprisonment up to 6 months and/or fine up to ₹5,000.
+13	Furnishing False Information to a Public Servant	Section 218 – Punishable with imprisonment up to 6 months and/or fine up to ₹5,000, or both.
+14	Attempt to Commit Robbery	Section 309(3) – Punishable with rigorous imprisonment up to 7 years and fine.
+15	Intentional Omission to Appear Before a Public Servant in obedience to summons	Section 209 – Punishable with imprisonment up to 1 month and/or fine up to ₹5,000.
+16	Public Nuisance (definition)	Section 292 – Defines any act that causes common injury, danger, or annoyance to the public or to people in general.
+17	Fraudulent Use of a Forged Document or Electronic Record as genuine	Section 340(2) – Punishable with imprisonment up to 7 years and fine; electronic records explicitly included under BNS.
+18	Intentional Omission to Produce a Document before a public servant when legally bound	Section 210 – Punishable with imprisonment up to 1 month and/or fine up to ₹5,000.
+19	Refusal to Sign a Statement when legally required by a public servant	Section 214 – Punishable with imprisonment up to 3 months and/or fine up to ₹3,000, or both.
+20	Intentionally Insulting or Interrupting a Public Servant in judicial proceedings	Section 228 – Punishable with imprisonment up to 1 year and/or fine up to ₹5,000.
+
+Grok 4.1
+Under the Bharatiya Nyaya Sanhita (BNS), the specific section that deals with rash driving or riding on a public way is Section 281. 
+The BNS section for causing the death of a person by doing any rash or negligent act not amounting to culpable homicide is Section 106(1). 
+If a person voluntarily obstructs a public servant in the discharge of their public functions, Section 197 of the BNS applies. 
+Under the new BNS, the section that penalizes a clerk or officer for the falsification of accounts is Section 344. 
+The specific section number that defines and punishes 'Criminal Trespass' under the BNS is Section 329. 
+The section of the BNS that criminalizes the sale, distribution, or public exhibition of obscene books and materials is Section 294. 
+The BNS section for the specific offence of selling or distributing obscene objects to a child is Section 296. 
+If someone intentionally causes the disappearance of evidence to screen an offender from legal punishment, Section 238 of the BNS applies. 
+Under the BNS, the section that penalizes disobedience to an order duly promulgated by a public servant is Section 209. 
+The section for injuring or defiling a place of worship with intent to insult the religion of any class under the BNS is Section 295. 
+If someone sings, recites, or utters obscene songs or words in a public place to the annoyance of others, Section 294 of the BNS is violated. 
+The specific BNS section for the adulteration of food or drink intended for sale is Section 272. 
+If a person is legally bound to furnish information to a public servant but provides false information, Section 212 of the BNS applies. 
+The section for the punishment of an 'Attempt to commit robbery' under the Bharatiya Nyaya Sanhita is Section 309 read with Section 61 (attempt provision). 
+If a person intentionally omits to attend a court or place in obedience to a summons from a public servant, Section 206 of the BNS is violated. 
+The specific BNS section that defines the offence of 'Public Nuisance' is Section 268. 
+Under the BNS, the section that penalizes the fraudulent use of a forged document or electronic record as a genuine one is Section 339. 
+If a person legally bound to produce a document to a public servant intentionally omits to do so, Section 211 of the BNS applies. 
+If a person refuses to sign a statement made by them when legally required by a public servant, Section 215 of the BNS applies. 
+The BNS section for intentionally insulting or interrupting a public servant sitting in a judicial proceeding is Section 228 (rephrased as insult to public servant in judicial proceeding).
+
+Indus Sarvam
+Traffic and Public Safety:
+•	Rash driving or riding on a public way: Section 281
+•	Causing death by rash or negligent act not amounting to culpable homicide: Section 106
+Public Servant Related Offences:
+•	Voluntarily obstructing a public servant in discharge of public functions: Section 221
+•	Falsification of accounts by clerk or officer: Section 344
+•	Disobedience to order duly promulgated by public servant: Section 223
+•	Legally bound to furnish information but provides false information: Section 212
+•	Legally bound to produce document but intentionally omits to do so: Section 210
+•	Refuses to sign statement when legally required by public servant: Section 211
+•	Intentionally insulting or interrupting public servant in judicial proceeding: Section 224
+Property and Trespass:
+•	Criminal trespass: Section 329
+•	Attempt to commit robbery: Section 312
+•	Public nuisance: Section 270
+Obscenity and Religious Offences:
+•	Sale, distribution, or public exhibition of obscene books and materials: Section 294
+•	Selling or distributing obscene objects to a child: Section 295
+•	Singing, reciting, or uttering obscene songs/words in public place: Section 296
+•	Injuring or defiling place of worship with intent to insult religion: Section 298
+Food Safety and Evidence:
+•	Adulteration of food or drink intended for sale: Section 274
+•	Intentionally causing disappearance of evidence to screen offender: Section 241
+Forensic and Legal Documents:
+•	Fraudulent use of forged document or electronic record as genuine: Section 340
+
+Gemini 3
+Rash Driving or Riding on a Public Way: Section 281.
+Death by Rash or Negligent Act (not murder): Section 106(1).
+Obstructing a Public Servant in Discharge of Functions: Section 221.
+Falsification of Accounts (by Clerk or Officer): Section 344.
+Criminal Trespass (Definition and Punishment): Section 329.
+Sale/Distribution/Exhibition of Obscene Materials: Section 294.
+Selling or Distributing Obscene Objects to a Child: Section 295.
+Disappearance of Evidence to Screen Offender: Section 238.
+Disobedience to Order Promulgated by Public Servant: Section 223.
+Injuring/Defiling Place of Worship to Insult Religion: Section 298.
+Obscene Songs or Words in a Public Place: Section 296.
+Adulteration of Food or Drink Intended for Sale: Section 274.
+Furnishing False Information to a Public Servant: Section 212.
+Attempt to Commit Robbery: Section 311 (General attempt) or Section 312 (if armed with a deadly weapon).
+Intentional Omission to Attend Court (Non-attendance): Section 208.
+Public Nuisance (Definition): Section 270.
+Fraudulent Use of Forged Document/Electronic Record: Section 340.
+Omission to Produce Document to Public Servant: Section 210.
+Refusal to Sign a Statement Made to a Public Servant: Section 215.
+Insult or Interruption to Public Servant in Judicial Proceeding: Section 267.
+
+DeepSeek V3.2
+Rash driving or riding on a public way is penalized under Section 281 of the BNS.
+Causing death by a rash or negligent act not amounting to culpable homicide is penalized under Section 106(1) of the BNS .
+Voluntarily obstructing a public servant in their public functions is an offence under Section 222 of the BNS.
+The falsification of accounts by a clerk or officer is penalized under Section 344 of the BNS.
+'Criminal Trespass' is defined and penalized under Section 329 of the BNS .
+The sale or exhibition of obscene books is an offence under Section 295 of the BNS.
+Selling or distributing obscene objects to a child is specifically penalized under Section 296 of the BNS.
+Causing the disappearance of evidence to screen an offender is an offence under Section 238 of the BNS.
+Disobedience to an order duly promulgated by a public servant is penalized under Section 223 of the BNS.
+Injuring or defiling a place of worship is an offence under Section 299 of the BNS.
+Singing or uttering obscene words in a public place is penalized under Section 297 of the BNS.
+The adulteration of food or drink intended for sale is covered under Section 273 of the BNS.
+Furnishing false information to a public servant is an offence under Section 229 of the BNS .
+An 'Attempt to commit robbery' is penalized under Section 309 of the BNS .
+Intentionally omitting to attend a court in obedience to a summons is an offence under Section 207 of the BNS.
+The offence of 'Public Nuisance' is defined under Section 270 of the BNS .
+Fraudulently using a forged document as genuine is an offence under Section 340 of the BNS.
+Intentionally omitting to produce a document to a public servant is penalized under Section 209 of the BNS.
+Refusing to sign a statement when legally required by a public servant is an offence under Section 214 of the BNS.
+Intentionally insulting or interrupting a public servant in a judicial proceeding is penalized under Section 260 of the BNS.
+
+Kruti
+1.	Section 281 of the Bharatiya Nyaya Sanhita (BNS) deals with rash driving or riding on a public way [1].
+2.	Section 106 of the BNS addresses causing the death of a person by doing any rash or negligent act not amounting to culpable homicide [2].
+3.	Section 221 of the BNS penalizes voluntarily obstructing a public servant in the discharge of their public functions [3].
+4.	Section 344 of the BNS criminalizes falsification of accounts by a clerk or officer [4].
+5.	Section 329 of the BNS defines and punishes Criminal Trespass [5].
+6.	Section 292 of the BNS criminalizes the sale, distribution, or public exhibition of obscene books and materials [6].
+7.	Section 295 of the BNS addresses the sale or distribution of obscene objects to a child [7].
+8.	Section 238 of the BNS applies if a person intentionally causes the disappearance of evidence to screen an offender from legal punishment [8].
+9.	Section 226 of the BNS penalizes disobedience to an order duly promulgated by a public servant [8].
+10.	Section 298 of the BNS prescribes the punishment for injuring or defiling a place of worship with intent to insult the religion of any class [10].
+11.	Section 299 of the BNS applies if a person sings, recites, or utters obscene songs or words in a public place to the annoyance of others.
+12.	Section 310 of the BNS addresses adulteration of food or drink intended for sale.
+13.	Section 227 of the BNS applies if a person is legally bound to furnish information to a public servant but provides false information [8].
+14.	Section 313 of the BNS prescribes the punishment for an 'Attempt to commit robbery'.
+15.	Section 269 of the BNS applies if a person intentionally omits to attend a court or place in obedience to a summons from a public servant [8].
+16.	Section 268 of the BNS defines the offence of Public Nuisance [8].
+17.	Section 314 of the BNS penalizes the fraudulent use of a forged document or electronic record as a genuine one.
+18.	Section 229 of the BNS applies if a person is legally bound to produce a document to a public servant and intentionally omits to do so [8].
+19.	Section 267 of the BNS applies if a person refuses to sign a statement made by them when legally required by a public servant [8].
+20.	Section 266 of the BNS prescribes the punishment for intentionally insulting or interrupting a public servant sitting in a judicial proceeding [8].
+
+Meta AI
+Under the Bharatiya Nyaya Sanhita (BNS), the specific section for rash driving or riding on a public way is Section 104. The BNS section for causing the death of a person by doing any rash or negligent act not amounting to culpable homicide is Section 104. If a person voluntarily obstructs a public servant in the discharge of their public functions, BNS Section 199 applies. Under the new BNS, Section 317 penalizes a clerk or officer for the falsification of accounts. The specific section number that defines and punishes 'Criminal Trespass' under the BNS is Section 326. Section 358 of the BNS criminalizes the sale, distribution, or public exhibition of obscene books and materials. The BNS section for the specific offence of selling or distributing obscene objects to a child is Section 359. If someone intentionally causes the disappearance of evidence to screen an offender from legal punishment, BNS Section 220 applies. Under the BNS, Section 195 penalizes disobedience to an order duly promulgated by a public servant. The section for injuring or defiling a place of worship with intent to insult the religion of any class under the BNS is Section 295. If someone sings, recites, or utters obscene songs or words in a public place to the annoyance of others, BNS Section 360 is violated. The specific BNS section for the adulteration of food or drink intended for sale is Section 293. If a person is legally bound to furnish information to a public servant but provides false information, BNS Section 197 applies. The section for the punishment of an 'Attempt to commit robbery' under the Bharatiya Nyaya Sanhita is Section 307. If a person intentionally omits to attend a court or place in obedience to a summons from a public servant, BNS Section 196 is violated. The specific BNS section that defines the offence of 'Public Nuisance' is Section 268. Under the BNS, Section 343 penalizes the fraudulent use of a forged document or electronic record as a genuine one. BNS Section 198 applies if a person legally bound to produce a document to a public servant intentionally omits to do so. If a person refuses to sign a statement made by them when legally required by a public servant, BNS Section 200 applies. The BNS section for intentionally insulting or interrupting a public servant sitting in a judicial proceeding is Section 202.

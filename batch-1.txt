@@ -1,0 +1,180 @@
+Batch 1(1-20):
+1.	Under the current Bharatiya Nyaya Sanhita (BNS) 2023, what is the specific section for the punishment of murder?
+2.	A person is caught cheating and dishonestly inducing the delivery of property. What BNS section applies to this crime?
+3.	What is the section for the punishment of rape under the new Indian criminal laws (BNS)?
+4.	If someone commits theft of a mobile phone, under which section of the Bharatiya Nyaya Sanhita will they be charged?
+5.	What is the specific penal section for 'Dowry Death' under the BNS?
+6.	Under the current BNS framework, what section penalizes an attempt to commit murder?
+7.	A child is kidnapped from lawful guardianship. Which BNS section prescribes the punishment for this?
+8.	If a person publishes false statements to ruin someone's reputation, what is the section for defamation under the BNS?
+9.	What is the exact section for 'Sedition' (Rajdroh) under the Bharatiya Nyaya Sanhita?
+10.	Under which section of the BNS is the punishment for being a party to a criminal conspiracy defined?
+11.	When five or more persons conjointly commit robbery, it is dacoity. What is the punishment section under the BNS?
+12.	What is the specific section for the punishment of robbery under the newly enacted BNS?
+13.	If someone commits extortion by putting a person in fear of injury, what BNS section is applicable?
+14.	What is the section for punishment of culpable homicide not amounting to murder in the BNS?
+15.	A person voluntarily slaps another during an argument. What is the section for voluntarily causing hurt under the BNS?
+16.	Under the BNS, what section deals with the punishment for voluntarily causing grievous hurt?
+17.	An employee embezzles company funds. Under which BNS section is criminal breach of trust penalized?
+18.	What is the section for the punishment of forgery under the Bharatiya Nyaya Sanhita?
+19.	If a person intentionally damages someone else's property, what is the section for Mischief under the BNS?
+20.	What is the BNS section for the punishment of wrongful confinement of a person?
+
+ChatGPT 5.2
+Punishment of murder — Section 103 BNS.
+Cheating and dishonestly inducing delivery of property — Section 318 BNS.
+Punishment of rape — Section 64 BNS.
+Theft of a mobile phone — Section 303 BNS.
+Dowry death — Section 80 BNS.
+Attempt to commit murder — Section 109 BNS.
+Kidnapping from lawful guardianship — Section 137 BNS.
+Defamation — Section 356 BNS.
+Sedition (Rajdroh) — Section 152 BNS (acts endangering sovereignty, unity and integrity of India).
+Criminal conspiracy punishment — Section 61 BNS.
+Dacoity punishment — Section 310 BNS.
+Robbery punishment — Section 309 BNS.
+Extortion by fear of injury — Section 308 BNS.
+Culpable homicide not amounting to murder — Section 105 BNS.
+Voluntarily causing hurt — Section 115 BNS.
+Voluntarily causing grievous hurt — Section 117 BNS.
+Criminal breach of trust — Section 316 BNS.
+Forgery punishment — Section 336 BNS.
+Mischief (damage to property) — Section 324 BNS.
+Wrongful confinement punishment — Section 127 BNS.
+
+Claude Sonnet 4.6
+#	Offence	BNS Section
+1	Murder	Section 101 – Punishment is death or imprisonment for life, with fine.
+2	Cheating & dishonestly inducing delivery of property	Section 318 – Punishable with imprisonment up to 7 years and fine.
+3	Rape	Section 63 – Defines rape, with punishment under Section 64.
+4	Theft (of mobile phone or any property)	Section 303 – Punishable with imprisonment up to 3 years and/or fine.
+5	Dowry Death	Section 80 – Punishable with imprisonment of 7 years to life.
+6	Attempt to commit Murder	Section 109 – Punishable with imprisonment up to 10 years and fine.
+7	Kidnapping from lawful guardianship	Section 137 – Punishable with imprisonment up to 7 years and fine.
+8	Defamation	Section 356 – Punishable with simple imprisonment up to 2 years and/or fine.
+9	Sedition (Acts against sovereignty/integrity of India)	Section 152 – BNS replaced classic sedition; this section penalizes acts endangering sovereignty, unity & integrity of India.
+10	Criminal Conspiracy	Section 61 – Punishable based on the gravity of the conspired offence.
+11	Dacoity (robbery by 5 or more persons)	Section 310 – Punishable with rigorous imprisonment for life or up to 10 years, and fine.
+12	Robbery	Section 309 – Punishable with rigorous imprisonment up to 10 years and fine.
+13	Extortion	Section 308 – Punishable with imprisonment up to 3 years and/or fine.
+14	Culpable Homicide not amounting to Murder	Section 99 – Punishable with imprisonment for life or up to 10 years, and fine.
+15	Voluntarily Causing Hurt	Section 115 – Punishable with imprisonment up to 1 year and/or fine up to ₹10,000.
+16	Voluntarily Causing Grievous Hurt	Section 117 – Punishable with imprisonment up to 7 years and fine.
+17	Criminal Breach of Trust (Embezzlement)	Section 316 – Punishable with imprisonment up to 3 years and/or fine.
+18	Forgery	Section 336 – Punishable with imprisonment up to 2 years and/or fine.
+19	Mischief (intentional property damage)	Section 324 – Punishable with imprisonment up to 3 months and/or fine.
+20	Wrongful Confinement	Section 126 – Punishable with simple imprisonment up to 1 year and/or fine up to ₹5,000.
+
+Grok 4.1
+Under the current Bharatiya Nyaya Sanhita (BNS) 2023, the specific section for the punishment of murder is Section 103. 
+A person caught cheating and dishonestly inducing the delivery of property is charged under Section 318 of the BNS. 
+The section for the punishment of rape under the new Indian criminal laws (BNS) is Section 64. 
+If someone commits theft of a mobile phone, they will be charged under Section 303 of the Bharatiya Nyaya Sanhita. 
+The specific penal section for 'Dowry Death' under the BNS is Section 80. 
+Under the current BNS framework, the section that penalizes an attempt to commit murder is Section 109. 
+A child kidnapped from lawful guardianship attracts punishment under Section 137 of the BNS. 
+If a person publishes false statements to ruin someone's reputation, the section for defamation under the BNS is Section 356. 
+The exact section for 'Sedition' (Rajdroh) under the Bharatiya Nyaya Sanhita is Section 152 (acts endangering sovereignty, unity and integrity of India). 
+Under Section 61 of the BNS, the punishment for being a party to a criminal conspiracy is defined. 
+When five or more persons conjointly commit robbery, it is dacoity, and the punishment section under the BNS is Section 310. 
+The specific section for the punishment of robbery under the newly enacted BNS is Section 309. 
+If someone commits extortion by putting a person in fear of injury, the applicable BNS section is Section 308. 
+The section for punishment of culpable homicide not amounting to murder in the BNS is Section 105. 
+A person who voluntarily slaps another during an argument is charged for voluntarily causing hurt under Section 115 of the BNS. 
+Under the BNS, the section dealing with the punishment for voluntarily causing grievous hurt is Section 117. 
+An employee who embezzles company funds is penalized for criminal breach of trust under Section 316 of the BNS. 
+The section for the punishment of forgery under the Bharatiya Nyaya Sanhita is Section 336. 
+If a person intentionally damages someone else's property, the section for mischief under the BNS is Section 324. 
+The BNS section for the punishment of wrongful confinement of a person is Section 127.
+
+Indus Sarvam
+Under the Bharatiya Nyaya Sanhita 2023, murder is punishable under Section 103.
+Cheating and dishonestly inducing delivery of property falls under Section 318.
+Rape is defined under Section 63 with punishment specified under Section 64.
+Theft of a mobile phone is punishable under Section 303.
+Dowry Death is covered under Section 80 of the BNS.
+Attempt to commit murder is penalized under Section 109.
+Kidnapping from lawful guardianship is punishable under Section 137.
+Defamation is covered under Section 356 of the BNS.
+The section for sedition (Rajdroh) under the Bharatiya Nyaya Sanhita is not mentioned in the available sources.
+Criminal conspiracy is penalized under Section 61 of the BNS.
+Dacoity (five or more persons conjointly committing robbery) is punishable under Section 310.
+Robbery is covered under Section 309 of the BNS.
+Extortion is punishable under Section 308.
+Culpable homicide not amounting to murder is covered under Section 105.
+Voluntarily causing hurt is penalized under Section 115.
+Voluntarily causing grievous hurt is covered under Section 116.
+Criminal breach of trust is punishable under Section 316.
+Forgery is penalized under Section 336.
+Mischief is covered under Section 324.
+Wrongful confinement is punishable under Section 127.
+
+Gemini 3
+Punishment for Murder: Section 103.
+Cheating and Dishonestly Inducing Delivery of Property: Section 318(4).
+Punishment for Rape: Section 64.
+Theft (Mobile Phone): Section 303(2).
+Dowry Death: Section 80.
+Attempt to Murder: Section 109.
+Kidnapping from Lawful Guardianship: Section 137(2).
+Defamation: Section 356.
+Sedition (Acts Endangering Sovereignty, Unity, and Integrity of India): Section 152.
+Criminal Conspiracy: Section 61(2).
+Dacoity: Section 310(2).
+Robbery: Section 309(4).
+Extortion: Section 308(2).
+Culpable Homicide Not Amounting to Murder: Section 105.
+Voluntarily Causing Hurt: Section 115(2).
+Voluntarily Causing Grievous Hurt: Section 117(2).
+Criminal Breach of Trust (by Clerk/Servant): Section 316(4).
+Forgery: Section 336(2).
+Mischief: Section 324(2).
+Wrongful Confinement: Section 127(2).
+
+DeepSeek V3.2
+The definition of murder is found in Section 101 of the BNS, while its punishment is under Section 103(1) .
+The applicable section for cheating and dishonestly inducing delivery of property is Section 318(4) of the BNS .
+The punishment for rape is prescribed under Section 64 of the Bharatiya Nyaya Sanhita, 2023 .
+Theft of a mobile phone is an offence under Section 303(2) of the BNS .
+The specific penal section for 'Dowry Death' is Section 80 of the BNS .
+An attempt to commit murder is penalized under Section 109 of the Bharatiya Nyaya Sanhita .
+Kidnapping from lawful guardianship is punishable under Section 137 of the BNS .
+Defamation is defined and penalized under Section 356 of the BNS .
+The BNS has replaced the offence of sedition with Section 152, which penalizes acts endangering sovereignty, unity, and integrity of India .
+The punishment for being a party to a criminal conspiracy is defined in Section 61(2) of the BNS .
+Dacoity is defined in Section 310(1) and its punishment is prescribed under Section 310(2) of the BNS .
+The punishment for robbery is provided under Section 309 of the BNS .
+The BNS section applicable to extortion is Section 308 .
+Culpable homicide not amounting to murder is punishable under Section 100 of the BNS .
+Voluntarily causing hurt is an offence under Section 115 of the BNS .
+The punishment for voluntarily causing grievous hurt is prescribed under Section 117 of the BNS .
+Criminal breach of trust is penalized under Section 316 of the BNS .
+The punishment for forgery is provided under Section 336 of the BNS .
+Mischief is an offence under Section 324 of the BNS .
+Wrongful confinement is punishable under Section 128 of the BNS .
+
+Kruti
+1.	The punishment for murder is specified under Section 302 of the Bharatiya Nyaya Sanhita (BNS) 2023.
+2.	Cheating and dishonestly inducing delivery of property is governed by Section 420 of the BNS.
+3.	The punishment for rape is outlined in Section 376 of the BNS.
+4.	Theft of a mobile phone is punishable under Section 379 of the BNS.
+5.	The penal provision for 'Dowry Death' is provided in Section 304A of the BNS.
+6.	An attempt to commit murder is penalized under Section 307 of the BNS.
+7.	Kidnapping a child from lawful guardianship is punishable under Section 361 of the BNS.
+8.	Defamation is addressed under Section 499 of the BNS.
+9.	The section for 'Sedition' (Rajdroh) is Section 124A of the BNS.
+10.	The punishment for being a party to a criminal conspiracy is defined under Section 120B of the BNS.
+11.	Dacoity (robbery by five or more persons) is punishable under Section 395 of the BNS.
+12.	The punishment for robbery is specified in Section 392 of the BNS.
+13.	Extortion by putting a person in fear of injury is covered under Section 383 of the BNS.
+14.	The punishment for culpable homicide not amounting to murder is provided in Section 304 of the BNS.
+15.	Voluntarily causing hurt is covered under Section 323 of the BNS.
+16.	The punishment for voluntarily causing grievous hurt is outlined in Section 325 of the BNS.
+17.	Criminal breach of trust is penalized under Section 406 of the BNS.
+18.	The punishment for forgery is specified in Section 468 of the BNS.
+19.	Mischief is covered under Section 425 of the BNS.
+20.	Wrongful confinement is punishable under Section 340 of the BNS.
+
+Meta AI
+Based on the Bharatiya Nyaya Sanhita (BNS) 2023, the specific section for the punishment of murder is Section 101. For cheating and dishonestly inducing the delivery of property, Section 318 of the BNS 2023 applies. The section for the punishment of rape under the BNS is Section 63. Theft of a mobile phone will be charged under Section 303 of the Bharatiya Nyaya Sanhita. The specific penal section for 'Dowry Death' under the BNS is Section 80. An attempt to commit murder is penalized under Section 107 of the BNS framework. Kidnapping a child from lawful guardianship falls under Section 136 of the BNS. Publishing false statements to ruin someone's reputation, i.e., defamation, is covered by Section 356 of the BNS. The exact section for 'Sedition' (Rajdroh) under the Bharatiya Nyaya Sanhita is Section 152. Being a party to a criminal conspiracy is defined and punished under Section 20 of the BNS. When five or more persons conjointly commit robbery, it is dacoity, and its punishment is under Section 308 of the BNS. The specific section for the punishment of robbery under the newly enacted BNS is Section 307. Extortion by putting a person in fear of injury is applicable under Section 314 of the BNS. The section for punishment of culpable homicide not amounting to murder in the BNS is Section 103. Voluntarily causing hurt, such as a slap during an argument, is addressed by Section 114 of the BNS. Under the BNS, Section 115 deals with the punishment for voluntarily causing grievous hurt. Criminal breach of trust, such as an employee embezzling company funds, is penalized under Section 316 of the BNS. The section for the punishment of forgery under the Bharatiya Nyaya Sanhita is Section 337. Intentionally damaging someone else's property, or Mischief, is covered by Section 338 of the BNS. The BNS section for the punishment of wrongful confinement of a person is Section 265.
+

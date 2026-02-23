@@ -1,0 +1,198 @@
+BATCH 5 (81-100)
+What is the general section under the Bharatiya Nyaya Sanhita for attempting to commit an offence punishable with imprisonment?
+Under the BNS, what section establishes joint liability when a criminal act is done by several persons in furtherance of a common intention?
+Which section of the BNS states that nothing is an offence which is done by a child under seven years of age?
+What is the BNS section providing the general exception for an act done by accident or misfortune while doing a lawful act?
+What is the primary section number under the BNS that declares that nothing is an offence which is done in the exercise of the right of private defense?
+Under the new BNS, which section defines 'Abetment of a thing'?
+What is the specific section under the BNS for waging or attempting to wage war against the Government of India?
+Which BNS section penalizes promoting enmity between different groups on grounds of religion, race, or language?
+What is the BNS section for deliberate and malicious acts intended to outrage the religious feelings of any class?
+If someone falsely charges a person with an offence with the intent to injure them, what BNS section applies?
+What is the section under the BNS for harbouring or concealing an offender to screen them from legal punishment?
+Under the BNS, what section prescribes the punishment for voluntarily causing a woman with child to miscarry?
+What is the specific BNS section that criminalizes kidnapping or maiming a minor for the purposes of begging?
+What is the specific section defining and punishing the offence of 'Trafficking of Person' under the BNS?
+If someone unlawfully compels any person to labour against their will, what BNS section is violated?
+What is the section for habitually dealing in slaves under the Bharatiya Nyaya Sanhita?
+Under the BNS, what section penalizes mischief by killing or maiming an animal?
+What is the BNS section for a man deceitfully inducing a belief of lawful marriage to cause cohabitation?
+The offence of being a 'Thug' was historically punished under the IPC. What is its exact equivalent section under the BNS?
+What is the BNS section for making or publishing statements, false information, or rumours conducing to public mischief?
+
+
+ChatGPT 5.2
+1.	General attempt to commit offence punishable with imprisonment — Section 62 BNS.
+2.	Joint liability/common intention — Section 3(5) BNS.
+3.	Act of child under seven years — Section 20 BNS.
+4.	Accident or misfortune in lawful act (general exception) — Section 23 BNS.
+5.	Act in exercise of right of private defence — Section 34 BNS.
+6.	Definition of Abetment of a thing — Section 45 BNS.
+7.	Waging or attempting to wage war against Government of India — Section 147 BNS.
+8.	Promoting enmity between different groups — Section 196 BNS.
+9.	Deliberate acts outraging religious feelings — Section 197 BNS.
+10.	False charge of offence with intent to injure — Section 248 BNS.
+11.	Harbouring or concealing offender — Section 249 BNS.
+12.	Causing miscarriage — Section 88 BNS.
+13.	Kidnapping or maiming minor for begging — Section 139 BNS.
+14.	Trafficking of person — Section 143 BNS.
+15.	Unlawful compulsory labour — Section 144 BNS.
+16.	Habitually dealing in slaves — Section 145 BNS.
+17.	Mischief by killing or maiming animal — Section 325 BNS.
+18.	Deceitful inducement of belief of lawful marriage — Section 86 BNS.
+19.	Being a Thug (historical offence) — Section 310 BNS.
+20.	Statements/rumours conducing to public mischief — Section 353 BNS.
+
+
+Claude Sonnet 4.6
+
+#	Offence / Query	BNS Section
+1	General Attempt to Commit an Offence punishable with imprisonment	Section 62 – Whoever attempts to commit an offence and fails is punishable with imprisonment up to half the longest term provided for that offence.
+2	Joint Liability – Common Intention (act by several persons)	Section 3(5) – When a criminal act is done by several persons in furtherance of a common intention, each is liable as if it were done by them alone.
+3	General Exception: Child Under Seven Years of Age	Section 20 – Nothing is an offence done by a child under 7 years of age; absolute immunity from criminal liability.
+4	General Exception: Act Done by Accident or Misfortune	Section 24 – Nothing is an offence done by accident or misfortune while performing a lawful act in a lawful manner with due care.
+5	Right of Private Defence (primary declaration)	Section 34 – Declares that nothing is an offence done in the exercise of the right of private defence of body or property.
+6	Abetment of a Thing (definition)	Section 45 – Defines abetment as instigation, conspiracy, or intentional aiding to commit an act.
+7	Waging War Against the Government of India	Section 147 – Punishable with death or life imprisonment, and fine; the gravest offence against the State.
+8	Promoting Enmity Between Different Groups (religion, race, language, etc.)	Section 196 – Punishable with imprisonment up to 3 years and/or fine; 5 years if committed at a place of worship.
+9	Deliberate & Malicious Acts Outraging Religious Feelings	Section 299 – Punishable with imprisonment up to 3 years and/or fine.
+10	False Charge of an Offence with Intent to Injure	Section 250 – Punishable with imprisonment up to 7 years and fine, mirroring the gravity of the falsely charged offence.
+11	Harbouring or Concealing an Offender to screen from legal punishment	Section 238 – Punishable with imprisonment varying with the gravity of the offence committed by the person harboured.
+12	Voluntarily Causing a Woman with Child to Miscarry (Abortion)	Section 88 – Punishable with imprisonment up to 3 years and/or fine; up to 7 years if the woman is quick with child.
+13	Kidnapping or Maiming a Minor for Begging	Section 141 – Punishable with rigorous imprisonment up to 10 years and fine; a child-protective provision.
+14	Trafficking of Persons (definition and punishment)	Section 143 – Punishable with rigorous imprisonment of 7 to 10 years and fine; aggravated forms attract life imprisonment.
+15	Unlawfully Compelling a Person to Labour Against Their Will	Section 144 – Punishable with imprisonment up to 1 year and/or fine, or both.
+16	Habitually Dealing in Slaves	Section 142 – Punishable with imprisonment for life or rigorous imprisonment up to 10 years, and fine.
+17	Mischief by Killing or Maiming an Animal	Section 325 – Punishable with imprisonment up to 5 years and/or fine for killing/maiming animals of prescribed value.
+18	Deceitfully Inducing Belief of Lawful Marriage for Cohabitation	Section 84 – Punishable with imprisonment up to 10 years and fine; protects against fraudulent cohabitation.
+19	Being a Thug (historical offence retained under BNS)	Section 310 – Whoever is a thug shall be punished with imprisonment for life and fine; retained from the original IPC equivalent.
+20	Making/Publishing False Statements or Rumours Conducing to Public Mischief	Section 197 – Punishable with imprisonment up to 3 years and/or fine; up to 7 years during war or national emergency.
+
+
+
+Grok 4.1
+
+The general section under the Bharatiya Nyaya Sanhita for attempting to commit an offence punishable with imprisonment is Section 62. 
+Under the BNS, the section that establishes joint liability when a criminal act is done by several persons in furtherance of a common intention is Section 3(5). 
+The section of the BNS that states nothing is an offence which is done by a child under seven years of age is Section 20. 
+The BNS section providing the general exception for an act done by accident or misfortune while doing a lawful act is Section 26 (act done by accident in doing a lawful act). 
+The primary section number under the BNS that declares nothing is an offence which is done in the exercise of the right of private defense is Section 34. 
+Under the new BNS, the section that defines 'Abetment of a thing' is Section 45. 
+The specific section under the BNS for waging or attempting to wage war against the Government of India is Section 147. 
+The BNS section that penalizes promoting enmity between different groups on grounds of religion, race, or language is Section 196. 
+The BNS section for deliberate and malicious acts intended to outrage the religious feelings of any class is Section 299. 
+If someone falsely charges a person with an offence with the intent to injure them, Section 248 of the BNS applies. 
+The section under the BNS for harbouring or concealing an offender to screen them from legal punishment is Section 238. 
+Under the BNS, the section that prescribes the punishment for voluntarily causing a woman with child to miscarry is Section 88. 
+The specific BNS section that criminalizes kidnapping or maiming a minor for the purposes of begging is Section 143. 
+The specific section defining and punishing the offence of 'Trafficking of Person' under the BNS is Section 143 (trafficking of person). 
+If someone unlawfully compels any person to labour against their will, Section 144 of the BNS is violated. 
+The section for habitually dealing in slaves under the Bharatiya Nyaya Sanhita is Section 145. 
+Under the BNS, the section that penalizes mischief by killing or maiming an animal is Section 325. 
+The BNS section for a man deceitfully inducing a belief of lawful marriage to cause cohabitation is Section 69 (extended to deceitful means including false promise). 
+The offence of being a 'Thug' was historically punished under the IPC; its exact equivalent section under the BNS is omitted as no direct equivalent exists. 
+The BNS section for making or publishing statements, false information, or rumours conducing to public mischief is Section 197.
+
+Indus Sarvam
+General Liability and Attempt:
+•	Attempt to commit an offence punishable with imprisonment: Section 62
+•	Joint liability when several persons act with common intention: Sections 55-56 (abetment provisions)
+•	Making false charges with intent to injure: Section 248
+Age and Capacity:
+•	Act of a child under seven years of age: Section 20
+•	Accident or misfortune while doing a lawful act: Section 18
+Private Defense:
+•	Right of private defense (general section): Section 35 - Right of private defence of body and of property (with Sections 34-44 covering specific aspects)
+Abetment and Common Intention:
+•	Abetment of a thing: Section 45 (with subsequent sections 46-60 detailing various aspects)
+Sedition and National Security:
+•	Waging war against Government of India: Section 147
+•	Promoting enmity between different groups: Section 196
+Religious and Community Harmony:
+•	Deliberate and malicious acts outraging religious feelings: Section 299
+Protection and Harbouring:
+•	Harbouring or concealing an offender: Section 249
+Women and Child Protection:
+•	Voluntarily causing woman with child to miscarry: Section 88
+•	Kidnapping or maiming a minor for begging: Section 139
+•	Deceitful marriage (inducing belief of lawful marriage): Section 81
+Exploitation and Trafficking:
+•	Trafficking of person: Section 143
+•	Unlawful compulsory labour: Section 146
+•	Habitual dealing in slaves: Section 145
+Property and Animals:
+•	Mischief by killing or maiming animal: Section 325
+Public Order and Mischief:
+•	Thug (organized criminal): The term "thug" is not explicitly mentioned, but related offenses are covered under organized crime (Section 111) and dacoity (Section 310)
+•	Making/publishing false statements causing public mischief: Section 193 (rioting) and related provisions
+
+
+Gemini 3
+Attempt to commit an offence punishable with imprisonment: Section 62.
+Joint Liability (Common Intention): Section 3(5).
+Act of a child under seven years of age: Section 20.
+Act done by accident or misfortune: Section 18.
+Right of Private Defense: Section 34.
+Abetment of a thing: Section 45.
+Waging or attempting to wage war against the Government of India: Section 147.
+Promoting enmity between different groups: Section 196.
+Deliberate and malicious acts to outrage religious feelings: Section 299.
+False charge of offence made with intent to injure: Section 248.
+Harbouring or concealing an offender: Section 249.
+Voluntarily causing a woman to miscarry: Section 89 (without consent) or Section 86 (with consent).
+Kidnapping or maiming a child for begging: Section 139.
+Trafficking of Person: Section 143.
+Unlawful compulsory labour: Section 146.
+Habitual dealing in slaves: Section 145.
+Mischief by killing or maiming an animal: Section 325.
+Cohabitation caused by a man deceitfully inducing a belief of lawful marriage: Section 81.
+Thug: This specific classification was removed; such acts are now prosecuted under Section 111 (Organized Crime) or Section 310 (Dacoity).
+Statements conducing to public mischief: Section 353.
+
+DeepSeek V3.2
+The general punishment for attempting to commit an offence is prescribed under Section 62 of the BNS .
+Joint liability in furtherance of common intention is established under Section 3(5) of the BNS .
+Section 20 of the BNS states that an act done by a child under seven years of age is not an offence .
+The general exception for an accident while doing a lawful act is provided under Section 18 of the BNS .
+The primary section declaring that nothing is an offence if done in the exercise of the right of private defense is Section 34 of the BNS .
+'Abetment of a thing' is defined under Section 45 of the BNS .
+Waging war against the Government of India is an offence under Section 147 of the BNS.
+Promoting enmity between different groups is penalized under Section 196 of the BNS.
+Deliberate acts to outrage religious feelings are covered under Section 299 of the BNS .
+Falsely charging a person with an offence to injure them is an offence under Section 248 of the BNS.
+Harbouring or concealing an offender is penalized under Section 218 of the BNS.
+Voluntarily causing a woman with child to miscarry is covered under Section 88 of the BNS .
+Kidnapping or maiming a minor for begging is an offence under Section 139 of the BNS .
+The offence of 'Trafficking of Person' is defined and punished under Section 143 of the BNS.
+Unlawfully compelling a person to labour is an offence under Section 142 of the BNS.
+Habitually dealing in slaves is penalized under Section 141 of the BNS.
+Mischief by killing or maiming an animal is covered under Section 325 of the BNS .
+A man deceitfully inducing a belief of lawful marriage is penalized under Section 81 of the BNS .
+The offence of being a 'Thug' is defined under Section 311 of the BNS.
+Making statements conducing to public mischief is an offence under Section 197 of the BNS.
+
+Kruti
+1.	Section 62 of the Bharatiya Nyaya Sanhita (BNS) is the general section for attempting to commit an offence punishable with imprisonment. This section prescribes punishment for attempts to commit offences that carry imprisonment, whether for life or otherwise. [1]
+2.	Section 3(5) of the BNS establishes joint liability when a criminal act is done by several persons in furtherance of a common intention. This is the BNS equivalent of the former Section 34 of the IPC. [2]
+3.	Section 20 of the BNS states that nothing is an offence which is done by a child under seven years of age. This is based on the legal doctrine of "Doli Incapax," meaning the child is incapable of forming criminal intent. [3]
+4.	Section 18 of the BNS provides the general exception for an act done by accident or misfortune while doing a lawful act. This section states that such acts are not considered offences if done without criminal intent or knowledge. [4]
+5.	Section 34 of the BNS is the primary section that declares nothing is an offence which is done in the exercise of the right of private defence. This section outlines the conditions under which a person can defend themselves or their property. [4]
+6.	Section 45 of the BNS defines 'Abetment of a thing'. This section outlines the three forms of abetment: instigation, conspiracy, and intentional aid. [6]
+7.	Section 147 of the BNS penalizes waging or attempting to wage war against the Government of India. This is the BNS equivalent of the former Section 121 of the IPC. [7]
+8.	Section 196 of the BNS penalizes promoting enmity between different groups on grounds of religion, race, or language. This section aims to prevent communal disharmony and hate speech. [8]
+9.	Section 299 of the BNS criminalizes deliberate and malicious acts intended to outrage the religious feelings of any class. This section penalizes insults to religion or religious beliefs. [9]
+10.	Section 248 of the BNS applies if someone falsely charges a person with an offence with the intent to injure them. This section penalizes false criminal proceedings. [10]
+11.	Section 249 of the BNS penalizes harbouring or concealing an offender to screen them from legal punishment. This section outlines different punishments based on the severity of the offence. [11]
+12.	Section 86 of the BNS prescribes the punishment for voluntarily causing a woman with child to miscarry. This section addresses the offence of causing miscarriage. [1]
+13.	Section 137 of the BNS criminalizes kidnapping or maiming a minor for the purposes of begging. This section addresses the exploitation of minors. [1]
+14.	Section 141 of the BNS defines and punishes the offence of 'Trafficking of Person'. This section addresses the illegal trade of persons. [1]
+15.	Section 144 of the BNS penalizes unlawful compulsory labour, also known as Forced Labour. This section addresses the exploitation of individuals through coercion. [1]
+16.	Section 122 of the BNS penalizes mischief by killing or maiming an animal. This section addresses harm to animals. [1]
+17.	Section 80 of the BNS addresses the offence of a man deceitfully inducing a belief of lawful marriage to cause cohabitation. This section penalizes fraudulent marriages. [1]
+18.	Section 156 of the BNS penalizes being a 'Thug'. This section is the exact equivalent of the former Section 342 of the IPC. [1]
+19.	Section 152 of the BNS penalizes making or publishing statements, false information, or rumours conducing to public mischief. This section addresses the spread of false information that causes public disturbance. [1]
+
+
+Meta AI
+The general section under the Bharatiya Nyaya Sanhita for attempting to commit an offence punishable with imprisonment is Section 44. Under the BNS, Section 2(7) establishes joint liability when a criminal act is done by several persons in furtherance of a common intention. Section 23 of the BNS states that nothing is an offence which is done by a child under seven years of age. The BNS section providing the general exception for an act done by accident or misfortune while doing a lawful act is Section 29. The primary section number under the BNS that declares that nothing is an offence which is done in the exercise of the right of private defense is Section 34. Under the new BNS, Section 45 defines 'Abetment of a thing'. The specific section under the BNS for waging or attempting to wage war against the Government of India is Section 147. BNS Section 194 penalizes promoting enmity between different groups on grounds of religion, race, or language. The BNS section for deliberate and malicious acts intended to outrage the religious feelings of any class is Section 295. If someone falsely charges a person with an offence with the intent to injure them, BNS Section 221 applies. The section under the BNS for harbouring or concealing an offender to screen them from legal punishment is Section 222. Under the BNS, Section 105 prescribes the punishment for voluntarily causing a woman with child to miscarry. The specific BNS section that criminalizes kidnapping or maiming a minor for the purposes of begging is Section 141. The specific section defining and punishing the offence of 'Trafficking of Person' under the BNS is Section 142. If someone unlawfully compels any person to labour against their will, BNS Section 143 is violated. The section for habitually dealing in slaves under the Bharatiya Nyaya Sanhita is Section 144. Under the BNS, Section 344 penalizes mischief by killing or maiming an animal. The BNS section for a man deceitfully inducing a belief of lawful marriage to cause cohabitation is Section 70. The exact equivalent section under the BNS for the offence of being a 'Thug' is Section 308(2). The BNS section for making or publishing statements, false information, or rumours conducing to public mischief is Section 194.
+

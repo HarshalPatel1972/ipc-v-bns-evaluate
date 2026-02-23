@@ -1,0 +1,182 @@
+BATCH 3 (41-60)
+Under the Bharatiya Nyaya Sanhita (BNS), what is the specific section that deals with the offence of Sexual Harassment?
+A man is caught watching a woman engaging in a private act without her consent. What is the BNS section for Voyeurism?
+What is the specific penal section for the crime of 'Stalking' under the new Indian criminal code (BNS)?
+If someone uses a word, gesture, or act intended to insult the modesty of a woman, which BNS section applies?
+The infamous 'Section 498A' for cruelty by a husband or his relatives has been replaced. What is the new section number in the BNS?
+What is the BNS section for voluntarily causing grievous hurt by use of acid (Acid Attack)?
+If a person voluntarily obstructs another from proceeding in a lawful direction, what is the section for Wrongful Restraint under the BNS?
+Under the BNS, what section specifically prescribes the death penalty or life imprisonment for kidnapping for ransom?
+An assembly of five or more persons with a common illegal object is an 'Unlawful Assembly'. What is the BNS section for its punishment?
+What is the specific section for the punishment of Rioting under the Bharatiya Nyaya Sanhita?
+When two or more persons fight in a public place and disturb the public peace, it is an Affray. What BNS section penalizes this?
+What is the specific section for the offence of 'Bribery at Elections' under the newly enacted BNS?
+Under the BNS, what section provides the punishment for giving or fabricating false evidence in a judicial proceeding?
+If a person finds a lost wallet and dishonestly keeps the money, what BNS section applies for Dishonest Misappropriation of Property?
+What is the specific section for 'Cheating by Personation' (pretending to be someone else) under the BNS?
+If someone commits mischief by fire or explosives intending to destroy a house, what is the section under the BNS?
+What is the BNS section for the punishment of 'House-breaking by night'?
+Under the BNS, what section penalizes the counterfeiting of currency notes or bank notes?
+What is the section for marrying again during the lifetime of a husband or wife (Bigamy) under the BNS?
+If criminal intimidation is committed by an anonymous communication, what BNS section applies?
+
+ChatGPT 5.2
+Sexual Harassment — Section 75 BNS.
+Voyeurism — Section 77 BNS.
+Stalking — Section 78 BNS.
+Insulting modesty of a woman (word/gesture/act) — Section 79 BNS.
+Cruelty by husband or relatives (old IPC 498A) — Section 85 BNS.
+Grievous hurt by acid (Acid Attack) — Section 124 BNS.
+Wrongful Restraint — Section 126 BNS.
+Kidnapping for ransom (death or life imprisonment) — Section 140 BNS.
+Punishment for Unlawful Assembly — Section 189 BNS.
+Rioting — Section 191 BNS.
+Affray — Section 194 BNS.
+Bribery at Elections — Section 171 BNS.
+False evidence in judicial proceeding — Section 230 BNS.
+Dishonest Misappropriation of Property — Section 314 BNS.
+Cheating by Personation — Section 319 BNS.
+Mischief by fire/explosive to destroy house — Section 326 BNS.
+House-breaking by night — Section 332 BNS.
+Counterfeiting currency/bank notes — Section 178 BNS.
+Bigamy (marrying during spouse’s lifetime) — Section 82 BNS.
+Criminal intimidation by anonymous communication — Section 351(3) BNS.
+
+Claude Sonnet 4.6
+#	Offence / Query	BNS Section
+1	Sexual Harassment	Section 75 – Covers unwelcome physical, verbal, or non-verbal conduct of a sexual nature; punishable with imprisonment up to 3 years and/or fine.
+2	Voyeurism	Section 77 – Punishable with imprisonment of 1 to 3 years (first conviction) and 3 to 7 years (subsequent conviction), with fine.
+3	Stalking	Section 78 – Punishable with imprisonment up to 3 years for first offence and up to 5 years for subsequent offence, with fine.
+4	Insult to Modesty of a Woman (word, gesture, or act)	Section 79 – Punishable with simple imprisonment up to 3 years and/or fine.
+5	Cruelty by Husband or His Relatives (erstwhile IPC 498A)	Section 85 – Punishment remains the same: imprisonment up to 3 years and fine.
+6	Acid Attack (Grievous Hurt by use of acid)	Section 124 – Punishable with rigorous imprisonment of not less than 10 years, extendable to life, and fine paid to victim.
+7	Wrongful Restraint	Section 125 – Punishable with simple imprisonment up to 1 month and/or fine up to ₹5,000.
+8	Kidnapping for Ransom	Section 140(1) – Punishable with death or life imprisonment, with fine; a specific and stringent provision.
+9	Unlawful Assembly (punishment)	Section 191(2) – Every member is punishable with imprisonment up to 6 months and/or fine.
+10	Rioting	Section 191(3) – Punishable with imprisonment up to 2 years and/or fine.
+11	Affray (fighting in a public place)	Section 192 – Punishable with imprisonment up to 1 month and/or fine up to ₹1,000.
+12	Bribery at Elections	Section 169 – Punishable with imprisonment up to 1 year and/or fine, or both, depending on the nature of the corrupt practice.
+13	Giving or Fabricating False Evidence in judicial proceedings	Section 229 – Punishable with imprisonment of either description up to 7 years and fine.
+14	Dishonest Misappropriation of Property (keeping a lost wallet)	Section 314 – Punishable with imprisonment up to 2 years and/or fine.
+15	Cheating by Personation	Section 319(2) – Punishable with imprisonment up to 5 years and/or fine; aggravated over general cheating.
+16	Mischief by fire/explosives to destroy a house	Section 326 – Punishable with rigorous imprisonment for life or up to 10 years, and fine.
+17	House-breaking by Night	Section 332(b) – Punishable with rigorous imprisonment up to 4 years and fine; night-time commission is an aggravating factor.
+18	Counterfeiting of Currency Notes or Bank Notes	Section 178 – Punishable with imprisonment for life or rigorous imprisonment up to 10 years, and fine.
+19	Bigamy (marrying again during lifetime of spouse)	Section 82 – Punishable with imprisonment up to 7 years and fine.
+20	Criminal Intimidation by Anonymous Communication	Section 351(3) – Punishable with imprisonment up to 2 years in addition to the punishment prescribed for the general offence of criminal intimidation.
+Grok 4.1
+Under the Bharatiya Nyaya Sanhita (BNS), the specific section that deals with the offence of Sexual Harassment is Section 75. 
+A man caught watching a woman engaging in a private act without her consent is charged under Section 77 of the BNS for Voyeurism. 
+The specific penal section for the crime of 'Stalking' under the new Indian criminal code (BNS) is Section 78. 
+If someone uses a word, gesture, or act intended to insult the modesty of a woman, Section 79 of the BNS applies. 
+The infamous 'Section 498A' for cruelty by a husband or his relatives has been replaced by Section 85 in the BNS. 
+The BNS section for voluntarily causing grievous hurt by use of acid (Acid Attack) is Section 124. 
+If a person voluntarily obstructs another from proceeding in a lawful direction, the section for Wrongful Restraint under the BNS is Section 126. 
+Under the BNS, the section that specifically prescribes the death penalty or life imprisonment for kidnapping for ransom is Section 140(2). 
+An assembly of five or more persons with a common illegal object is an 'Unlawful Assembly', and its punishment is under Section 189 of the BNS. 
+The specific section for the punishment of Rioting under the Bharatiya Nyaya Sanhita is Section 191. 
+When two or more persons fight in a public place and disturb the public peace, it is an Affray, penalized under Section 193 of the BNS. 
+The specific section for the offence of 'Bribery at Elections' under the newly enacted BNS is Section 169. 
+Under the BNS, the section that provides the punishment for giving or fabricating false evidence in a judicial proceeding is Section 229. 
+If a person finds a lost wallet and dishonestly keeps the money, Section 314 of the BNS applies for Dishonest Misappropriation of Property. 
+The specific section for 'Cheating by Personation' (pretending to be someone else) under the BNS is Section 319. 
+If someone commits mischief by fire or explosives intending to destroy a house, the section under the BNS is Section 329. 
+The BNS section for the punishment of 'House-breaking by night' is Section 331. 
+Under the BNS, the section that penalizes the counterfeiting of currency notes or bank notes is Section 177. 
+The section for marrying again during the lifetime of a husband or wife (Bigamy) under the BNS is Section 82. 
+If criminal intimidation is committed by an anonymous communication, Section 351(3) of the BNS applies.
+
+Indus Sarvam
+Sexual Offences:
+•	Sexual Harassment: Section 75 - Defines acts like physical contact, sexual advances, demand for sexual favors, showing pornography against will, or making sexually coloured remarks with punishments ranging from 1-3 years rigorous imprisonment
+•	Voyeurism: Section 77 - Punishes watching/capturing images of women in private acts, with 1-3 years imprisonment for first conviction and 3-7 years for subsequent convictions
+•	Stalking: Section 78 - Covers following women and contacting them despite disinterest or monitoring electronic communications, with 3 years imprisonment (5 years for repeat offenses)
+•	Word/gesture/act insulting modesty: Section 79
+•	Replacement for Section 498A: Section 85 - Deals with cruelty by husband or relatives (Section 86 further defines cruelty)
+•	Acid Attack: Section 124 - Voluntarily causing grievous hurt by use of acid
+•	Gang rape of woman under 18: Section 70
+•	Sexual intercourse by deceitful means/false promise to marry: Section 69
+Other Criminal Offences:
+•	Wrongful Restraint: Section 126
+•	Kidnapping for ransom: Section 140
+•	Unlawful Assembly: Section 189
+•	Rioting: Section 191
+•	Affray: Section 194
+•	Bribery at elections: Section 170
+•	False evidence in judicial proceeding: Section 227
+•	Dishonest misappropriation of property: Section 314
+•	Cheating by personation: Section 319
+•	Mischief by fire/explosives destroying dwelling: Section 226
+•	House-breaking by night: Section 344
+•	Counterfeiting currency notes/bank notes: Section 178
+•	Bigamy: Section 82
+•	Criminal intimidation by anonymous communication: Section 351
+
+Gemini 3
+Sexual Harassment: Section 75.
+Voyeurism: Section 77.
+Stalking: Section 78.
+Word, Gesture, or Act Intended to Insult the Modesty of a Woman: Section 79.
+Cruelty by Husband or his Relatives (Old 498A): Section 85.
+Voluntarily Causing Grievous Hurt by use of Acid: Section 124(1).
+Wrongful Restraint: Section 126(2).
+Kidnapping for Ransom: Section 140(2).
+Punishment for Unlawful Assembly: Section 189(3).
+Punishment for Rioting: Section 191(2).
+Affray: Section 194.
+Bribery at Elections: Section 170.
+Giving or Fabricating False Evidence: Section 227.
+Dishonest Misappropriation of Property: Section 314.
+Cheating by Personation: Section 319.
+Mischief by Fire or Explosives to Destroy a House: Section 326(f).
+House-breaking by Night: Section 331(2).
+Counterfeiting Currency Notes or Bank Notes: Section 178.
+Bigamy (Marrying again during lifetime of spouse): Section 82.
+Criminal Intimidation by Anonymous Communication: Section 351(4).
+
+DeepSeek V3.2
+The offence of Sexual Harassment is defined and penalized under Section 75 of the BNS .
+Voyeurism is an offence under Section 77 of the BNS .
+The crime of 'Stalking' is covered under Section 78 of the BNS .
+The section for insulting the modesty of a woman is Section 79 of the BNS .
+The offence of cruelty by a husband or his relatives is now defined under Section 85 of the BNS .
+An acid attack is specifically penalized under Section 124 of the BNS.
+Wrongful Restraint is an offence under Section 126 of the BNS.
+The death penalty or life imprisonment for kidnapping for ransom is prescribed under Section 140(2) of the BNS.
+An unlawful assembly is defined and its punishment is prescribed under Section 189 of the BNS.
+The punishment for Rioting is prescribed under Section 191 of the BNS.
+Affray is penalized under Section 194 of the BNS.
+Bribery at elections is an offence under Section 171 of the BNS.
+Giving or fabricating false evidence is penalized under Section 229 of the BNS.
+Dishonest misappropriation of property is covered under Section 314 of the BNS.
+Cheating by personation is an offence under Section 319 of the BNS.
+Mischief by fire or explosives to destroy a house is covered under Section 326 of the BNS.
+House-breaking by night is defined and punishable under Section 333 of the BNS.
+Counterfeiting currency notes is an offence under Section 178 of the BNS.
+Marrying again during the lifetime of a spouse (Bigamy) is an offence under Section 82 of the BNS .
+Criminal intimidation by anonymous communication is covered under Section 352 of the BNS.
+
+Kruti
+Section 75 of the Bharatiya Nyaya Sanhita (BNS) deals with the offence of Sexual Harassment [1].
+Section 77 of the BNS addresses the offence of Voyeurism [2].
+The crime of Stalking is penalized under Section 78 of the BNS [3].
+Section 79 of the BNS applies when a person uses a word, gesture, or act intended to insult the modesty of a woman [4].
+The infamous Section 498A IPC for cruelty by a husband or his relatives has been replaced by Section 85 of the BNS [5].
+Section 124 and 125 of the BNS provide the punishment for voluntarily causing grievous hurt by use of acid (Acid Attack) [6].
+Section 126(2) of the BNS prescribes the punishment for Wrongful Restraint [7].
+Section 140 of the BNS specifically prescribes the death penalty or life imprisonment for kidnapping for ransom [8].
+Section 189 of the BNS addresses the offence of Unlawful Assembly [9].
+The punishment for Rioting is outlined in Section 191 of the BNS [10].
+The offence of Affray is penalized under Section 194 of the BNS [11].
+Section 312 of Chapter 9 of the BNS deals with the offence of Bribery at Elections [12].
+Section 227-248 of the BNS provides for the punishment for giving or fabricating false evidence in a judicial proceeding [13].
+Section 317 of the BNS applies to Dishonest Misappropriation of Property, such as keeping a found wallet dishonestly [14].
+Cheating by Personation is addressed under Section 319 of the BNS [15].
+Section 326 of the BNS covers Mischief by fire or explosives intending to destroy a house [16].
+The punishment for House-breaking by night is specified in Section 340 of the BNS.
+Section 385 of the BNS penalizes counterfeiting of currency notes or bank notes.
+Section 497 of the BNS addresses the crime of Bigamy (marrying again during the lifetime of a husband or wife).
+Section 354B of the BNS applies to criminal intimidation by anonymous communication.
+
+Meta AI
+Under the Bharatiya Nyaya Sanhita (BNS), the specific section that deals with the offence of Sexual Harassment is Section 74. For watching a woman engaging in a private act without her consent, the BNS section for Voyeurism is Section 76. The specific penal section for the crime of 'Stalking' under the new Indian criminal code (BNS) is Section 75. If someone uses a word, gesture, or act intended to insult the modesty of a woman, Section 79 of the BNS applies. The infamous 'Section 498A' for cruelty by a husband or his relatives has been replaced by Section 84 in the BNS. The BNS section for voluntarily causing grievous hurt by use of acid (Acid Attack) is Section 117. If a person voluntarily obstructs another from proceeding in a lawful direction, the section for Wrongful Restraint under the BNS is Section 263. Under the BNS, Section 137 specifically prescribes the death penalty or life imprisonment for kidnapping for ransom. An assembly of five or more persons with a common illegal object is an 'Unlawful Assembly', and the BNS section for its punishment is Section 187. The specific section for the punishment of Rioting under the Bharatiya Nyaya Sanhita is Section 189. When two or more persons fight in a public place and disturb the public peace, it is an Affray, and BNS Section 192 penalizes this. The specific section for the offence of 'Bribery at Elections' under the newly enacted BNS is Section 193. Under the BNS, Section 228 provides the punishment for giving or fabricating false evidence in a judicial proceeding. If a person finds a lost wallet and dishonestly keeps the money, BNS Section 304 applies for Dishonest Misappropriation of Property. The specific section for 'Cheating by Personation' (pretending to be someone else) under the BNS is Section 319. If someone commits mischief by fire or explosives intending to destroy a house, the section under the BNS is Section 340. The BNS section for the punishment of 'House-breaking by night' is Section 327. Under the BNS, Section 342 penalizes the counterfeiting of currency notes or bank notes. The section for marrying again during the lifetime of a husband or wife (Bigamy) under the BNS is Section 85. If criminal intimidation is committed by an anonymous communication, BNS Section 352 applies.
