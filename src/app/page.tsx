@@ -78,16 +78,6 @@ export default function Home() {
     return () => clearInterval(interval);
   }, [lastLocalChange]);
 
-  // Loading state
-  if (!isLoaded) {
-    return (
-      <div className="min-h-screen bg-slate-50 flex flex-col items-center justify-center p-4">
-        <div className="w-16 h-16 border-4 border-indigo-600 border-t-transparent rounded-full animate-spin mb-4" />
-        <h2 className="text-xl font-bold text-slate-900">Loading Evaluation Workspace...</h2>
-      </div>
-    );
-  }
-
   // Save to global API when data changes
   useEffect(() => {
     if (!isLoaded || lastLocalChange === 0) return;
@@ -110,6 +100,16 @@ export default function Home() {
     const timeout = setTimeout(saveData, 1000);
     return () => clearTimeout(timeout);
   }, [data, isLoaded, lastLocalChange]);
+
+  // Loading state
+  if (!isLoaded) {
+    return (
+      <div className="min-h-screen bg-slate-50 flex flex-col items-center justify-center p-4">
+        <div className="w-16 h-16 border-4 border-indigo-600 border-t-transparent rounded-full animate-spin mb-4" />
+        <h2 className="text-xl font-bold text-slate-900">Loading Evaluation Workspace...</h2>
+      </div>
+    );
+  }
 
   const handleGradeChange = (
     batchId: number,
