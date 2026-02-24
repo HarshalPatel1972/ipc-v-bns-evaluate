@@ -8,7 +8,7 @@ const LOCAL_FILE = path.join(process.cwd(), 'grades_data.json');
 const isProd = process.env.NODE_ENV === 'production';
 
 // Global Redis Client
-let redisClient: any = null;
+let redisClient: ReturnType<typeof createClient> | null = null;
 
 async function getClient() {
   if (redisClient) return redisClient;
@@ -17,7 +17,7 @@ async function getClient() {
   const url = process.env.KV_REDIS_URL || process.env.REDIS_URL || process.env.STORAGE_URL || '';
   
   const client = createClient({ url });
-  client.on('error', (err) => console.error('Redis Client Error', err));
+  client.on('error', (err: Error) => console.error('Redis Client Error', err));
   await client.connect();
   redisClient = client;
   return redisClient;
@@ -25,7 +25,7 @@ async function getClient() {
 
 export async function GET() {
   try {
-    let data: any = null;
+    let data: unknown = null;
     
     if (isProd) {
       const client = await getClient();
@@ -44,14 +44,16 @@ export async function GET() {
     if (!data) return NextResponse.json(fallback);
 
     // Migration logic
-    if (data && !data.grades && Object.keys(data).length > 0) {
+    const dataObj = data as Record<string, unknown>;
+    if (dataObj && !dataObj.grades && Object.keys(dataObj).length > 0) {
       return NextResponse.json({ grades: data, gradedBy: {}, userStats: {} });
     }
 
     return NextResponse.json(data || fallback);
-  } catch (err: any) {
-    console.error('GET Error:', err);
-    return NextResponse.json({ error: 'GET Failed', details: err.message }, { status: 500 });
+  } catch (err: unknown) {
+    const error = err as Error;
+    console.error('GET Error:', error);
+    return NextResponse.json({ error: 'GET Failed', details: error.message }, { status: 500 });
   }
 }
 
@@ -68,11 +70,12 @@ export async function POST(request: Request) {
     }
 
     return NextResponse.json({ success: true });
-  } catch (err: any) {
-    console.error('POST Error:', err);
+  } catch (err: unknown) {
+    const error = err as Error;
+    console.error('POST Error:', error);
     return NextResponse.json({ 
       error: 'POST Failed', 
-      message: err.message,
+      message: error.message,
       url_present: !!(process.env.KV_REDIS_URL || process.env.REDIS_URL || process.env.STORAGE_URL)
     }, { status: 500 });
   }
