@@ -1,0 +1,141 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{url}
+\usepackage{hyperref}
+
+% Define custom column types for better table formatting
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\begin{document}
+
+\title{Evaluating Legal Hallucinations in LLMs: A Comparative Analysis of the IPC to BNS Transition\\}
+
+\author{
+\IEEEauthorblockN{1\textsuperscript{st} Harshal Patel}
+\IEEEauthorblockA{\textit{Apex Institute of Technology} \\
+\textit{Chandigarh University}\\
+Mohali, India \\
+hp842484n@gmail.com}
+\and
+\IEEEauthorblockN{2\textsuperscript{nd} Aniruddh Agrahari}
+\IEEEauthorblockA{\textit{Apex Institute of Technology} \\
+\textit{Chandigarh University}\\
+Mohali, India \\
+aniruddhagrahari1@gmail.com}
+\and
+\IEEEauthorblockN{3\textsuperscript{rd} Priya Karn}
+\IEEEauthorblockA{\textit{Apex Institute of Technology} \\
+\textit{Chandigarh University}\\
+Mohali, India \\
+karnpriya721@gmail.com}
+\and
+\IEEEauthorblockN{4\textsuperscript{th} Aryan}
+\IEEEauthorblockA{\textit{Apex Institute of Technology} \\
+\textit{Chandigarh University}\\
+Mohali, India \\
+aryan96@gmail.com}
+}
+
+\maketitle
+
+\begin{abstract}
+As of January 2026, the Bharatiya Nyaya Sanhita (BNS) has been the active criminal code of India for over 18 months, yet "Legacy Bias" remains a critical failure mode in Generative AI. This study benchmarks eight 2026-era models against the transition from the Indian Penal Code (IPC) to the BNS. We introduce a novel rigorous quantitative evaluation framework employing metrics such as Legal Claim Truthfulness (LCT), Extrinsic Citation Hallucination Rate (ECHR), and the LegalBench Adjusted Score (LBAS). Evaluating across 800 legal inferences, our findings reveal that while models like ChatGPT 5.2 achieve high strict accuracy, they are prone to dangerous hallucinations. Conversely, Gemini 3 emerges as the most legally reliable model, demonstrating an unparalleled capability to mitigate extrinsic hallucinations.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Legal Informatics, Generative AI, Hallucination Detection, LLM Benchmarking, IPC to BNS, LegalBench, Indian Law.
+\end{IEEEkeywords}
+
+\section{Introduction}
+The transition from the 1860 Indian Penal Code (IPC) to the 2023 Bharatiya Nyaya Sanhita (BNS) represents the most significant paradigm shift in Indian criminal jurisprudence in over a century \cite{bma_bns}. Following its implementation, the legal ecosystem has faced the immense challenge of overriding decades of embedded precedents. For Large Language Models (LLMs), a phenomenon defined as "Data Inertia" or "Legacy Bias" persists: training datasets remain overwhelmingly saturated with IPC case law, while BNS case law constitutes a minute fraction of the available corpus.
+
+This research investigates whether the leading foundational models of early 2026 have successfully unlearned this legacy bias. We eschew basic categorization in favor of a multidimensional penalization framework inspired by contemporary legal AI benchmarks \cite{b_legalbench}. By differentiating between a model's truthfulness and its propensity to fabricate legal authority (Extrinsic Hallucinations), we establish a comprehensive ranking of AI models safe for deployment within the Indian legal tech sector.
+
+\section{Methodology: The BNS Evaluation Framework}
+We formulate a robust, quantitative ranking methodology applied over a 100-scenario dataset covering major statutory transitions, mergers, and repeals.
+
+\subsection{Evaluation Scenarios}
+The evaluation framework assesses model competency across distinct legal transitional categories:
+\begin{itemize}
+    \item \textbf{Direct Renumbering:} Straightforward statutory mappings (e.g., Murder transitioning from Section 302 IPC to Section 103 BNS).
+    \item \textbf{Structural Mergers:} Consolidation of previously disparate clauses into singular, comprehensive sections.
+    \item \textbf{Omission and Repeal:} Clauses from the IPC (e.g., Sedition under Section 124A) that possess no analogous provision in the BNS.
+\end{itemize}
+
+\subsection{Advanced Academic Metrics}
+To rigorously quantify performance, we adopt five primary metrics:
+\begin{enumerate}
+    \item \textbf{Legal Claim Truthfulness (LCT):} The overarching percentage of responses that are factually sound and pinpoint the correct primary statute.
+    \item \textbf{Substantive Groundedness \& Granularity (SGG):} The frequency at which the model correctly identifies the broader legal principle but fails to specify the exact statutory subunit or clause.
+    \item \textbf{Extrinsic Citation Hallucination Rate (ECHR):} A critical safety metric defining instances where the LLM asserts a legal fact supported by a fabricated, non-existent, or entirely incorrect BNS citation.
+    \item \textbf{Abstention \& Calibration Rate (ACR):} The rate at which the model correctly recognizes epistemic uncertainty and abstains rather than generating a hallucinated response.
+    \item \textbf{LegalBench Adjusted Score (LBAS):} A weighted composite index (0-100) combining the above parameters. It incentivizes Truthfulness ($+1.0$), grants partial credit to Granular errors ($+0.5$), remains neutral on Abstentions ($0.0$), but heavily penalizes Extrinsic Hallucinations ($-1.0$) due to the severe repercussions of citing fabricated laws in practice.
+\end{enumerate}
+
+\section{Results and Analysis}
+
+Table \ref{tab_results} details the empirical performance of the eight evaluated models according to the proposed LBAS methodology.
+
+\begin{table}[htbp]
+\caption{Comprehensive BNS Benchmarking Results}
+\begin{center}
+\begin{tabular}{|l|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.8cm}|P{0.9cm}|}
+\hline
+\textbf{Model} & \textbf{LCT (\%)} & \textbf{ECHR (\%)} & \textbf{SGG (\%)} & \textbf{ACR (\%)} & \textbf{LBAS Index} \\
+\hline
+\textbf{Gemini 3} & 73.0 & \textbf{6.0} & 21.0 & 0.0 & \textbf{77.5} \\
+ChatGPT 5.2 & \textbf{80.0} & 17.0 & 3.0 & 0.0 & 64.5 \\
+Indus Sarvam & 79.0 & 19.0 & 2.0 & 0.0 & 61.0 \\
+Grok 4.1 & 69.0 & 25.0 & 5.0 & 1.0 & 46.5 \\
+Claude Sonnet 4.6 & 63.0 & 28.0 & 9.0 & 0.0 & 39.5 \\
+DeepSeek V3.2 & 66.0 & 29.0 & 5.0 & 0.0 & 39.5 \\
+Kruti & 44.0 & 53.0 & 2.0 & 1.0 & 0.0 \\
+Meta AI & 22.0 & 76.0 & 2.0 & 0.0 & 0.0 \\
+\hline
+\end{tabular}
+\label{tab_results}
+\end{center}
+\end{table}
+
+\subsection{The Precision vs. Danger Paradigm}
+While \textbf{ChatGPT 5.2} achieved the highest raw Truthfulness (LCT) at 80.0\%, this figure obfuscates a significant Extrinsic Citation Hallucination Rate (ECHR) of 17.0\%. In applied legal informatics, a 17\% probability of generating a fabricated statute is frequently an unacceptable risk threshold.
+
+Conversely, \textbf{Gemini 3} emerges as the optimal architecture for Indian legal queries. Despite a lower LCT (73.0\%), its ECHR was an exceptionally low 6.0\%. Furthermore, Gemini 3 exhibited a Substantive Groundedness (SGG) of 21.0\%, indicating that when it missed the exact clause, it still reliably identified the correct broader statute, rather than resorting to unpredictable hallucinations. Consequently, it decisively leads the LBAS index with a score of 77.5.
+
+\subsection{Regional and Specialized Models}
+The localized model, \textbf{Indus Sarvam}, demonstrated highly competitive performance (LCT: 79.0\%, LBAS: 61.0), validating the efficacy of specific regional fine-tuning on Indian legal datasets. However, \textbf{Kruti} struggled significantly with the statutory transition, exhibiting an ECHR of 53.0\%, culminating in a baseline absolute failure (LBAS: 0.0). 
+
+\subsection{The Failure of Uncalibrated Scaling}
+Models such as \textbf{Meta AI} display a fundamental vulnerability to "Legacy Bias." With an ECHR of 76.0\% (and thus an LBAS of 0), Meta AI persistently hallucinates IPC correlations within the BNS context. This highlights that dense parameter scaling alone, without targeted Reinforcement Learning from Human Feedback (RLHF) \cite{b_rlhf} on updated legal corpora, is insufficient to override historical semantic embeddings. Note that negative net scores floor at 0 to denote total legal unreliability.
+
+\section{Conclusion}
+This comparative analysis establishes that while the LLM ecosystem is rapidly adapting to modern statutory frameworks, severe vulnerabilities persist regarding legal hallucinations. 
+\begin{enumerate}
+    \item \textbf{Gemini 3} provides the safest current deployment pathway due to robust hallucination mitigation.
+    \item Models excelling in general conversational benchmarks, such as \textbf{ChatGPT 5.2}, still require extensive secondary validation protocols before use in Indian jurisprudence. 
+    \item A high raw accuracy metric is vastly insufficient without integrating the corresponding penalization for Extrinsic Hallucinations within the legal domain.
+\end{enumerate}
+
+\section*{Acknowledgment}
+The authors thank the Apex Institute of Technology for providing the computational resources necessary to execute this 800-inference legal benchmark.
+
+\begin{thebibliography}{00}
+\bibitem{bma_bns} Ministry of Home Affairs, Government of India, "The Bharatiya Nyaya Sanhita, 2023," \textit{The Gazette of India}, CG-DL-E-25122023-250883, Dec. 2023.
+\bibitem{b_legalbench} N. Guha, et al., "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models," \textit{Advances in Neural Information Processing Systems}, vol. 36, 2024.
+\bibitem{b_rlhf} L. Ouyang, et al., "Training language models to follow instructions with human feedback," \textit{Advances in Neural Information Processing Systems}, vol. 35, pp. 27730--27744, 2022.
+\end{thebibliography}
+
+\end{document}
