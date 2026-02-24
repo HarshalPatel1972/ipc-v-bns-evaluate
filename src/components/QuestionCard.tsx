@@ -46,27 +46,27 @@ export default function QuestionCard({
     <div className={`bg-white rounded-2xl border transition-all duration-300 shadow-sm relative ${isComplete ? 'border-green-300 ring-1 ring-green-100' : 'border-slate-200'}`}>
       
       {/* Question Header */}
-      <div className="p-6 border-b border-slate-100 bg-slate-50/50 rounded-t-2xl">
-        <div className="flex items-start justify-between gap-4">
-          <div className="flex gap-4">
-            <div className="flex-shrink-0 w-8 h-8 rounded-full bg-indigo-100 text-indigo-700 font-bold flex items-center justify-center text-sm shadow-sm">
+      <div className="p-4 sm:p-6 border-b border-slate-100 bg-slate-50/50 rounded-t-2xl">
+        <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3 sm:gap-4">
+          <div className="flex gap-3 sm:gap-4">
+            <div className="flex-shrink-0 w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-indigo-100 text-indigo-700 font-bold flex items-center justify-center text-xs sm:text-sm shadow-sm">
               {questionIndex + 1}
             </div>
             <div>
-              <h3 className="text-lg font-medium text-slate-900 leading-snug">
+              <h3 className="text-base sm:text-lg font-bold text-slate-900 leading-snug">
                 {questionText || "Question text not available"}
               </h3>
             </div>
           </div>
-          <div className="flex-shrink-0 text-xs font-semibold px-2.5 py-1 rounded-full bg-slate-100 text-slate-600">
+          <div className="flex-shrink-0 text-[10px] sm:text-xs font-bold px-2.5 py-1 rounded-full bg-slate-100 text-slate-600 self-start sm:self-auto">
             {gradedCount}/{models.length} Graded
           </div>
         </div>
       </div>
 
       {/* Grid of AI Answers */}
-      <div className="p-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="p-4 sm:p-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
           {models.map((model) => {
             const answer = modelAnswers[model][questionIndex] || "No answer extracted";
             const currentGrade = grades[model];
@@ -107,14 +107,16 @@ export default function QuestionCard({
                 )}
 
                 <div>
-                  <div className="flex items-center justify-between mb-3 border-b border-slate-100 pb-2">
-                    <span className="text-sm font-bold text-slate-700">{model}</span>
-                    {currentGrade === 'correct' && <Check size={16} className="text-green-600" />}
-                    {currentGrade === 'somewhat correct' && <Check size={16} className="text-yellow-600" />}
-                    {currentGrade === 'wrong' && <X size={16} className="text-red-600" />}
-                    {currentGrade === 'no answer' && <Minus size={16} className="text-slate-500" />}
+                  <div className="flex items-center justify-between mb-2 sm:mb-3 border-b border-slate-100 pb-2">
+                    <span className="text-xs sm:text-sm font-bold text-slate-700">{model}</span>
+                    <div className="flex items-center gap-1.5">
+                      {currentGrade === 'correct' && <Check size={14} className="text-green-600" />}
+                      {currentGrade === 'somewhat correct' && <Check size={14} className="text-yellow-600" />}
+                      {currentGrade === 'wrong' && <X size={14} className="text-red-600" />}
+                      {currentGrade === 'no answer' && <Minus size={14} className="text-slate-500" />}
+                    </div>
                   </div>
-                  <p className="text-sm text-slate-600 mb-4 whitespace-pre-wrap leading-relaxed font-medium">
+                  <p className="text-xs sm:text-sm text-slate-600 mb-3 sm:mb-4 whitespace-pre-wrap leading-relaxed font-medium">
                     {answer}
                   </p>
                 </div>

@@ -24,9 +24,9 @@ export default function UserLogs({ logs, isOpen, onClose }: UserLogsProps) {
   const totalActions = sortedLogs.reduce((acc, curr) => acc + curr.count, 0);
 
   return (
-    <div className="fixed inset-0 z-[100] flex items-center justify-end bg-slate-900/20 backdrop-blur-sm animate-in fade-in duration-300" onClick={onClose}>
+    <div className="fixed inset-0 z-[100] flex items-center justify-end bg-slate-900/40 backdrop-blur-sm animate-in fade-in duration-300" onClick={onClose}>
       <div 
-        className="bg-white h-full w-full max-w-sm shadow-2xl p-8 flex flex-col animate-in slide-in-from-right duration-500"
+        className="bg-white h-full w-full sm:max-w-md shadow-2xl p-6 sm:p-8 flex flex-col animate-in slide-in-from-right duration-500"
         onClick={e => e.stopPropagation()}
       >
         <div className="flex items-center justify-between mb-8">

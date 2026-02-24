@@ -243,20 +243,22 @@ export default function Home() {
       <UserLogs isOpen={showLogs} onClose={() => setShowLogs(false)} logs={data.userStats || {}} />
 
       {/* Header */}
-      <header className="sticky top-0 z-50 bg-white border-b border-slate-200 shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="bg-indigo-600 p-2 rounded-lg text-white">
-              <CheckCircle size={20} />
+      <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 h-16 flex items-center justify-between">
+          <div className="flex items-center gap-2 sm:gap-3 overflow-hidden">
+            <div className="bg-indigo-600 p-1.5 sm:p-2 rounded-lg text-white flex-shrink-0">
+              <CheckCircle size={18} />
             </div>
-            <h1 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">
-              IPC vs BNS Evaluator
-            </h1>
-            <span className="text-[10px] font-bold text-slate-300 uppercase tracking-widest mt-1">v2.2.1</span>
+            <div className="flex flex-col overflow-hidden">
+              <h1 className="text-base sm:text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600 truncate">
+                BNS Evaluator
+              </h1>
+              <span className="text-[8px] sm:text-[10px] font-bold text-slate-300 uppercase tracking-widest leading-none">v2.3.0</span>
+            </div>
           </div>
           
-          <div className="flex items-center gap-6">
-            {/* Progress Bar */}
+          <div className="flex items-center gap-2 sm:gap-4 md:gap-6">
+            {/* Desktop Progress Bar */}
             <div className="hidden lg:flex flex-col items-end">
               <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">Overall Progress</span>
               <div className="flex items-center gap-3">
@@ -267,10 +269,10 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Sync Status */}
-            <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-50 border border-slate-200 min-w-[100px] justify-center">
-              <div className={`w-2 h-2 rounded-full ${syncStatus === "saving" ? "bg-yellow-400 animate-pulse" : syncStatus === "error" ? "bg-red-500" : "bg-green-500"}`} />
-              <span className="text-[10px] font-bold text-slate-500 uppercase tracking-widest">
+            {/* Sync Status - Smaller on mobile */}
+            <div className="flex items-center gap-1.5 px-2 sm:px-3 py-1 sm:py-1.5 rounded-full bg-slate-50 border border-slate-200 min-w-[60px] sm:min-w-[100px] justify-center">
+              <div className={`w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full ${syncStatus === "saving" ? "bg-yellow-400 animate-pulse" : syncStatus === "error" ? "bg-red-500" : "bg-green-500"}`} />
+              <span className="text-[8px] sm:text-[10px] font-bold text-slate-500 uppercase tracking-widest hidden xs:block">
                 {syncStatus === "saving" ? "Saving" : syncStatus === "error" ? "Error" : "Synced"}
               </span>
             </div>
@@ -279,56 +281,57 @@ export default function Home() {
             <div className="flex items-center bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm">
               <button 
                 onClick={() => setShowUserModal(true)}
-                className="flex items-center gap-2 px-3 py-1.5 hover:bg-slate-50 border-r border-slate-100 transition-all text-slate-700"
+                className="flex items-center gap-1.5 sm:gap-2 px-2 sm:px-3 py-1 sm:py-1.5 hover:bg-slate-50 border-r border-slate-100 transition-all text-slate-700"
               >
                 {userName ? (
                   <>
-                    <div className="w-6 h-6 rounded-lg bg-indigo-600 text-white flex items-center justify-center text-[10px] font-black uppercase">
+                    <div className="w-5 h-5 sm:w-6 sm:h-6 rounded bg-indigo-600 text-white flex items-center justify-center text-[8px] sm:text-[10px] font-black uppercase">
                       {userName.split(' ').map(n => n[0]).join('').toUpperCase().substring(0, 2)}
                     </div>
-                    <span className="text-xs font-bold whitespace-nowrap hidden sm:block">{userName}</span>
+                    <span className="text-[10px] sm:text-xs font-bold whitespace-nowrap hidden md:block">{userName}</span>
                   </>
                 ) : (
                   <>
                     <LogIn size={14} />
-                    <span className="text-xs font-bold">Sign In</span>
+                    <span className="text-xs font-bold hidden xs:block">Sign In</span>
                   </>
                 )}
               </button>
               
-              <div className="px-3 py-1.5 flex flex-col items-center justify-center min-w-[80px]">
-                <span className="text-[9px] font-bold text-slate-400 uppercase tracking-tighter">My Score</span>
-                <span className="text-xs font-black text-indigo-600">
+              <div className="px-1.5 sm:px-3 py-1 sm:py-1.5 flex flex-col items-center justify-center min-w-[40px] sm:min-w-[80px]">
+                <span className="text-[7px] sm:text-[9px] font-bold text-slate-400 uppercase tracking-tighter leading-none mb-0.5">My Score</span>
+                <span className="text-[10px] sm:text-xs font-black text-indigo-600 leading-none">
                   {userName ? (data.userStats?.[userName] || 0) : 0}
                 </span>
               </div>
-              
             </div>
             
-            <button onClick={handleExport} className="p-2.5 bg-slate-900 hover:bg-slate-800 text-white rounded-xl transition-all shadow-sm">
-              <Download size={18} />
+            <button onClick={handleExport} className="p-2 sm:p-2.5 bg-slate-900 hover:bg-slate-800 text-white rounded-xl transition-all shadow-sm flex-shrink-0">
+              <Download size={16} />
             </button>
           </div>
         </div>
       </header>
 
-      <main className="max-w-7xl mx-auto px-4 py-8">
-        {/* Batch Navigation */}
-        <div className="flex flex-wrap items-center gap-2 mb-8 bg-white p-2 rounded-xl border border-slate-200 shadow-sm w-fit">
-          {ALL_BATCHES.map((batch) => (
-            <button
-              key={batch.batchId}
-              onClick={() => setActiveBatchId(batch.batchId)}
-              className={`flex items-center gap-2 px-5 py-2.5 rounded-lg text-sm font-semibold transition-all ${
-                activeBatchId === batch.batchId
-                  ? "bg-indigo-50 text-indigo-700 shadow-sm ring-1 ring-indigo-100"
-                  : "text-slate-600 hover:bg-slate-50 hover:text-slate-900"
-              }`}
-            >
-              <FolderOpen size={16} className={activeBatchId === batch.batchId ? "text-indigo-600" : "text-slate-400"} />
-              Batch {batch.batchId}
-            </button>
-          ))}
+      <main className="max-w-7xl mx-auto px-3 sm:px-4 py-4 sm:py-8">
+        {/* Batch Navigation - Horizontally Scrollable on Mobile */}
+        <div className="mb-6 sm:mb-8 overflow-x-auto pb-2 scrollbar-none [-ms-overflow-style:'none'] [scrollbar-width:'none'] [&::-webkit-scrollbar]:hidden">
+          <div className="flex items-center gap-2 bg-white p-1.5 rounded-xl border border-slate-200 shadow-sm w-max min-w-full">
+            {ALL_BATCHES.map((batch) => (
+              <button
+                key={batch.batchId}
+                onClick={() => setActiveBatchId(batch.batchId)}
+                className={`flex items-center gap-2 px-4 sm:px-5 py-2 sm:py-2.5 rounded-lg text-xs sm:text-sm font-semibold transition-all whitespace-nowrap ${
+                  activeBatchId === batch.batchId
+                    ? "bg-indigo-50 text-indigo-700 shadow-sm ring-1 ring-indigo-100"
+                    : "text-slate-500 hover:bg-slate-50"
+                }`}
+              >
+                <FolderOpen size={14} className={activeBatchId === batch.batchId ? "text-indigo-600" : "text-slate-400"} />
+                Batch {batch.batchId}
+              </button>
+            ))}
+          </div>
         </div>
 
         <div className="mb-8 flex flex-col md:flex-row md:items-end justify-between gap-4">
@@ -360,6 +363,19 @@ export default function Home() {
           ))}
         </div>
       </main>
+
+      {/* Persistent Bottom Progress Bar for Mobile */}
+      <div className="fixed bottom-0 left-0 w-full bg-white border-t border-slate-200 p-3 flex lg:hidden items-center justify-between z-40 bg-white/90 backdrop-blur-md">
+        <div className="flex flex-col gap-1 w-full max-w-[200px]">
+          <span className="text-[8px] font-black text-slate-400 uppercase tracking-widest">Progress: {progressPercentage}%</span>
+          <div className="w-full h-1.5 rounded-full bg-slate-100 overflow-hidden">
+            <div className="h-full bg-indigo-600 transition-all duration-500" style={{ width: `${progressPercentage}%` }} />
+          </div>
+        </div>
+        <div className="bg-indigo-50 px-3 py-1.5 rounded-lg border border-indigo-100">
+          <span className="text-xs font-black text-indigo-700">{gradedQuestionsCount} / {totalQuestions}</span>
+        </div>
+      </div>
     </div>
   );
 }
