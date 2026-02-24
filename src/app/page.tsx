@@ -346,18 +346,18 @@ export default function Home() {
       {/* Header */}
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-3 sm:px-4 h-16 flex items-center justify-between">
-          <div className="flex items-center gap-2 sm:gap-3 overflow-hidden">
-            <div 
-              className="bg-indigo-600 p-1.5 sm:p-2 rounded-lg text-white flex-shrink-0 cursor-default"
-              onClick={() => setShowAdminPinModal(true)}
-            >
+          <div 
+            className="flex items-center gap-2 sm:gap-3 overflow-hidden cursor-pointer active:scale-95 transition-transform"
+            onClick={() => setShowAdminPinModal(true)}
+          >
+            <div className="bg-indigo-600 p-1.5 sm:p-2 rounded-lg text-white flex-shrink-0">
               <CheckCircle size={18} />
             </div>
             <div className="flex flex-col overflow-hidden">
               <h1 className="text-base sm:text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600 truncate">
                 BNS Evaluator
               </h1>
-              <span className="text-[8px] sm:text-[10px] font-bold text-slate-300 uppercase tracking-widest leading-none">v2.3.0</span>
+              <span className="text-[8px] sm:text-[10px] font-bold text-slate-300 uppercase tracking-widest leading-none">v2.4.0</span>
             </div>
           </div>
           
