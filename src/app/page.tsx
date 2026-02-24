@@ -112,7 +112,7 @@ export default function Home() {
   // Loading state
   // Admin Powers
   const handleAdminLogin = () => {
-    if (adminPinInput === "1972") {
+    if (adminPinInput === "2183") {
       setIsAdmin(true);
       localStorage.setItem("eval_admin_session", "true");
       setShowAdminPinModal(false);
