@@ -252,7 +252,7 @@ export default function Home() {
             <h1 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">
               IPC vs BNS Evaluator
             </h1>
-            <span className="text-[10px] font-bold text-slate-300 uppercase tracking-widest mt-1">v2.2.0</span>
+            <span className="text-[10px] font-bold text-slate-300 uppercase tracking-widest mt-1">v2.2.1</span>
           </div>
           
           <div className="flex items-center gap-6">
