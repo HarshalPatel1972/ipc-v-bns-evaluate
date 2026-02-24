@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { ALL_BATCHES, MODELS } from "@/lib/data";
 import QuestionCard from "@/components/QuestionCard";
 import UserModal from "@/components/UserModal";
@@ -55,7 +55,7 @@ export default function Home() {
   };
 
   // Load from global API
-  const fetchGrades = async () => {
+  const fetchGrades = useCallback(async () => {
     if (Date.now() - lastLocalChange < 5000) return;
 
     try {
@@ -78,13 +78,13 @@ export default function Home() {
       console.error("Failed to load global grades", e);
       setIsLoaded(true);
     }
-  };
+  }, [lastLocalChange]);
 
   useEffect(() => {
     fetchGrades();
     const interval = setInterval(fetchGrades, 5000);
     return () => clearInterval(interval);
-  }, [lastLocalChange]);
+  }, [fetchGrades]);
 
   // Save to global API when data changes
   useEffect(() => {
@@ -100,7 +100,7 @@ export default function Home() {
         });
         if (res.ok) setSyncStatus("synced");
         else setSyncStatus("error");
-      } catch (e) {
+      } catch {
         setSyncStatus("error");
       }
     };

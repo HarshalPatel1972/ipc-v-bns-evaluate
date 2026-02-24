@@ -2,12 +2,6 @@
 
 import { User, Activity, Trash2 } from "lucide-react";
 
-interface UserLog {
-  name: string;
-  count: number;
-  lastActive: string;
-}
-
 interface UserLogsProps {
   logs: Record<string, number>;
   isOpen: boolean;
