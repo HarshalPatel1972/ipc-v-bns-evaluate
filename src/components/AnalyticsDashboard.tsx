@@ -3,6 +3,7 @@
 import React, { useMemo } from 'react';
 import { MODELS, ALL_BATCHES } from '@/lib/data';
 import { GlobalGrades } from '@/app/page';
+import Link from 'next/link';
 import { 
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, ReferenceLine,
   RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar
@@ -146,6 +147,16 @@ export default function AnalyticsDashboard({ data, isOpen, onClose }: AnalyticsD
                 <span className="text-2xl md:text-3xl font-black text-slate-900">{metrics[0]?.totalGraded * MODELS.length}</span>
                 <span className="text-sm font-semibold text-slate-500">evaluations</span>
               </div>
+            </div>
+            
+            <div className="flex items-center gap-2 mt-4 md:mt-0 col-span-2 md:col-span-4 justify-end">
+              <Link
+                href="/methodology"
+                className="flex items-center gap-2 bg-indigo-50 hover:bg-indigo-100 text-indigo-700 font-bold px-4 py-2 rounded-xl border border-indigo-200 transition-colors shadow-sm text-sm"
+              >
+                <Target size={18} />
+                View Methodology Setup
+              </Link>
             </div>
           </div>
 
