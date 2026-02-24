@@ -122,12 +122,12 @@ def clean_answer(ans):
     return format_section_string(ans)
 
 def format_section_string(ans):
-    # Search for "Section" followed by a number and optional short attribute (e.g. (1), (a), BNS)
-    # Stops at major punctuation like " - ", " : ", " — " or long spaces
-    match = re.search(r'(?i)Section\s+\d+[a-zA-Z]*(?:\([\w]+\))?(\s+[a-zA-Z]+)?', ans)
+    # Search for "Section" followed by a number and optional true legal attributes like (1), (a), (ii)
+    # Does NOT include words like "BNS", "IPC", etc.
+    match = re.search(r'(?i)Section\s+\d+[a-zA-Z]*(?:\([\w]+\))*', ans)
     if match:
         result = match.group(0).strip()
-        # Capitalize "Section"
+        # Capitalize "Section" correctly
         result = re.sub(r'(?i)Section', 'Section', result, count=1)
         return result
     return ans.strip()
