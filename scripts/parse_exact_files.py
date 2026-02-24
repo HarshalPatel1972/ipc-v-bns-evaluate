@@ -122,15 +122,10 @@ def clean_answer(ans):
     return format_section_string(ans)
 
 def format_section_string(ans):
-    matches = re.findall(r'(?i)Section\s+\d+[a-zA-Z]*(?:\(\w+\))*', ans)
-    if matches:
-        return format_case(matches[-1])
-        
-    matches2 = re.findall(r'(?i)section\s+\d+[a-zA-Z]*(?:\(\w+\))*', ans)
-    if matches2:
-        return format_case(matches2[-1])
-        
-    return ans
+    # If the answer is just a section number, keep it as is.
+    # If it has descriptions, keep the whole thing.
+    # Only clean if it looks like a messy crawl or has very specific prefix/suffix junk.
+    return ans.strip()
 
 def format_case(s):
     s = s.upper().replace("SECTION", "Section")
