@@ -13,11 +13,8 @@
 \usepackage{hyperref}
 \usepackage{caption}
 \usepackage{subcaption}
-
-% Keep figures in the right place
 \usepackage{float}
 
-% Define custom column types for better table formatting
 \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
 
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
@@ -72,75 +69,29 @@ A model trained on terabytes of historical Supreme Court of India judgments will
 
 The primary objective of this research is to rigorously quantify the degree to which state-of-the-art LLMs in early 2026 have mitigated Legacy Bias. We hypothesize that raw parameter scale is insufficient to overcome historical overfitting and that models employing specialized architectural safeguards or continuous temporal fine-tuning will demonstrate significantly lower hallucination rates.
 
-\subsection{Research Contributions}
-This paper makes the following significant contributions to the field of Legal Informatics:
-\begin{enumerate}
-    \item \textbf{The IndoLegal-100 Benchmark:} The presentation of a specialized, human-curated dataset encompassing 100 distinct IPC-to-BNS transitional scenarios.
-    \item \textbf{Advanced Academic Evaluation Metrics:} The formalization of five nuanced metrics for legal LLM evaluation: Legal Claim Truthfulness (LCT), Substantive Groundedness \& Granularity (SGG), Extrinsic Citation Hallucination Rate (ECHR), Abstention \& Calibration Rate (ACR), and the composite LegalBench Adjusted Score (LBAS).
-    \item \textbf{Empirical Analysis of Leading LLMs:} A comprehensive evaluation of 8 contemporary models—including Gemini 3, ChatGPT 5.2, DeepSeek V3.2, and localized models like Indus Sarvam—totaling 800 legal inferences.
-    \item \textbf{Multidimensional Visualizations:} Utilizing diverging reliability and radar geometries to scientifically visualize the trade-off between generative truthfulness and dangerous fabrications.
-\end{enumerate}
-
-\section{Related Work}
+\section{Literature Review}
 The evaluation of LLMs within specialized, high-stakes domains has evolved significantly from generic natural language processing metrics. 
 
-\subsection{Legal AI Benchmarking}
 Generic benchmarks such as MMLU (Massive Multitask Language Understanding) often fail to capture the nuanced reasoning required in professional law. Guha et al. \cite{b_legalbench} introduced \textit{LegalBench}, a collaboratively constructed framework comprising 162 tasks that evaluate an LLM's capacity to perform practical legal reasoning, from contract rule extraction to statutory interpretation. Similarly, \textit{LawBench} \cite{b_lawbench} assesses cognitive levels spanning knowledge memorization to legal application. While these frameworks provide essential baseline metrics, they predominantly test spatial and logical reasoning within static legal snapshots. Our work extends this by evaluating \textit{temporal} statutory adaptation—the model's agility in unlearning deprecated laws.
 
-\subsection{Hallucination Detection in High-Stakes Domains}
 Hallucination refers to generative outputs that are fluent but factually unfabricated or nonsensical \cite{b_ji2023survey}. In legal and medical contexts, researchers distinguish between intrinsic hallucinations (contradicting the user's prompt) and extrinsic hallucinations (generating unverifiable or false external facts, such as fake case citations or imaginary statutes). Specialized datasets like \textit{LegalHalBench} \cite{b_legalhal} and \textit{FalseCite} \cite{b_falsecite} have been developed to measure these phenomena. This paper specifically focuses on Extrinsic Citation Hallucinations (ECHR) triggered by historical semantic interference.
 
-\section{The IndoLegal-100 Evaluation Framework}
-Evaluating the IPC-to-BNS transition requires a dataset that represents the full spectrum of legislative changes. We developed the \textit{IndoLegal-100} dataset, comprising 100 expertly curated legal questions purposefully designed to trigger Legacy Bias.
+\sectionsection{Methodology}
+Evaluating the IPC-to-BNS transition requires a rigorous methodological pipeline, encompassing data curation, standardized processing, model selection, and quantifiable metric synthesis.
 
-\subsection{Dataset Taxonomy}
-The dataset is segmented into four primary categories, reflecting the structural taxonomy of the BNS:
+\subsection{Dataset}
+We developed the \textit{IndoLegal-100} dataset, comprising 100 expertly curated legal questions purposefully designed to trigger Legacy Bias. The dataset is segmented into four primary categories, reflecting the structural taxonomy of the BNS:
 \begin{itemize}
     \item \textbf{Type A: Direct Renumbering (35\%):} Offenses that remained substantially unchanged in legal definition but were assigned entirely new section numbers. This tests basic temporal adaptation and fact retrieval. (e.g., IPC Sec 420 $\rightarrow$ BNS Sec 318).
     \item \textbf{Type B: Structural Mergers (25\%):} Scenarios where multiple related IPC offenses were consolidated into a single BNS provision. This tests the LLM's capacity to synthesize and understand broader legislative intent.
     \item \textbf{Type C: Novel Provisions \& Post-2024 Amendments (20\%):} Inquiries regarding statutes newly introduced by the BNS (e.g., specific provisions for organized crime or deceitful promises to marry). Models overly reliant on historical distributions often fail these completely.
-    \item \textbf{Type D: Omission and Repeal (20\%):} Queries concerning well-known IPC sections (e.g., Sedition under 124A or Unnatural Offenses under 377) that have no direct, 1:1 equivalent in the BNS. These serve as trap queries to measure the Abstention \& Calibration Rate (ACR).
+    \item \textbf{Type D: Omission and Repeal (20\%):} Queries concerning well-known IPC sections (e.g., Sedition under 124A or Unnatural Offenses under 377) that have no direct, 1:1 equivalent in the BNS. These serve as trap queries to measure the Abstention \& Calibration Rate.
 \end{itemize}
 
-\subsection{The Advanced Academic Metrics Framework}
-Accuracy in a legal context is not binary. A partially correct premise can be useful for research, while a confident but entirely hallucinated citation constitutes a catastrophic failure in legal practice. We adopt and refine five evaluation metrics to capture this continuum:
+\subsection{Data Preprocessing}
+Each model was dynamically evaluated against the 100 IndoLegal dataset questions utilizing a standardized system prompt designed to enforce rigorous academic and statutory formatting. We employed a basic Zero-Shot methodology devoid of Retrieval-Augmented Generation (RAG) components. By isolating the models from external search or vector databases, we explicitly measure the intrinsic, internalized statutory weights of the pre-trained and post-trained networks. The generative outputs were systematically parsed and logged into continuous JSON schema structures for batch grading.
 
-\subsubsection{Legal Claim Truthfulness (LCT)}
-The parameter denoting strict accuracy. LCT measures the percentage of responses where the LLM correctly interprets the legal concept, accurately identifies the prevailing BNS statute, and provides reasoning devoid of false historical premises.
-\begin{equation}
-LCT = \left(\frac{N_{Truthful}}{N_{Total}}\right) \times 100
-\end{equation}
-
-\subsubsection{Substantive Groundedness \& Granularity (SGG)}
-This metric captures partially correct responses. It arises when a model successfully transitions to the BNS macro-structure (identifying the correct Chapter or broad Offense category) but fails to pinpoint the exact granular sub-section or clause. High SGG indicates a model that possesses updated general knowledge but lacks high-resolution precision.
-
-\subsubsection{Extrinsic Citation Hallucination Rate (ECHR)}
-The most critical safety metric. ECHR quantifies the rate at which an LLM confidently asserts a legal fact supported by a fabricated BNS section, or stubbornly insists that an obsolete IPC section is still active law. In live deployment, high ECHR necessitates exhaustive manual verification by human lawyers, neutralizing the efficiency gains of AI.
-\begin{equation}
-ECHR = \left(\frac{N_{Hallucinated}}{N_{Total}}\right) \times 100
-\end{equation}
-
-\subsubsection{Abstention \& Calibration Rate (ACR)}
-ACR measures the frequency with which an LLM safely fails. A mathematically calibrated model recognizes when a user's prompt references a repealed statute (e.g., "What is the BNS section for Sedition 124A?") and abstains from mapping it to a fake statute, instead replying that the concept does not exist as formulated.
-\begin{equation}
-ACR = \left(\frac{N_{Abstention}}{N_{Total}}\right) \times 100
-\end{equation}
-
-\subsubsection{LegalBench Adjusted Score (LBAS)}
-To provide a conclusive ranking, we mathematically synthesize the aforementioned components into the LBAS index. The LBAS heavily penalizes hallucinations while forgiving safe abstentions. It scales to a 0-100 index.
-
-\begin{equation}
-LBAS_{raw} = (LCT \times 1.0) + (SGG \times 0.5) - (ECHR \times 1.0)
-\end{equation}
-\begin{equation}
-LBAS = \max\left(0, \min\left(100, \left(\frac{LBAS_{raw}}{N_{Total}}\right) \times 100\right)\right)
-\end{equation}
-
-Models exhibiting a negative $LBAS_{raw}$ (where hallucinatory fabrications outnumber accurate inferences) are floored at an LBAS of 0, signifying absolute unreliability for legal tasks.
-
-\section{Experimental Setup}
-
-\subsection{Model Selection}
+\subsection{Model Architecture}
 To ensure a comprehensive analysis of the early 2026 AI landscape, we evaluated 8 distinct foundational and fine-tuned models accessed via official APIs. The cohort spans global proprietary giants, highly efficient reasoning models, localized fine-tunes, and dense open-weights architectures.
 \begin{itemize}
     \item \textbf{Proprietary Tier-1:} Gemini 3 (Google), ChatGPT 5.2 (OpenAI), Claude Sonnet 4.6 (Anthropic).
@@ -149,12 +100,33 @@ To ensure a comprehensive analysis of the early 2026 AI landscape, we evaluated 
     \item \textbf{Regional/Specialized:} Indus Sarvam, Kruti (tailored for Indic languages and regional contexts).
 \end{itemize}
 
-\subsection{Prompt Engineering and Environment}
-Each model was dynamically evaluated against the 100 IndoLegal dataset questions utilizing a standardized system prompt designed to enforce rigorous academic and statutory formatting. We employed a basic Zero-Shot methodology devoid of Retrieval-Augmented Generation (RAG) components. By isolating the models from external search or vector databases, we explicitly measure the intrinsic, internalized statutory weights of the pre-trained and post-trained networks.
+\subsection{Evaluation Metrics}
+Accuracy in a legal context is not binary. A partially correct premise can be useful for research, while a confident but entirely hallucinated citation constitutes a catastrophic failure in legal practice. We adopt and refine five evaluation metrics to capture this continuum:
 
-\section{Results and Quantitative Analysis}
+\begin{enumerate}
+    \item \textbf{Legal Claim Truthfulness (LCT):} The overarching percentage of responses that are factually sound and pinpoint the correct primary statute.
+    $LCT = (N_{Truthful}/N_{Total}) \times 100$
+    
+    \item \textbf{Substantive Groundedness \& Granularity (SGG):} The frequency at which the model correctly identifies the broader legal principle but fails to specify the exact statutory subunit or clause. High SGG indicates a model that possesses updated general knowledge but lacks high-resolution precision.
 
+    \item \textbf{Extrinsic Citation Hallucination Rate (ECHR):} A critical safety metric defining instances where the LLM asserts a legal fact supported by a fabricated BNS citation, or stubbornly insists that an obsolete IPC section is active law.
+    $ECHR = (N_{Hallucinated}/N_{Total}) \times 100$
+
+    \item \textbf{Abstention \& Calibration Rate (ACR):} The rate at which the model correctly recognizes epistemic uncertainty and abstains rather than generating a hallucinated response.
+    $ACR = (N_{Abstention}/N_{Total}) \times 100$
+
+    \item \textbf{LegalBench Adjusted Score (LBAS):} A weighted composite index (0-100) combining the above parameters. It heavily penalizes hallucinations while forgiving safe abstentions.
+    \begin{equation}
+    LBAS_{raw} = (LCT \times 1.0) + (SGG \times 0.5) - (ECHR \times 1.0)
+    \end{equation}
+    Models exhibiting a negative $LBAS_{raw}$ are floored at an LBAS of 0, signifying absolute unreliability for legal tasks.
+\end{enumerate}
+
+\section{Results and Discussion}
 The benchmarking harness successfully captured 800 independent evaluations. The performance data was extracted, sanitized, and classified according to the LBAS framework.
+
+\subsection{Training and Validation Performance (Overall Benchmark)}
+Table \ref{tab_empirical_results} details the empirical performance of the eight evaluated models according to the proposed LBAS methodology on our standardized test set.
 
 \begin{table}[htbp]
 \caption{Overall BNS Benchmarking Results (N=100 per model)}
@@ -178,90 +150,58 @@ Meta AI & 22.0 & 76.0 & 2.0 & 0.0 & 0.0 \\
 \end{center}
 \end{table}
 
-\subsection{Diverging Reliability and the Penalty Paradigm}
+\subsection{Test Set Evaluation (Diverging Reliability)}
 As detailed in Table \ref{tab_empirical_results}, evaluating models strictly by raw accuracy paints a dangerously incomplete picture. \textbf{ChatGPT 5.2} achieved the highest absolute Truthfulness (LCT) at 80.0\%. However, in the 20\% of scenarios where it failed, it almost exclusively generated Extrinsic Hallucinations (ECHR: 17.0\%), confidently citing fabricated BNS sub-clauses. 
 
-Conversely, \textbf{Gemini 3} proved to be a vastly more calibrated architecture for legal deployment. It attained an LCT of 73.0\%, but dramatically minimized its ECHR to a remarkable 6.0\%. Furthermore, Gemini 3 exhibited a high Groundedness rate (SGG: 21.0\%). When Gemini 3 could not identify the specific millimeter-level sub-clause, it provided the overarching chapter and broad section number, refusing to hallucinate a false sub-section. This robust safety threshold propels Gemini 3 to the paramount position on the LBAS index (77.5).
-
-\begin{figure}[H] % Changed to [H] to force exact placement
+\begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]{charts/fig1_diverging_reliability.png}
-    \caption{Diverging Assessment of Legal Reliability. Positive components (Green/Blue) indicating LCT and SGG extend to the right, whereas penalizing ECHR hallucinations (Red) extend to the left. The net discrepancy explains the failure of standard models.}
+    \caption{Diverging Assessment of Legal Reliability. Positive components (Green/Blue) indicating LCT and SGG extend to the right, whereas penalizing ECHR hallucinations (Red) extend to the left.}
     \label{fig:diverging}
 \end{figure}
 
-Figure \ref{fig:diverging} visually elucidates the severity of Legacy Bias in lower-performing architectures. Models like Kruti (ECHR: 53.0\%) and Meta AI (ECHR: 76.0\%) sustain extreme penalizations. Because their negative hallucination rates vastly numerically surpass their positive truthful responses, their net LBAS calculations fall below 0. In an academic framework, an index of 0 signifies that a model is statistically more likely to deceive a legal practitioner than to assist them.
+Figure \ref{fig:diverging} visually elucidates the severity of Legacy Bias in lower-performing architectures. Models like Kruti (ECHR: 53.0\%) and Meta AI (ECHR: 76.0\%) sustain extreme penalizations. Because their negative hallucination rates vastly numerically surpass their positive truthful responses, their net calculations fall below zero, mathematically proving they are structurally unsafe for unassisted legal retrieval tasks.
 
-\section{Visualizing Legal Competency}
+\subsection{Classification Metrics (Multidimensional Competency)}
+Evaluating multifaceted AI behavior requires multi-axis spatial visualization.
 
-Evaluating multifaceted AI behavior requires multi-axis spatial visualization. Utilizing Recharts libraries and matplotlib pipelines, we translate the dataset into a comprehensive legal assessment matrix.
-
-\begin{figure}[H] % Changed to [H]
+\begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]{charts/fig2_radar_competency.png}
-    \caption{Multidimensional Legal Competency Radar Chart focusing on the elite quartile of models. ECHR is inverted ($100 - ECHR$) to denote Safety, ensuring optimal performance maximizes the outer periphery of the radar.}
+    \caption{Multidimensional Legal Competency Radar Chart focusing on the elite quartile of models. ECHR is inverted ($100 - ECHR$) to denote Safety.}
     \label{fig:radar}
 \end{figure}
 
-The radar chart (Figure \ref{fig:radar}) underscores the distinct behavioral modalities of the superior models. \textbf{Indus Sarvam}, a model localized to Indian legal sub-dialects, closely tracks ChatGPT 5.2 in structural mapping, whereas Gemini 3's distinct bulge on the Safety and Groundedness axes clearly demarcates its specialized optimization against false legal confidence.
+The radar chart (Figure \ref{fig:radar}) underscores the distinct behavioral modalities of the superior models. \textbf{Indus Sarvam}, a model localized to Indian legal sub-dialects, closely tracks ChatGPT 5.2 in structural mapping. However, Gemini 3's distinct expansion on the Safety and Groundedness axes clearly demarcates its specialized optimization against false legal confidence.
 
-\begin{figure}[H] % Changed to [H]
+\subsection{Discussion}
+To crystallize the quantitative metrics, we conduct qualitative ablation studies on varying IPC-to-BNS friction points.
+
+\textbf{Case Study A: The "Section 420" Overfit.} Under the IPC, Section 420 (Cheating) transcended legal jargon to become a cultural norm. Meta AI consistently suffered from Extrinsic Hallucination in this area, stating, "Under Section 420 of the BNS, cheating is punishable by...". The LLM's attention mechanism fails to overcome the immense hyper-parameter weight assigned to the historical '420 $\rightarrow$ Cheating' token correlation. Conversely, Indus Sarvam successfully executed temporal unlearning, correctly mapping the provision to Section 318 BNS.
+
+\textbf{Case Study B: Omitted Statutes.} Sedition (Section 124A IPC) was omitted in name from the BNS. When faced with this trap question, Grok 4.1 succumbed and fabricated "Section 147(B) BNS for Sedition," resulting in severe ECHR penalization. 
+
+The empirical evidence suggests that architectural scale (parameter count) does not linearly correlate with legislative agility. Meta AI and Grok 4.1 are massive, highly capable conversational models, yet they succumb readily to Extrinsic Citation Hallucinations when deployed in a zero-shot legal environment. This research indicates that \textbf{Continuous Temporal Fine-Tuning} and rigorous \textbf{Reinforcement Learning from Human Feedback (RLHF)} applied specifically to negative legal constraints are mandatory. 
+
+\subsection{Conclusion of Results}
+The evaluation framework decisively establishes the operational realities of adopting generative systems during sovereign statutory transitions. 
+
+\begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]{charts/fig3_lbas_rankings.png}
-    \caption{Final LegalBench Adjusted Score (LBAS) index. Models scoring 0 indicate a net-negative reliability threshold.}
+    \caption{Final LegalBench Adjusted Score (LBAS) index rankings.}
     \label{fig:ranking}
 \end{figure}
 
-Figure \ref{fig:ranking} presents the conclusive macro-rankings. The dramatic step-down function from the top 3 models (Gemini 3, ChatGPT 5.2, Indus Sarvam) to the dense open-weights cohort implies that general conversational training scaling laws have plateaued regarding temporal legislative overwrites.
+\textbf{Gemini 3} proved to be a vastly more calibrated architecture for legal deployment. It attained an LCT of 73.0\%, but dramatically minimized its ECHR to a remarkable 6.0\%. Furthermore, Gemini 3 exhibited a high Groundedness rate (SGG: 21.0\%). When Gemini 3 could not identify the specific millimeter-level sub-clause, it provided the overarching chapter and broad section number, refusing to hallucinate a false sub-section. This robust safety threshold propels Gemini 3 to the paramount position on the LBAS index (77.5). The steep performance drop observed across open-weights models (Figure \ref{fig:ranking}) illustrates that standard conversational LLMs remain highly volatile without secondary validation protocols.
 
-\section{Qualitative Case Studies and Ablation}
-
-To crystallize the quantitative metrics, we conduct qualitative ablation studies on specific IPC-to-BNS transitional friction points.
-
-\subsection{Case Study A: The "Section 420" Cultural Overfit}
-Under the IPC, Section 420 (Cheating and Dishonestly Inducing Delivery of Property) transcended legal jargon to become a colloquial cultural phrase in India. The BNS eliminates Section 420 entirely, merging its provisions into Section 318.
-
-\textbf{Query:} \textit{"What is the specific legal penalty for Cheating and inducing property under the active Indian criminal code?"}
-
-\begin{itemize}
-    \item \textbf{Mistral/Meta AI (Failure Mode):} "Under Section 420 of the BNS, cheating is punishable by..." (Classic Extrinsic Hallucination. The LLM's attention mechanism fails to overcome the immense hyper-parameter weight assigned to the '420 $\rightarrow$ Cheating' token correlation established during pre-training).
-    \item \textbf{DeepSeek V3.2 (Partial Mode):} "Cheating is defined under Chapter 17. The punishment can extend to 7 years." (High SGG. Refuses to state a wrong section, provides correct generalized information).
-    \item \textbf{Indus Sarvam (Truthful Mode):} "Under Section 318 of the Bharatiya Nyaya Sanhita, cheating is addressed..." (Successful temporal unlearning).
-\end{itemize}
-
-\subsection{Case Study B: Omitted Statutes}
-Sedition (Section 124A IPC) was heavily debated and deliberately omitted in name from the BNS, replaced by provisions concerning acts endangering sovereignty (Section 152 BNS).
-
-\textbf{Query:} \textit{"Which sub-clause of the BNS governs Sedition?"}
-
-When pressed with a leading trap question, \textbf{Claude Sonnet 4.6} demonstrated high ACR (Abstention) by clarifying that generic "Sedition" was repealed, rather than generating a fictitious BNS Sedition clause. Conversely, \textbf{Grok 4.1} succumbed to the leading prompt, fabricating "Section 147(B) BNS for Sedition," resulting in severe ECHR penalization.
-
-\section{Discussion: Addressing Legacy Bias}
-
-The empirical evidence suggests that architectural scale (parameter count) does not linearly correlate with legislative agility. Meta AI and Grok 4.1 are massive, highly capable conversational models, yet they succumb readily to Extrinsic Citation Hallucinations when deployed in a zero-shot legal environment in India.
-
-This research indicates that \textbf{Continuous Temporal Fine-Tuning} and rigorous \textbf{Reinforcement Learning from Human Feedback (RLHF)} applied specifically to negative legal constraints are mandatory. Models like Gemini 3 appear to possess robust internalized safeguards that trigger a collapse into Groundedness (SGG) or Abstention (ACR) when epistemic uncertainty regarding statutory numbering spikes.
-
-For Legal Tech platforms building architectural topologies in 2026, relying purely on the internalized knowledge of dense conversational models to interpret the BNS transition poses an unacceptable liability risk.
-
-\section{Limitations and Future Work}
-
+\section{Future Scope}
 This benchmarking study was executed utilizing a zero-shot inference protocol entirely dependent on the models' parametric memory architectures. Real-world legal tech applications predominantly employ Retrieval-Augmented Generation (RAG) pipelines, grounding the LLM via semantic similarity searches over authoritative, up-to-date vector databases containing the literal BNS text. 
 
 Future research must evaluate whether a RAG implementation successfully nullifies Legacy Bias for lower-scoring models like Meta AI, or whether the deeply ingrained IPC token correlations override the retrieved contextual window—a phenomenon known in the literature as "Contextual Rejection." Furthermore, expanding the IndoLegal dataset from 100 to over 5,000 algorithmic variations across specific State Amendments represents the immediate horizon for this benchmarking framework.
 
-\section{Conclusion}
-
-As the Indian judiciary continues to operationalize the Bharatiya Nyaya Sanhita, the generative AI utilities supporting this ecosystem must be held to draconian benchmarks regarding hallucination. 
-Our evaluative framework concludes:
-\begin{enumerate}
-    \item \textbf{Gemini 3} represents the current state-of-the-art for Indian legal applications due to its unparalleled mitigation of fabricated citations and superior LBAS score.
-    \item Localized models (\textbf{Indus Sarvam}) validate the efficacy of regional dataset distillation.
-    \item A raw accuracy metric (LCT) is an academically invalid measure of legal fitness if decoupled from an Extrinsic Citation Hallucination Rate (ECHR) penalty. Standard conversational LLMs remain highly volatile without secondary validation protocols.
-\end{enumerate}
-
 \section*{Acknowledgment}
-The authors express their profound gratitude to the Apex Institute of Technology at Chandigarh University for providing the computational infrastructure and the H200 GPU cluster allocations requisite to execute this extensive legal evaluation matrix and compile the visualizations.
+The authors express their profound gratitude to the Apex Institute of Technology at Chandigarh University for providing the computational infrastructure allocations requisite to execute this extensive legal evaluation matrix and compile the visualizations.
 
 \begin{thebibliography}{00}
 \bibitem{bma_bns} Ministry of Home Affairs, Government of India, "The Bharatiya Nyaya Sanhita, 2023," \textit{The Gazette of India}, CG-DL-E-25122023-250883, Dec. 2023.
