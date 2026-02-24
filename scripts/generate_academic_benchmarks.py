@@ -41,29 +41,29 @@ def calculate_metrics(json_file_path):
         r = results[m]
         total = max(r['total'], 1) # Prevent div by zero
         
-        alps = (r['correct'] / total) * 100
-        lhfr = (r['wrong'] / total) * 100
-        gsam = (r['somewhat correct'] / total) * 100
-        sar = (r['no answer'] / total) * 100
+        lct = (r['correct'] / total) * 100
+        echr = (r['wrong'] / total) * 100
+        sgg = (r['somewhat correct'] / total) * 100
+        acr = (r['no answer'] / total) * 100
         
-        # Weighted Legal Competency Index (WLCI)
+        # LegalBench Adjusted Score (LBAS)
         # Correct = +1.0, Somewhat = +0.5, No Answer = 0, Wrong = -1.0
         # Scaled to a recognizable index (-100 to 100, then normalized to 0-100)
-        raw_wlci = (r['correct'] * 1.0) + (r['somewhat correct'] * 0.5) + (r['no answer'] * 0) + (r['wrong'] * -1.0)
-        wlci = max(0, min(100, (raw_wlci / total) * 100)) # Simplified to bounded 0-100 for easy reading
+        raw_lbas = (r['correct'] * 1.0) + (r['somewhat correct'] * 0.5) + (r['no answer'] * 0) + (r['wrong'] * -1.0)
+        lbas = max(0, min(100, (raw_lbas / total) * 100)) # Simplified to bounded 0-100 for easy reading
         
         benchmarks.append({
             'Model': m,
-            'ALPS (%)': alps,
-            'LHFR (%)': lhfr,
-            'GSAM (%)': gsam,
-            'SAR (%)': sar,
-            'WLCI Score': wlci,
+            'LCT (%)': lct,
+            'ECHR (%)': echr,
+            'SGG (%)': sgg,
+            'ACR (%)': acr,
+            'LBAS Score': lbas,
             'Total Graded': total
         })
         
     df = pd.DataFrame(benchmarks)
-    df = df.sort_values(by='WLCI Score', ascending=False).reset_index(drop=True)
+    df = df.sort_values(by='LBAS Score', ascending=False).reset_index(drop=True)
     return df, results
 
 def generate_ieee_visualizations(df, raw_results, output_dir="charts"):
@@ -84,52 +84,52 @@ def generate_ieee_visualizations(df, raw_results, output_dir="charts"):
     # Colors for academic publishing (colorblind friendly)
     colors = ['#2ca02c', '#1f77b4', '#d62728', '#7f7f7f']
     
-    p1 = ax.bar(models, correct, color=colors[0], label='Strict Correct')
-    p2 = ax.bar(models, somewhat, bottom=correct, color=colors[1], label='Partially Correct')
-    p3 = ax.bar(models, wrong, bottom=np.array(correct)+np.array(somewhat), color=colors[2], label='Hallucination (Wrong)')
-    p4 = ax.bar(models, no_ans, bottom=np.array(correct)+np.array(somewhat)+np.array(wrong), color=colors[3], label='Safety / No Answer')
+    p1 = ax.bar(models, correct, color=colors[0], label='Truthful (LCT)')
+    p2 = ax.bar(models, somewhat, bottom=correct, color=colors[1], label='Partially Correct (SGG)')
+    p3 = ax.bar(models, wrong, bottom=np.array(correct)+np.array(somewhat), color=colors[2], label='Extrinsic Hallucination (ECHR)')
+    p4 = ax.bar(models, no_ans, bottom=np.array(correct)+np.array(somewhat)+np.array(wrong), color=colors[3], label='Abstention (ACR)')
     
     ax.set_ylabel('Percentage / Question Count (n=100)', fontweight='bold')
     ax.set_title('Fig 1: Distribution of AI Performance in BNS Section Retrieval', fontweight='bold', pad=20)
-    ax.legend(loc='upper right', bbox_to_anchor=(1.25, 1))
+    ax.legend(loc='upper right', bbox_to_anchor=(1.35, 1))
     
     plt.xticks(rotation=45, ha='right')
     plt.tight_layout()
     plt.savefig(f"{output_dir}/fig1_performance_distribution.png", dpi=300, bbox_inches='tight')
     plt.close()
 
-    # 2. Bubble Chart: ALPS vs LHFR (Precision vs Danger)
+    # 2. Bubble Chart: LCT vs ECHR (Truthfulness vs Threat)
     fig, ax = plt.subplots(figsize=(10, 8))
     
-    scatter = ax.scatter(df['ALPS (%)'], df['LHFR (%)'], 
-                         s=df['WLCI Score']*10, # Size = overall score
+    scatter = ax.scatter(df['LCT (%)'], df['ECHR (%)'], 
+                         s=df['LBAS Score']*10, # Size = overall score
                          alpha=0.6, 
-                         c=df['WLCI Score'], 
+                         c=df['LBAS Score'], 
                          cmap='viridis')
     
     # Add labels to points
     for i, txt in enumerate(models):
-        ax.annotate(txt, (df['ALPS (%)'][i], df['LHFR (%)'][i]), xytext=(5, 5), textcoords='offset points')
+        ax.annotate(txt, (df['LCT (%)'][i], df['ECHR (%)'][i]), xytext=(5, 5), textcoords='offset points')
         
-    ax.set_xlabel('Absolute Legal Precision Score (ALPS) % -> Better', fontweight='bold')
-    ax.set_ylabel('Legal Hallucination Rate (LHFR) % -> Worse', fontweight='bold')
-    ax.set_title('Fig 2: AI Safety vs Precision (Bubble Size = Overall WLCI Score)', fontweight='bold', pad=20)
+    ax.set_xlabel('Legal Claim Truthfulness (LCT) % -> Better', fontweight='bold')
+    ax.set_ylabel('Extrinsic Citation Hallucination Rate (ECHR) % -> Worse', fontweight='bold')
+    ax.set_title('Fig 2: AI Safety vs Precision (Bubble Size = LegalBench Score)', fontweight='bold', pad=20)
     
     # Add quadrants lines
-    ax.axhline(y=df['LHFR (%)'].mean(), color='r', linestyle='--', alpha=0.3)
-    ax.axvline(x=df['ALPS (%)'].mean(), color='r', linestyle='--', alpha=0.3)
+    ax.axhline(y=df['ECHR (%)'].mean(), color='r', linestyle='--', alpha=0.3)
+    ax.axvline(x=df['LCT (%)'].mean(), color='r', linestyle='--', alpha=0.3)
     
     plt.tight_layout()
     plt.savefig(f"{output_dir}/fig2_precision_vs_danger.png", dpi=300)
     plt.close()
     
-    # 3. Bar Chart: WLCI Score Ranking
+    # 3. Bar Chart: LBAS Score Ranking
     fig, ax = plt.subplots(figsize=(12, 6))
     
-    bars = ax.bar(models, df['WLCI Score'], color=sns.color_palette("viridis", len(models)))
+    bars = ax.bar(models, df['LBAS Score'], color=sns.color_palette("viridis", len(models)))
     
-    ax.set_ylabel('WLCI Index Score', fontweight='bold')
-    ax.set_title('Fig 3: Weighted Legal Competency Index (WLCI) Rankings', fontweight='bold', pad=20)
+    ax.set_ylabel('LBAS Index Score', fontweight='bold')
+    ax.set_title('Fig 3: LegalBench Adjusted Score (LBAS) Rankings', fontweight='bold', pad=20)
     
     # Add score on top of bars
     for bar in bars:
@@ -138,7 +138,7 @@ def generate_ieee_visualizations(df, raw_results, output_dir="charts"):
         
     plt.xticks(rotation=45, ha='right')
     plt.tight_layout()
-    plt.savefig(f"{output_dir}/fig3_wlci_rankings.png", dpi=300)
+    plt.savefig(f"{output_dir}/fig3_lbas_rankings.png", dpi=300)
     plt.close()
 
     print("Charts generated successfully!")

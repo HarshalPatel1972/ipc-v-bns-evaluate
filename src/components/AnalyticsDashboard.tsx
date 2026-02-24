@@ -40,28 +40,28 @@ export default function AnalyticsDashboard({ data, isOpen, onClose }: AnalyticsD
       const r = rawResults[model];
       const total = Math.max(r.total, 1);
       
-      const alps = Number(((r.correct / total) * 100).toFixed(1));
-      const lhfr = Number(((r.wrong / total) * 100).toFixed(1));
-      const gsam = Number(((r.somewhat / total) * 100).toFixed(1));
-      const sar = Number(((r.noAnswer / total) * 100).toFixed(1));
+      const lct = Number(((r.correct / total) * 100).toFixed(1));
+      const echr = Number(((r.wrong / total) * 100).toFixed(1));
+      const sgg = Number(((r.somewhat / total) * 100).toFixed(1));
+      const acr = Number(((r.noAnswer / total) * 100).toFixed(1));
       
-      const rawWlci = (r.correct * 1.0) + (r.somewhat * 0.5) + (r.noAnswer * 0) + (r.wrong * -1.0);
-      const wlci = Number(Math.max(0, Math.min(100, (rawWlci / total) * 100)).toFixed(1));
+      const rawLbas = (r.correct * 1.0) + (r.somewhat * 0.5) + (r.noAnswer * 0) + (r.wrong * -1.0);
+      const lbas = Number(Math.max(0, Math.min(100, (rawLbas / total) * 100)).toFixed(1));
 
       return {
         name: model,
-        ALPS: alps,
-        LHFR: lhfr,
-        GSAM: gsam,
-        SAR: sar,
-        WLCI: wlci,
+        LCT: lct,
+        ECHR: echr,
+        SGG: sgg,
+        ACR: acr,
+        LBAS: lbas,
         correct: r.correct,
         somewhat: r.somewhat,
         wrong: r.wrong,
         noAnswer: r.noAnswer,
         totalGraded: r.total
       };
-    }).sort((a, b) => b.WLCI - a.WLCI);
+    }).sort((a, b) => b.LBAS - a.LBAS);
   }, [data]);
 
   if (!isOpen) return null;
@@ -98,10 +98,10 @@ export default function AnalyticsDashboard({ data, isOpen, onClose }: AnalyticsD
               <div className="absolute top-0 right-0 w-16 h-16 bg-emerald-50 rounded-bl-[100px] flex items-start justify-end p-3 text-emerald-500">
                 <Target size={18} />
               </div>
-              <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">Top Precision</span>
+              <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider leading-none mb-1">Top Truthfulness (LCT)</span>
               <div className="flex flex-col">
                 <span className="text-2xl md:text-3xl font-black text-slate-900">{metrics[0]?.name.split(' ')[0]}</span>
-                <span className="text-sm font-semibold text-emerald-600">{metrics[0]?.ALPS}% ALPS</span>
+                <span className="text-sm font-semibold text-emerald-600">{metrics[0]?.LCT}% Legal Truth</span>
               </div>
             </div>
 
@@ -109,10 +109,10 @@ export default function AnalyticsDashboard({ data, isOpen, onClose }: AnalyticsD
               <div className="absolute top-0 right-0 w-16 h-16 bg-indigo-50 rounded-bl-[100px] flex items-start justify-end p-3 text-indigo-500">
                 <Scale size={18} />
               </div>
-              <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">Top Overall</span>
+              <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider leading-none mb-1">Top Academic Index (LBAS)</span>
               <div className="flex flex-col">
                 <span className="text-2xl md:text-3xl font-black text-slate-900">{metrics[0]?.name.split(' ')[0]}</span>
-                <span className="text-sm font-semibold text-indigo-600">{metrics[0]?.WLCI} WLCI</span>
+                <span className="text-sm font-semibold text-indigo-600">{metrics[0]?.LBAS} LBAS Score</span>
               </div>
             </div>
 
@@ -120,14 +120,14 @@ export default function AnalyticsDashboard({ data, isOpen, onClose }: AnalyticsD
               <div className="absolute top-0 right-0 w-16 h-16 bg-red-50 rounded-bl-[100px] flex items-start justify-end p-3 text-red-500">
                 <AlertTriangle size={18} />
               </div>
-              <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">Highest Risk</span>
+              <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider leading-none mb-1">Highest Hallucination (ECHR)</span>
               <div className="flex flex-col">
                 {(() => {
-                  const sortedLhfr = [...metrics].sort((a,b) => b.LHFR - a.LHFR);
+                  const sortedEchr = [...metrics].sort((a,b) => b.ECHR - a.ECHR);
                   return (
                     <>
-                      <span className="text-2xl md:text-3xl font-black text-slate-900">{sortedLhfr[0]?.name.split(' ')[0]}</span>
-                      <span className="text-sm font-semibold text-red-600">{sortedLhfr[0]?.LHFR}% LHFR</span>
+                      <span className="text-2xl md:text-3xl font-black text-slate-900">{sortedEchr[0]?.name.split(' ')[0]}</span>
+                      <span className="text-sm font-semibold text-red-600">{sortedEchr[0]?.ECHR}% Fake Citations</span>
                     </>
                   );
                 })()}
@@ -147,35 +147,37 @@ export default function AnalyticsDashboard({ data, isOpen, onClose }: AnalyticsD
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {/* Left Column: WLCI Leaderboard */}
+            {/* Left Column: LBAS Leaderboard */}
             <div className="lg:col-span-1 bg-white p-6 rounded-2xl border border-slate-200 shadow-sm flex flex-col gap-4">
-              <h3 className="text-lg font-bold text-slate-900 flex items-center gap-2">
-                <Scale size={20} className="text-indigo-600" />
-                WLCI Leaderboard
-              </h3>
-              <p className="text-xs text-slate-500 leading-relaxed">
-                The <strong>Weighted Legal Competency Index</strong> ranks models based on strict precision while heavily penalizing dangerous hallucinations.
-              </p>
+              <div className="mb-2">
+                <h3 className="text-xl font-black text-slate-900 flex items-center gap-2 mb-1 cursor-help group relative">
+                  <Scale size={20} className="text-indigo-600" />
+                  LBAS Leaderboard
+                </h3>
+                <p className="text-xs text-slate-500 leading-relaxed font-medium">
+                  The <strong className="text-slate-700">LegalBench Adjusted Score</strong> (0-100) ranks models by heavily rewarding Truthfulness (LCT) while fundamentally penalizing Extrinsic Hallucinations (ECHR).
+                </p>
+              </div>
               
-              <div className="flex flex-col gap-3 mt-2">
+              <div className="flex flex-col gap-4 mt-2">
                 {metrics.map((m, idx) => (
                   <div key={m.name} className="flex items-center gap-4 group">
-                    <div className={`w-8 h-8 rounded-full flex items-center justify-center font-black text-xs shrink-0
-                      ${idx === 0 ? 'bg-amber-100 text-amber-700' : 
-                        idx === 1 ? 'bg-slate-100 text-slate-600' : 
-                        idx === 2 ? 'bg-orange-50 text-orange-700' : 'bg-slate-50 text-slate-400'}
+                    <div className={`w-8 h-8 rounded-full flex items-center justify-center font-black text-xs shrink-0 shadow-sm border
+                      ${idx === 0 ? 'bg-amber-100 text-amber-700 border-amber-200' : 
+                        idx === 1 ? 'bg-slate-100 text-slate-600 border-slate-200' : 
+                        idx === 2 ? 'bg-orange-50 text-orange-700 border-orange-200' : 'bg-slate-50 text-slate-400 border-slate-100'}
                     `}>
                       {idx + 1}
                     </div>
                     <div className="flex-1 flex flex-col">
-                      <div className="flex items-end justify-between">
+                      <div className="flex items-end justify-between mb-1.5">
                         <span className="text-sm font-bold text-slate-800">{m.name}</span>
-                        <span className="text-sm font-black text-indigo-600">{m.WLCI}</span>
+                        <span className="text-sm font-black text-indigo-600">{m.LBAS}</span>
                       </div>
-                      <div className="w-full bg-slate-100 h-1.5 rounded-full mt-1 overflow-hidden">
+                      <div className="w-full bg-slate-100 h-1.5 rounded-full overflow-hidden">
                         <div 
                           className={`h-full rounded-full transition-all duration-1000 ${idx === 0 ? 'bg-indigo-500' : 'bg-slate-300 group-hover:bg-indigo-400'}`}
-                          style={{ width: `${m.WLCI}%` }}
+                          style={{ width: `${m.LBAS}%` }}
                         />
                       </div>
                     </div>
@@ -189,7 +191,10 @@ export default function AnalyticsDashboard({ data, isOpen, onClose }: AnalyticsD
               
               {/* Stacked Bar Chart */}
               <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm h-[350px] flex flex-col">
-                <h3 className="text-sm font-bold text-slate-900 mb-4 uppercase tracking-wider">Response Distribution</h3>
+                <div className="mb-4">
+                  <h3 className="text-sm font-bold text-slate-900 uppercase tracking-wider mb-1">Performance Distribution</h3>
+                  <p className="text-[10px] text-slate-500 font-medium">Breakdown of Legal Claim Truthfulness (LCT), Groundedness (SGG), Extrinsic Hallucination (ECHR), and Abstention (ACR).</p>
+                </div>
                 <div className="flex-1 w-full min-h-0">
                   <ResponsiveContainer width="100%" height="100%">
                     <BarChart
@@ -205,10 +210,10 @@ export default function AnalyticsDashboard({ data, isOpen, onClose }: AnalyticsD
                         labelStyle={{ fontSize: '14px', fontWeight: 800, color: '#0f172a', marginBottom: '8px' }}
                       />
                       <Legend wrapperStyle={{ fontSize: '12px', paddingTop: '10px' }} iconType="circle" />
-                      <Bar dataKey="correct" name="Strict Correct (ALPS)" stackId="a" fill="#10b981" radius={[0, 0, 4, 4]} />
-                      <Bar dataKey="somewhat" name="Partial Correct (GSAM)" stackId="a" fill="#3b82f6" />
-                      <Bar dataKey="wrong" name="Hallucination (LHFR)" stackId="a" fill="#ef4444" />
-                      <Bar dataKey="noAnswer" name="Safety (SAR)" stackId="a" fill="#94a3b8" radius={[4, 4, 0, 0]} />
+                      <Bar dataKey="correct" name="LCT (Truthful)" stackId="a" fill="#10b981" radius={[0, 0, 4, 4]} />
+                      <Bar dataKey="somewhat" name="SGG (Partial/Granular)" stackId="a" fill="#3b82f6" />
+                      <Bar dataKey="wrong" name="ECHR (Hallucinated)" stackId="a" fill="#ef4444" />
+                      <Bar dataKey="noAnswer" name="ACR (Safe Abstention)" stackId="a" fill="#94a3b8" radius={[4, 4, 0, 0]} />
                     </BarChart>
                   </ResponsiveContainer>
                 </div>
@@ -216,15 +221,18 @@ export default function AnalyticsDashboard({ data, isOpen, onClose }: AnalyticsD
 
               {/* Scatter Chart */}
               <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm h-[350px] flex flex-col">
-                <h3 className="text-sm font-bold text-slate-900 mb-4 uppercase tracking-wider">Precision vs Danger Matrix</h3>
+                <div className="mb-4">
+                  <h3 className="text-sm font-bold text-slate-900 uppercase tracking-wider mb-1">Truthfulness vs. Hallucination Matrix</h3>
+                  <p className="text-[10px] text-slate-500 font-medium">Bottom-Right quadrant represents models that are highly truthful (High LCT) while avoiding dangerous fabrications (Low ECHR).</p>
+                </div>
                 <div className="flex-1 w-full min-h-0">
                   <ResponsiveContainer width="100%" height="100%">
                     <ScatterChart margin={{ top: 20, right: 20, bottom: 20, left: -20 }}>
                       <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" />
                       <XAxis 
                         type="number" 
-                        dataKey="ALPS" 
-                        name="Precision (ALPS)" 
+                        dataKey="LCT" 
+                        name="Truthfulness (LCT)" 
                         unit="%" 
                         tick={{ fill: '#64748b', fontSize: 12 }}
                         axisLine={false}
@@ -233,14 +241,14 @@ export default function AnalyticsDashboard({ data, isOpen, onClose }: AnalyticsD
                       </XAxis>
                       <YAxis 
                         type="number" 
-                        dataKey="LHFR" 
-                        name="Danger (LHFR)" 
+                        dataKey="ECHR" 
+                        name="Danger (ECHR)" 
                         unit="%" 
                         tick={{ fill: '#64748b', fontSize: 12 }}
                         axisLine={false}
                         tickLine={false}
                       />
-                      <ZAxis type="number" dataKey="WLCI" range={[50, 400]} name="Overall WLCI" />
+                      <ZAxis type="number" dataKey="LBAS" range={[50, 400]} name="Overall LBAS" />
                       <Tooltip 
                         cursor={{ strokeDasharray: '3 3' }}
                         contentStyle={{ borderRadius: '12px', border: 'none', boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)' }}
@@ -249,8 +257,8 @@ export default function AnalyticsDashboard({ data, isOpen, onClose }: AnalyticsD
                         {metrics.map((entry, index) => (
                            <text 
                              key={`label-${index}`} 
-                             x={entry.ALPS} 
-                             y={entry.LHFR} 
+                             x={entry.LCT} 
+                             y={entry.ECHR} 
                              dy={-15} 
                              textAnchor="middle" 
                              fill="#475569" 
