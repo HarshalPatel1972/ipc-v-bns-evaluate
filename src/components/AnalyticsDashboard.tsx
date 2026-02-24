@@ -4,8 +4,8 @@ import React, { useMemo } from 'react';
 import { MODELS, ALL_BATCHES } from '@/lib/data';
 import { GlobalGrades } from '@/app/page';
 import { 
-  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer,
-  ScatterChart, Scatter, ZAxis
+  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, ReferenceLine,
+  RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar
 } from 'recharts';
 import { X, Activity, BarChart3, Target, AlertTriangle, Scale } from 'lucide-react';
 
@@ -52,8 +52,11 @@ export default function AnalyticsDashboard({ data, isOpen, onClose }: AnalyticsD
         name: model,
         LCT: lct,
         ECHR: echr,
+        negativeECHR: -echr, // For the diverging chart
+        inverseECHR: 100 - echr, // For the radar chart
         SGG: sgg,
         ACR: acr,
+        RawNetScore: Number(((rawLbas / total) * 100).toFixed(1)),
         LBAS: lbas,
         correct: r.correct,
         somewhat: r.somewhat,
@@ -155,7 +158,8 @@ export default function AnalyticsDashboard({ data, isOpen, onClose }: AnalyticsD
                   LBAS Leaderboard
                 </h3>
                 <p className="text-xs text-slate-500 leading-relaxed font-medium">
-                  The <strong className="text-slate-700">LegalBench Adjusted Score</strong> (0-100) ranks models by heavily rewarding Truthfulness (LCT) while fundamentally penalizing Extrinsic Hallucinations (ECHR).
+                  The <strong className="text-slate-700">LegalBench Adjusted Score</strong> (0-100) rewards Truthfulness while penalizing Hallucinations (-1.0 pt).<br/><br/>
+                  <span className="text-red-500 font-bold">Why score 0?</span> If a model fabricates more negative fake citations than positive correct answers, its net score falls below 0, indicating it is too dangerous for legal use.
                 </p>
               </div>
               
@@ -172,7 +176,10 @@ export default function AnalyticsDashboard({ data, isOpen, onClose }: AnalyticsD
                     <div className="flex-1 flex flex-col">
                       <div className="flex items-end justify-between mb-1.5">
                         <span className="text-sm font-bold text-slate-800">{m.name}</span>
-                        <span className="text-sm font-black text-indigo-600">{m.LBAS}</span>
+                        <div className="flex flex-col items-end">
+                           <span className="text-sm font-black text-indigo-600 leading-none">{m.LBAS}</span>
+                           {m.LBAS === 0 && <span className="text-[9px] text-red-500 font-semibold mt-0.5">Net: {m.RawNetScore}</span>}
+                        </div>
                       </div>
                       <div className="w-full bg-slate-100 h-1.5 rounded-full overflow-hidden">
                         <div 
@@ -189,91 +196,65 @@ export default function AnalyticsDashboard({ data, isOpen, onClose }: AnalyticsD
             {/* Right Column: Charts */}
             <div className="lg:col-span-2 flex flex-col gap-8">
               
-              {/* Stacked Bar Chart */}
+              {/* Diverging Bar Chart */}
               <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm h-[350px] flex flex-col">
                 <div className="mb-4">
-                  <h3 className="text-sm font-bold text-slate-900 uppercase tracking-wider mb-1">Performance Distribution</h3>
-                  <p className="text-[10px] text-slate-500 font-medium">Breakdown of Legal Claim Truthfulness (LCT), Groundedness (SGG), Extrinsic Hallucination (ECHR), and Abstention (ACR).</p>
+                  <h3 className="text-sm font-bold text-slate-900 uppercase tracking-wider mb-1">Diverging Reliability (Truth vs. Hallucination)</h3>
+                  <p className="text-[10px] text-slate-500 font-medium">Green/Blue = Positive contributions. Red = Negative penalties. Explains why heavily hallucinating models receive a 0 score.</p>
                 </div>
                 <div className="flex-1 w-full min-h-0">
                   <ResponsiveContainer width="100%" height="100%">
                     <BarChart
                       data={metrics}
-                      margin={{ top: 10, right: 10, left: -20, bottom: 0 }}
+                      layout="vertical"
+                      margin={{ top: 10, right: 30, left: 10, bottom: 0 }}
+                      stackOffset="sign"
                     >
-                      <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#e2e8f0" />
-                      <XAxis dataKey="name" tick={{ fontSize: 11, fill: '#64748b', fontWeight: 600 }} tickLine={false} axisLine={false} />
-                      <YAxis tick={{ fontSize: 11, fill: '#64748b' }} tickLine={false} axisLine={false} />
+                      <CartesianGrid strokeDasharray="3 3" horizontal={true} vertical={false} stroke="#e2e8f0" />
+                      <XAxis type="number" tick={{ fontSize: 11, fill: '#64748b' }} tickFormatter={(val) => `${Math.abs(val)}%`} />
+                      <YAxis dataKey="name" type="category" tick={{ fontSize: 11, fill: '#64748b', fontWeight: 600 }} tickLine={false} axisLine={false} width={100} />
                       <Tooltip 
                         contentStyle={{ borderRadius: '12px', border: 'none', boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)' }}
-                        itemStyle={{ fontSize: '13px', fontWeight: 600 }}
+                        formatter={(value: number | undefined) => [`${Math.abs(value || 0)}%`, ""]}
                         labelStyle={{ fontSize: '14px', fontWeight: 800, color: '#0f172a', marginBottom: '8px' }}
                       />
                       <Legend wrapperStyle={{ fontSize: '12px', paddingTop: '10px' }} iconType="circle" />
-                      <Bar dataKey="correct" name="LCT (Truthful)" stackId="a" fill="#10b981" radius={[0, 0, 4, 4]} />
-                      <Bar dataKey="somewhat" name="SGG (Partial/Granular)" stackId="a" fill="#3b82f6" />
-                      <Bar dataKey="wrong" name="ECHR (Hallucinated)" stackId="a" fill="#ef4444" />
-                      <Bar dataKey="noAnswer" name="ACR (Safe Abstention)" stackId="a" fill="#94a3b8" radius={[4, 4, 0, 0]} />
+                      <ReferenceLine x={0} stroke="#334155" strokeWidth={2} />
+                      <Bar dataKey="LCT" name="Truthful (+)" stackId="stack" fill="#10b981" />
+                      <Bar dataKey="SGG" name="Partial (+)" stackId="stack" fill="#3b82f6" />
+                      <Bar dataKey="negativeECHR" name="Hallucination (-)" stackId="stack" fill="#ef4444" />
                     </BarChart>
                   </ResponsiveContainer>
                 </div>
               </div>
 
-              {/* Scatter Chart */}
-              <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm h-[350px] flex flex-col">
-                <div className="mb-4">
-                  <h3 className="text-sm font-bold text-slate-900 uppercase tracking-wider mb-1">Truthfulness vs. Hallucination Matrix</h3>
-                  <p className="text-[10px] text-slate-500 font-medium">Bottom-Right quadrant represents models that are highly truthful (High LCT) while avoiding dangerous fabrications (Low ECHR).</p>
+              {/* Radar Chart */}
+              <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm h-[400px] flex flex-col">
+                <div className="mb-4 text-center">
+                  <h3 className="text-sm font-bold text-slate-900 uppercase tracking-wider mb-1">Multidimensional Legal Competency</h3>
+                  <p className="text-[10px] text-slate-500 font-medium">Top 4 models mapped across Truthfulness, Groundedness, Abstention, and Safety from fake citations (Inverted ECHR).</p>
                 </div>
-                <div className="flex-1 w-full min-h-0">
+                <div className="flex-1 w-full min-h-0 flex items-center justify-center">
                   <ResponsiveContainer width="100%" height="100%">
-                    <ScatterChart margin={{ top: 20, right: 20, bottom: 20, left: -20 }}>
-                      <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" />
-                      <XAxis 
-                        type="number" 
-                        dataKey="LCT" 
-                        name="Truthfulness (LCT)" 
-                        unit="%" 
-                        tick={{ fill: '#64748b', fontSize: 12 }}
-                        axisLine={false}
-                        tickLine={false}
-                      >
-                      </XAxis>
-                      <YAxis 
-                        type="number" 
-                        dataKey="ECHR" 
-                        name="Danger (ECHR)" 
-                        unit="%" 
-                        tick={{ fill: '#64748b', fontSize: 12 }}
-                        axisLine={false}
-                        tickLine={false}
-                      />
-                      <ZAxis type="number" dataKey="LBAS" range={[50, 400]} name="Overall LBAS" />
-                      <Tooltip 
-                        cursor={{ strokeDasharray: '3 3' }}
-                        contentStyle={{ borderRadius: '12px', border: 'none', boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)' }}
-                      />
-                      <Scatter name="Models" data={metrics} fill="#6366f1">
-                        {metrics.map((entry, index) => (
-                           <text 
-                             key={`label-${index}`} 
-                             x={entry.LCT} 
-                             y={entry.ECHR} 
-                             dy={-15} 
-                             textAnchor="middle" 
-                             fill="#475569" 
-                             fontSize={11} 
-                             fontWeight="bold"
-                           >
-                             {entry.name.split(' ')[0]}
-                           </text>
-                        ))}
-                      </Scatter>
-                    </ScatterChart>
+                    <RadarChart cx="50%" cy="50%" outerRadius="70%" data={[
+                      { subject: 'Truthfulness (LCT)', A: metrics[0]?.LCT || 0, B: metrics[1]?.LCT || 0, C: metrics[2]?.LCT || 0, D: metrics[3]?.LCT || 0 },
+                      { subject: 'Groundedness (SGG)', A: metrics[0]?.SGG || 0, B: metrics[1]?.SGG || 0, C: metrics[2]?.SGG || 0, D: metrics[3]?.SGG || 0 },
+                      { subject: 'Safe Abstention (ACR)', A: metrics[0]?.ACR || 0, B: metrics[1]?.ACR || 0, C: metrics[2]?.ACR || 0, D: metrics[3]?.ACR || 0 },
+                      { subject: 'Safety (100 - ECHR)', A: metrics[0]?.inverseECHR || 0, B: metrics[1]?.inverseECHR || 0, C: metrics[2]?.inverseECHR || 0, D: metrics[3]?.inverseECHR || 0 }
+                    ]}>
+                      <PolarGrid stroke="#e2e8f0" />
+                      <PolarAngleAxis dataKey="subject" tick={{ fill: '#475569', fontSize: 11, fontWeight: 'bold' }} />
+                      <PolarRadiusAxis angle={30} domain={[0, 100]} tick={{ fill: '#94a3b8', fontSize: 10 }} />
+                      
+                      <Radar name={metrics[0]?.name.split(' ')[0]} dataKey="A" stroke="#4f46e5" fill="#4f46e5" fillOpacity={0.1} strokeWidth={2} />
+                      <Radar name={metrics[1]?.name.split(' ')[0]} dataKey="B" stroke="#10b981" fill="#10b981" fillOpacity={0.1} strokeWidth={2} />
+                      <Radar name={metrics[2]?.name.split(' ')[0]} dataKey="C" stroke="#f59e0b" fill="#f59e0b" fillOpacity={0.1} strokeWidth={2} />
+                      <Radar name={metrics[3]?.name.split(' ')[0]} dataKey="D" stroke="#ec4899" fill="#ec4899" fillOpacity={0.1} strokeWidth={2} />
+                      
+                      <Tooltip contentStyle={{ borderRadius: '12px', border: 'none', boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)' }} />
+                      <Legend wrapperStyle={{ fontSize: '11px', fontWeight: 'bold' }} iconType="circle" />
+                    </RadarChart>
                   </ResponsiveContainer>
-                </div>
-                <div className="text-center text-xs text-slate-400 mt-2 font-medium">
-                  Bottom-Right is Best (High Precision, Low Danger). Bubble size = WLCI Score.
                 </div>
               </div>
 
