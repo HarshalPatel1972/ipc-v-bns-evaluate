@@ -94,37 +94,45 @@ The offence of being a 'Thug' was historically punished under the IPC; its exact
 The BNS section for making or publishing statements, false information, or rumours conducing to public mischief is Section 197.
 
 Indus Sarvam
-General Liability and Attempt:
-•	Attempt to commit an offence punishable with imprisonment: Section 62
-•	Joint liability when several persons act with common intention: Sections 55-56 (abetment provisions)
-•	Making false charges with intent to injure: Section 248
-Age and Capacity:
-•	Act of a child under seven years of age: Section 20
-•	Accident or misfortune while doing a lawful act: Section 18
-Private Defense:
-•	Right of private defense (general section): Section 35 - Right of private defence of body and of property (with Sections 34-44 covering specific aspects)
-Abetment and Common Intention:
-•	Abetment of a thing: Section 45 (with subsequent sections 46-60 detailing various aspects)
-Sedition and National Security:
-•	Waging war against Government of India: Section 147
-•	Promoting enmity between different groups: Section 196
-Religious and Community Harmony:
-•	Deliberate and malicious acts outraging religious feelings: Section 299
-Protection and Harbouring:
-•	Harbouring or concealing an offender: Section 249
-Women and Child Protection:
-•	Voluntarily causing woman with child to miscarry: Section 88
-•	Kidnapping or maiming a minor for begging: Section 139
-•	Deceitful marriage (inducing belief of lawful marriage): Section 81
-Exploitation and Trafficking:
-•	Trafficking of person: Section 143
-•	Unlawful compulsory labour: Section 146
-•	Habitual dealing in slaves: Section 145
-Property and Animals:
-•	Mischief by killing or maiming animal: Section 325
-Public Order and Mischief:
-•	Thug (organized criminal): The term "thug" is not explicitly mentioned, but related offenses are covered under organized crime (Section 111) and dacoity (Section 310)
-•	Making/publishing false statements causing public mischief: Section 193 (rioting) and related provisions
+Attempt to commit an offence punishable with imprisonment — Section 62
+
+Joint liability when a criminal act is done by several persons in furtherance of a common intention — Sections 55–56
+
+Act done by a child under seven years of age — Section 20
+
+Act done by accident or misfortune while doing a lawful act — Section 18
+
+Exercise of the right of private defense — Section 35
+
+Abetment of a thing — Section 45
+
+Waging or attempting to wage war against the Government of India — Section 147
+
+Promoting enmity between different groups — Section 196
+
+Deliberate and malicious acts intended to outrage religious feelings — Section 299
+
+Falsely charging a person with an offence with intent to injure — Section 248
+
+Harbouring or concealing an offender to screen them — Section 249
+
+Voluntarily causing a woman with child to miscarry — Section 88
+
+Kidnapping or maiming a minor for begging — Section 139
+
+Trafficking of person — Section 143
+
+Unlawfully compelling a person to labour against their will — Section 146
+
+Habitually dealing in slaves — Section 145
+
+Mischief by killing or maiming an animal — Section 325
+
+Deceitfully inducing belief of lawful marriage to cause cohabitation — Section 81
+
+‘Thug’ (historical IPC offence) equivalent — Not explicitly mentioned; related provisions: Sections 111 and 310
+
+Making or publishing false information or rumours conducing to public mischief — Section 193
 
 
 Gemini 3

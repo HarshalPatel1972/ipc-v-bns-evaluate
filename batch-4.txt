@@ -89,31 +89,45 @@ If a person refuses to sign a statement made by them when legally required by a 
 The BNS section for intentionally insulting or interrupting a public servant sitting in a judicial proceeding is Section 228 (rephrased as insult to public servant in judicial proceeding).
 
 Indus Sarvam
-Traffic and Public Safety:
-•	Rash driving or riding on a public way: Section 281
-•	Causing death by rash or negligent act not amounting to culpable homicide: Section 106
-Public Servant Related Offences:
-•	Voluntarily obstructing a public servant in discharge of public functions: Section 221
-•	Falsification of accounts by clerk or officer: Section 344
-•	Disobedience to order duly promulgated by public servant: Section 223
-•	Legally bound to furnish information but provides false information: Section 212
-•	Legally bound to produce document but intentionally omits to do so: Section 210
-•	Refuses to sign statement when legally required by public servant: Section 211
-•	Intentionally insulting or interrupting public servant in judicial proceeding: Section 224
-Property and Trespass:
-•	Criminal trespass: Section 329
-•	Attempt to commit robbery: Section 312
-•	Public nuisance: Section 270
-Obscenity and Religious Offences:
-•	Sale, distribution, or public exhibition of obscene books and materials: Section 294
-•	Selling or distributing obscene objects to a child: Section 295
-•	Singing, reciting, or uttering obscene songs/words in public place: Section 296
-•	Injuring or defiling place of worship with intent to insult religion: Section 298
-Food Safety and Evidence:
-•	Adulteration of food or drink intended for sale: Section 274
-•	Intentionally causing disappearance of evidence to screen offender: Section 241
-Forensic and Legal Documents:
-•	Fraudulent use of forged document or electronic record as genuine: Section 340
+Rash driving or riding on a public way — Section 281
+
+Causing death by rash or negligent act not amounting to culpable homicide — Section 106
+
+Voluntarily obstructing a public servant in discharge of public functions — Section 221
+
+Falsification of accounts by clerk or officer — Section 344
+
+Criminal Trespass — Section 329
+
+Sale, distribution, or public exhibition of obscene books/materials — Section 294
+
+Selling or distributing obscene objects to a child — Section 295
+
+Intentionally causing disappearance of evidence to screen offender — Section 241
+
+Disobedience to order duly promulgated by public servant — Section 223
+
+Injuring or defiling place of worship with intent to insult religion — Section 298
+
+Singing/reciting/uttering obscene songs or words in public place — Section 296
+
+Adulteration of food or drink intended for sale — Section 274
+
+Legally bound to furnish information but provides false information — Section 212
+
+Attempt to commit robbery — Section 312
+
+Intentionally omits to attend in obedience to summons from public servant — (Not provided in your list)
+
+Public Nuisance — Section 270
+
+Fraudulent use of forged document/electronic record as genuine — Section 340
+
+Legally bound to produce document but intentionally omits to do so — Section 210
+
+Refuses to sign statement when legally required by public servant — Section 211
+
+Intentionally insulting or interrupting public servant in judicial proceeding — Section 224
 
 Gemini 3
 Rash Driving or Riding on a Public Way: Section 281.
