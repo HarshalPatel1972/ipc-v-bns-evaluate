@@ -5,7 +5,8 @@ import { ALL_BATCHES, MODELS } from "@/lib/data";
 import QuestionCard from "@/components/QuestionCard";
 import UserModal from "@/components/UserModal";
 import UserLogs from "@/components/UserLogs";
-import { Download, CheckCircle, FolderOpen, Users, LogIn, Shield, Lock, Trash2 } from "lucide-react";
+import AnalyticsDashboard from "@/components/AnalyticsDashboard";
+import { Download, CheckCircle, FolderOpen, Users, LogIn, Shield, Lock, Trash2, BarChart3 } from "lucide-react";
 
 export type Grade = "correct" | "somewhat correct" | "wrong" | "no answer" | null;
 
@@ -37,6 +38,7 @@ export default function Home() {
   const [userName, setUserName] = useState<string | null>(null);
   const [showUserModal, setShowUserModal] = useState(false);
   const [showLogs, setShowLogs] = useState(false);
+  const [showAnalytics, setShowAnalytics] = useState(false);
 
   // Load username on mount
   useEffect(() => {
@@ -307,6 +309,11 @@ export default function Home() {
         isAdmin={isAdmin}
         onDeleteUser={handleDeleteUser}
       />
+      <AnalyticsDashboard 
+        isOpen={showAnalytics} 
+        onClose={() => setShowAnalytics(false)} 
+        data={data} 
+      />
 
       {/* Admin PIN Modal */}
       {showAdminPinModal && (
@@ -465,11 +472,18 @@ export default function Home() {
               </button>
             )}
             <button 
+              onClick={() => setShowAnalytics(true)}
+              className="flex items-center gap-2 text-emerald-600 font-bold text-sm bg-emerald-50 px-4 py-2 rounded-lg hover:bg-emerald-100 transition-all border border-emerald-100 w-fit"
+            >
+              <BarChart3 size={16} />
+              View Benchmarks
+            </button>
+            <button 
               onClick={() => setShowLogs(true)}
               className="flex items-center gap-2 text-indigo-600 font-bold text-sm bg-indigo-50 px-4 py-2 rounded-lg hover:bg-indigo-100 transition-all border border-indigo-100 w-fit"
             >
               <Users size={16} />
-              View Team Activity
+              Team Activity
             </button>
           </div>
         </div>

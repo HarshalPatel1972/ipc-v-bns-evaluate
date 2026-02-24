@@ -1,0 +1,4640 @@
+{
+  "timestamp": "2026-02-24T13:36:39.592Z",
+  "models": [
+    "ChatGPT 5.2",
+    "Claude Sonnet 4.6",
+    "Grok 4.1",
+    "Indus Sarvam",
+    "Gemini 3",
+    "DeepSeek V3.2",
+    "Kruti",
+    "Meta AI"
+  ],
+  "batches": [
+    {
+      "batchId": 1,
+      "questions": [
+        {
+          "questionIndex": 0,
+          "questionText": "Under the current Bharatiya Nyaya Sanhita (BNS) 2023, what is the specific section for the punishment of murder?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 103",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 101",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 103",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 103",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 103",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 101",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 302",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 101",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 1,
+          "questionText": "A person is caught cheating and dishonestly inducing the delivery of property. What BNS section applies to this crime?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 318",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 318",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 318",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 318",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 318(4)",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 318(4)",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 420",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 318",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "What is the section for the punishment of rape under the new Indian criminal laws (BNS)?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 64",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 63",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 64",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 63",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 64",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 64",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 376",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 63",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "If someone commits theft of a mobile phone, under which section of the Bharatiya Nyaya Sanhita will they be charged?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 303",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 303",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 303",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 303",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 303(2)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 303(2)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 379",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 303",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "What is the specific penal section for 'Dowry Death' under the BNS?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 80",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 80",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 80",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 80",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 80",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 80",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 304A",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 80",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Under the current BNS framework, what section penalizes an attempt to commit murder?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 109",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 109",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 109",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 109",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 109",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 109",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 307",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 107",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "A child is kidnapped from lawful guardianship. Which BNS section prescribes the punishment for this?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 137",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 137",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 137",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 137",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 137(2)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 137",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 361",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 136",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "If a person publishes false statements to ruin someone's reputation, what is the section for defamation under the BNS?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 356",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 356",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 356",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 356",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 356",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 356",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 499",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 356",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "What is the exact section for 'Sedition' (Rajdroh) under the Bharatiya Nyaya Sanhita?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 152",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 152",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 152",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "The section for sedition (Rajdroh) under the Bharatiya Nyaya Sanhita is not mentioned in the available sources.",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 152",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 152",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 124A",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 152",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Under which section of the BNS is the punishment for being a party to a criminal conspiracy defined?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 61",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 61",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 61",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 61",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 61(2)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 61(2)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 120B",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 20",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "When five or more persons conjointly commit robbery, it is dacoity. What is the punishment section under the BNS?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 310",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 310",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 310",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 310",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 310(2)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 310(1)",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 395",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 308",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 11,
+          "questionText": "What is the specific section for the punishment of robbery under the newly enacted BNS?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 309",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 309",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 309",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 309",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 309(4)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 309",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 392",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 307",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 12,
+          "questionText": "If someone commits extortion by putting a person in fear of injury, what BNS section is applicable?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 308",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 308",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 308",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 308",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 308(2)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 308",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 383",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 314",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 13,
+          "questionText": "What is the section for punishment of culpable homicide not amounting to murder in the BNS?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 105",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 99",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 105",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 105",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 105",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 100",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 304",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 103",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 14,
+          "questionText": "A person voluntarily slaps another during an argument. What is the section for voluntarily causing hurt under the BNS?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 115",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 115",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 115",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 115",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 115(2)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 115",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 323",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 114",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 15,
+          "questionText": "Under the BNS, what section deals with the punishment for voluntarily causing grievous hurt?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 117",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 117",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 117",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 116",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 117(2)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 117",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 325",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 115",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 16,
+          "questionText": "An employee embezzles company funds. Under which BNS section is criminal breach of trust penalized?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 316",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 316",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 316",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 316",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 316(4)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 316",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 406",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 316",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 17,
+          "questionText": "What is the section for the punishment of forgery under the Bharatiya Nyaya Sanhita?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 336",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 336",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 336",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 336",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 336(2)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 336",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 468",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 337",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 18,
+          "questionText": "If a person intentionally damages someone else's property, what is the section for Mischief under the BNS?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 324",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 324",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 324",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 324",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 324(2)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 324",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 425",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 338",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 19,
+          "questionText": "What is the BNS section for the punishment of wrongful confinement of a person?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 127",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 126",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 127",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 127",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 127(2)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 128",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 340",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 265",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "batchId": 2,
+      "questions": [
+        {
+          "questionIndex": 0,
+          "questionText": "What is the specific sub-section for the punishment of murder committed by a group of five or more persons on grounds of race, caste, or personal belief under the BNS?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 103(2)",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 103(2)",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Grok 4.1": {
+              "answer": "Section 103(2)",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 103(2)",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Gemini 3": {
+              "answer": "Section 103(2)",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 103(2)",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Kruti": {
+              "answer": "Section 302(2)",
+              "evaluation": "wrong",
+              "author": "Priya Karn"
+            },
+            "Meta AI": {
+              "answer": "Section 101(2)",
+              "evaluation": "wrong",
+              "author": "Priya Karn"
+            }
+          }
+        },
+        {
+          "questionIndex": 1,
+          "questionText": "Under the BNS, a new offence was introduced specifically for snatching chains or bags. What is the section number for snatching?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 304",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 304",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Grok 4.1": {
+              "answer": "Section 304",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 304",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Gemini 3": {
+              "answer": "Section 304",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 304",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Kruti": {
+              "answer": "Section 304",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Meta AI": {
+              "answer": "Section 305",
+              "evaluation": "wrong",
+              "author": "Priya Karn"
+            }
+          }
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Which BNS section explicitly defines and punishes 'Organized Crime' for the first time in India's general penal code?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 111",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 111",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Grok 4.1": {
+              "answer": "Section 111",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 111",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Gemini 3": {
+              "answer": "Section 111",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 111",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Kruti": {
+              "answer": "Section 111",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Meta AI": {
+              "answer": "Section 111",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            }
+          }
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "The BNS incorporates terrorism into the general penal law. What section penalizes a 'Terrorist Act'?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 113",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 113",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Grok 4.1": {
+              "answer": "Section 113",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 113",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Gemini 3": {
+              "answer": "Section 113",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 113",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Kruti": {
+              "answer": "Section 113",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Meta AI": {
+              "answer": "Section 113",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            }
+          }
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "What is the new BNS section that criminalizes sexual intercourse by employing deceitful means or making a false promise to marry?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 69",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 69",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Grok 4.1": {
+              "answer": "Section 69",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 69",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Gemini 3": {
+              "answer": "Section 69",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 69",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Kruti": {
+              "answer": "Section 69",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Meta AI": {
+              "answer": "Section 69",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            }
+          }
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Which section of the BNS prescribes an enhanced 10-year punishment for causing death by rash driving and fleeing the scene without reporting it?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 106(2)",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 106(2)",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Grok 4.1": {
+              "answer": "Section 106(2)",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 281",
+              "evaluation": "wrong",
+              "author": "Priya Karn"
+            },
+            "Gemini 3": {
+              "answer": "Section 106(2)",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 106(2)",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Kruti": {
+              "answer": "Section 106(2)",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Meta AI": {
+              "answer": "Section 104(2)",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            }
+          }
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "What is the BNS section for 'Unnatural Offences' previously criminalized under the old penal code?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Unnatural offences (old IPC 377 equivalent) — No separate section; repealed/not retained in BNS.",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 377",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Under the BNS, 'Unnatural Offences' previously criminalized under the old penal code are no longer specifically provided for as a separate offence.",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 377",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Unnatural Offences: Repealed (No corresponding section in BNS).",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 377",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 377",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 72",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Under the BNS, multiple provisions relating to receiving and concealing stolen property have been consolidated into which single section?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 317",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 317",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Grok 4.1": {
+              "answer": "Section 317",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 317",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Gemini 3": {
+              "answer": "Section 317",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 317",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Kruti": {
+              "answer": "Section 317",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Meta AI": {
+              "answer": "Section 309",
+              "evaluation": "wrong",
+              "author": "Priya Karn"
+            }
+          }
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "What section of the BNS penalizes a general 'Attempt to Commit Suicide' by a distressed citizen?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Attempt to suicide by distressed citizen — Not punishable as an offence under BNS.",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 309",
+              "evaluation": "wrong",
+              "author": "Priya Karn"
+            },
+            "Grok 4.1": {
+              "answer": "Section 226",
+              "evaluation": "wrong",
+              "author": "Priya Karn"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 110",
+              "evaluation": "wrong",
+              "author": "Priya Karn"
+            },
+            "Gemini 3": {
+              "answer": "Section 309",
+              "evaluation": "wrong",
+              "author": "Priya Karn"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 309",
+              "evaluation": "wrong",
+              "author": "Priya Karn"
+            },
+            "Kruti": {
+              "answer": "Section 224",
+              "evaluation": "wrong",
+              "author": "Priya Karn"
+            },
+            "Meta AI": {
+              "answer": "Section 224",
+              "evaluation": "wrong",
+              "author": "Priya Karn"
+            }
+          }
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "Under the BNS, what section penalizes attempting suicide specifically to compel or restrain a public servant from exercising their lawful power?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 226",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 226",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Grok 4.1": {
+              "answer": "Section 227",
+              "evaluation": "wrong",
+              "author": "Priya Karn"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 110(2)",
+              "evaluation": "wrong",
+              "author": "Priya Karn"
+            },
+            "Gemini 3": {
+              "answer": "Section 226",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 49",
+              "evaluation": "wrong",
+              "author": "Priya Karn"
+            },
+            "Kruti": {
+              "answer": "Section 226",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Meta AI": {
+              "answer": "Section 224(2)",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "In the BNS, the punishment for being a party to a 'Criminal Conspiracy' is defined under which section?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 61",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 61",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Grok 4.1": {
+              "answer": "Section 61",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 61",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Gemini 3": {
+              "answer": "Section 61",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 61(2)",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Kruti": {
+              "answer": "Section 61",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Meta AI": {
+              "answer": "Section 20",
+              "evaluation": "wrong",
+              "author": "Priya Karn"
+            }
+          }
+        },
+        {
+          "questionIndex": 11,
+          "questionText": "What is the section for 'Adultery' under the new Bharatiya Nyaya Sanhita?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Adultery — No offence/section (decriminalized) under BNS.",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 497",
+              "evaluation": "wrong",
+              "author": "Priya Karn"
+            },
+            "Grok 4.1": {
+              "answer": "There is no section for 'Adultery' under the new Bharatiya Nyaya Sanhita as it has been omitted.",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Indus Sarvam": {
+              "answer": "Adultery has been completely repealed and no longer exists as an offence under the BNS.",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Gemini 3": {
+              "answer": "Adultery: Repealed (No longer a criminal offence).",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 497",
+              "evaluation": "wrong",
+              "author": "Priya Karn"
+            },
+            "Kruti": {
+              "answer": "Section 84",
+              "evaluation": "wrong",
+              "author": "Priya Karn"
+            },
+            "Meta AI": {
+              "answer": "The BNS has decriminalized 'Adultery', so there is no specific section for its punishment.",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            }
+          }
+        },
+        {
+          "questionIndex": 12,
+          "questionText": "Under which BNS section is the general exception for an 'Act of a person of unsound mind' covered?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 22",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 22",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Grok 4.1": {
+              "answer": "Section 22",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 22",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Gemini 3": {
+              "answer": "Section 22",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 22",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Kruti": {
+              "answer": "Section 22",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Meta AI": {
+              "answer": "Section 20",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 13,
+          "questionText": "What BNS section dictates when the right of private defense of the body legally extends to causing death?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 38",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 37",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Grok 4.1": {
+              "answer": "Section 38",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 38",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Gemini 3": {
+              "answer": "Section 38",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 34",
+              "evaluation": "wrong",
+              "author": "Priya Karn"
+            },
+            "Kruti": {
+              "answer": "Section 38",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Meta AI": {
+              "answer": "Section 39",
+              "evaluation": "wrong",
+              "author": "Priya Karn"
+            }
+          }
+        },
+        {
+          "questionIndex": 14,
+          "questionText": "Since Sedition was repealed, what new BNS section penalizes acts endangering the sovereignty, unity, and integrity of India?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 152",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 152",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Grok 4.1": {
+              "answer": "Section 152",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 152",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Gemini 3": {
+              "answer": "Section 152",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 152",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Kruti": {
+              "answer": "Section 152",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Meta AI": {
+              "answer": "Section 152",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            }
+          }
+        },
+        {
+          "questionIndex": 15,
+          "questionText": "What is the section for the punishment of Criminal Intimidation under the BNS?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 351",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 351",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Grok 4.1": {
+              "answer": "Section 351(2)",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 351",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Gemini 3": {
+              "answer": "Section 351",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 351",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Kruti": {
+              "answer": "Section 351",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Meta AI": {
+              "answer": "Section 351",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            }
+          }
+        },
+        {
+          "questionIndex": 16,
+          "questionText": "If a person commits house-trespass to commit an offence, what BNS section applies?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 331",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 331",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Grok 4.1": {
+              "answer": "Section 329",
+              "evaluation": "wrong",
+              "author": "Priya Karn"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 329",
+              "evaluation": "wrong",
+              "author": "Priya Karn"
+            },
+            "Gemini 3": {
+              "answer": "Section 332",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 329",
+              "evaluation": "wrong",
+              "author": "Priya Karn"
+            },
+            "Kruti": {
+              "answer": "Section 332",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Meta AI": {
+              "answer": "Section 326",
+              "evaluation": "wrong",
+              "author": "Priya Karn"
+            }
+          }
+        },
+        {
+          "questionIndex": 17,
+          "questionText": "Which specific BNS section deals with 'Petty Organized Crime' like vehicle theft or pickpocketing by a gang?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 112",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 112",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Grok 4.1": {
+              "answer": "Section 112",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 112",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Gemini 3": {
+              "answer": "Section 112",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 112",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Kruti": {
+              "answer": "Section 112",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Meta AI": {
+              "answer": "Section 112",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            }
+          }
+        },
+        {
+          "questionIndex": 18,
+          "questionText": "What is the BNS section defining a 'Public Nuisance'?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 270",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 292",
+              "evaluation": "wrong",
+              "author": "Priya Karn"
+            },
+            "Grok 4.1": {
+              "answer": "Section 268",
+              "evaluation": "wrong",
+              "author": "Priya Karn"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 270",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Gemini 3": {
+              "answer": "Section 270",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 270",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Kruti": {
+              "answer": "Section 268",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 268",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 19,
+          "questionText": "Under the BNS, what section governs the gang rape of a woman under 18 years of age?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 70(2)",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 70(2)",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Grok 4.1": {
+              "answer": "Section 70(2)",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 70",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Gemini 3": {
+              "answer": "Section 70(2)",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 70(2)",
+              "evaluation": "correct",
+              "author": "Priya Karn"
+            },
+            "Kruti": {
+              "answer": "Section 376(2)(n)",
+              "evaluation": "wrong",
+              "author": "Priya Karn"
+            },
+            "Meta AI": {
+              "answer": "Section 67",
+              "evaluation": "wrong",
+              "author": "Priya Karn"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "batchId": 3,
+      "questions": [
+        {
+          "questionIndex": 0,
+          "questionText": "Under the Bharatiya Nyaya Sanhita (BNS), what is the specific section that deals with the offence of Sexual Harassment?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 75",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 75",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 75",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 75",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 75",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 75",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 75",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 74",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 1,
+          "questionText": "A man is caught watching a woman engaging in a private act without her consent. What is the BNS section for Voyeurism?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 77",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 77",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 77",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 77",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 77",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 77",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 77",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 76",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "What is the specific penal section for the crime of 'Stalking' under the new Indian criminal code (BNS)?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 78",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 78",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 78",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 78",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 78",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 78",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 78",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 75",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "If someone uses a word, gesture, or act intended to insult the modesty of a woman, which BNS section applies?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 79",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 79",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 79",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 79",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 79",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 79",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 79",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 79",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "The infamous 'Section 498A' for cruelty by a husband or his relatives has been replaced. What is the new section number in the BNS?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 85",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 85",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 498A",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 498A",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 85",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 85",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 498A",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 498A",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "What is the BNS section for voluntarily causing grievous hurt by use of acid (Acid Attack)?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 124",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 124",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 124",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 124",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 124(1)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 124",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 124",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 117",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "If a person voluntarily obstructs another from proceeding in a lawful direction, what is the section for Wrongful Restraint under the BNS?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 126",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 125",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 126",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 126",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 126(2)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 126",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 126(2)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 263",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Under the BNS, what section specifically prescribes the death penalty or life imprisonment for kidnapping for ransom?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 140",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 140(1)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 140(2)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 140",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 140(2)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 140(2)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 140",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 137",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "An assembly of five or more persons with a common illegal object is an 'Unlawful Assembly'. What is the BNS section for its punishment?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 189",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 191(2)",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 189",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 189",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 189(3)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 189",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 189",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 187",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "What is the specific section for the punishment of Rioting under the Bharatiya Nyaya Sanhita?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 191",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 191(3)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 191",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 191",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 191(2)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 191",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 191",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 189",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "When two or more persons fight in a public place and disturb the public peace, it is an Affray. What BNS section penalizes this?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 194",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 192",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 193",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 194",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 194",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 194",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 194",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 192",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 11,
+          "questionText": "What is the specific section for the offence of 'Bribery at Elections' under the newly enacted BNS?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 171",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 169",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 169",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 170",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 170",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 171",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 312",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 193",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 12,
+          "questionText": "Under the BNS, what section provides the punishment for giving or fabricating false evidence in a judicial proceeding?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 230",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 229",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 229",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 227",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 227",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 229",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 227",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 228",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 13,
+          "questionText": "If a person finds a lost wallet and dishonestly keeps the money, what BNS section applies for Dishonest Misappropriation of Property?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 314",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 314",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 314",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 314",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 314",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 314",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 317",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 304",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 14,
+          "questionText": "What is the specific section for 'Cheating by Personation' (pretending to be someone else) under the BNS?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 319",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 319(2)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 319",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 319",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 319",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 319",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 319",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 319",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 15,
+          "questionText": "If someone commits mischief by fire or explosives intending to destroy a house, what is the section under the BNS?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 326",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 326",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 329",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 226",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 326(f)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 326",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 326",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 340",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 16,
+          "questionText": "What is the BNS section for the punishment of 'House-breaking by night'?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 332",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 332(b)",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 331",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 344",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 331(2)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 333",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 340",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 327",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 17,
+          "questionText": "Under the BNS, what section penalizes the counterfeiting of currency notes or bank notes?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 178",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 178",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 177",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 178",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 178",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 178",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 385",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 342",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 18,
+          "questionText": "What is the section for marrying again during the lifetime of a husband or wife (Bigamy) under the BNS?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 82",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 82",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 82",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 82",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 82",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 82",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 497",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 85",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 19,
+          "questionText": "If criminal intimidation is committed by an anonymous communication, what BNS section applies?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 351(3)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 351(3)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 351(3)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 351",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 351(4)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 352",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 354B",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 352",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "batchId": 4,
+      "questions": [
+        {
+          "questionIndex": 0,
+          "questionText": "Under the Bharatiya Nyaya Sanhita (BNS), what is the specific section for rash driving or riding on a public way?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 281",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 281",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Grok 4.1": {
+              "answer": "Section 281",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 281",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Gemini 3": {
+              "answer": "Section 281",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 281",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Kruti": {
+              "answer": "Section 281",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Meta AI": {
+              "answer": "Section 104",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 1,
+          "questionText": "What is the BNS section for causing the death of a person by doing any rash or negligent act not amounting to culpable homicide?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 106(1)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 106(1)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 106(1)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 106",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 106(1)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 106(1)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 106",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 104",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            }
+          }
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "If a person voluntarily obstructs a public servant in the discharge of their public functions, which BNS section applies?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 221",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 221",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Grok 4.1": {
+              "answer": "Section 197",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 221",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Gemini 3": {
+              "answer": "Section 221",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 222",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Kruti": {
+              "answer": "Section 221",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Meta AI": {
+              "answer": "Section 199",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            }
+          }
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "Under the new BNS, what section penalizes a clerk or officer for the falsification of accounts?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 344",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 336(3)",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Grok 4.1": {
+              "answer": "Section 344",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 344",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Gemini 3": {
+              "answer": "Section 344",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 344",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Kruti": {
+              "answer": "Section 344",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Meta AI": {
+              "answer": "Section 317",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            }
+          }
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "What is the specific section number that defines and punishes 'Criminal Trespass' under the BNS?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 329",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 329(1)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 329",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 329",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 329",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 329",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 329",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 326",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Which section of the BNS criminalizes the sale, distribution, or public exhibition of obscene books and materials?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 294",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 294",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Grok 4.1": {
+              "answer": "Section 294",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 294",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Gemini 3": {
+              "answer": "Section 294",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 295",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Kruti": {
+              "answer": "Section 292",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Meta AI": {
+              "answer": "Section 358",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            }
+          }
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "What is the BNS section for the specific offence of selling or distributing obscene objects to a child?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 295",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 295",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Grok 4.1": {
+              "answer": "Section 296",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 295",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Gemini 3": {
+              "answer": "Section 295",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 296",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Kruti": {
+              "answer": "Section 295",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Meta AI": {
+              "answer": "Section 359",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            }
+          }
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "If someone intentionally causes the disappearance of evidence to screen an offender from legal punishment, what BNS section applies?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 238",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 238",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Grok 4.1": {
+              "answer": "Section 238",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 241",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Gemini 3": {
+              "answer": "Section 238",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 238",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Kruti": {
+              "answer": "Section 238",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Meta AI": {
+              "answer": "Section 220",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            }
+          }
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "Under the BNS, what section penalizes disobedience to an order duly promulgated by a public servant?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 223",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 223",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Grok 4.1": {
+              "answer": "Section 209",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 223",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Gemini 3": {
+              "answer": "Section 223",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 223",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Kruti": {
+              "answer": "Section 226",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Meta AI": {
+              "answer": "Section 195",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            }
+          }
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "What is the section for injuring or defiling a place of worship with intent to insult the religion of any class under the BNS?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 301",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 299",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Grok 4.1": {
+              "answer": "Section 295",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 298",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 298",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 299",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 298",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 295",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "If someone sings, recites, or utters obscene songs or words in a public place to the annoyance of others, what BNS section is violated?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 296",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 296",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 294",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 296",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 296",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 297",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 299",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 360",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 11,
+          "questionText": "What is the specific BNS section for the adulteration of food or drink intended for sale?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 274",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 274",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 272",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 274",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 274",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 273",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 310",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 293",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 12,
+          "questionText": "If a person is legally bound to furnish information to a public servant but provides false information, what BNS section applies?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 227",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 218",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 212",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 212",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 212",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 229",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 227",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 197",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 13,
+          "questionText": "What is the section for the punishment of an 'Attempt to commit robbery' under the Bharatiya Nyaya Sanhita?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 309",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 309(3)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 309",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 312",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 311",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 309",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 313",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 307",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 14,
+          "questionText": "If a person intentionally omits to attend a court or place in obedience to a summons from a public servant, what BNS section is violated?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 209",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 209",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 206",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Intentionally omits to attend in obedience to summons from public servant — (Not provided in your list)",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 208",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 207",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 269",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 196",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 15,
+          "questionText": "What is the specific BNS section that defines the offence of 'Public Nuisance'?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 270",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 292",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 268",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 270",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 270",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 270",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 268",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 268",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 16,
+          "questionText": "Under the BNS, what section penalizes the fraudulent use of a forged document or electronic record as a genuine one?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 338",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 340(2)",
+              "evaluation": "somewhat correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 339",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 340",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 340",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 340",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 314",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 343",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 17,
+          "questionText": "What BNS section applies if a person legally bound to produce a document to a public servant intentionally omits to do so?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 231",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 210",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 211",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 210",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 210",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 209",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 229",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 198",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 18,
+          "questionText": "If a person refuses to sign a statement made by them when legally required by a public servant, what BNS section applies?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 232",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 214",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 215",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 211",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 215",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 214",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 267",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 200",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        },
+        {
+          "questionIndex": 19,
+          "questionText": "What is the BNS section for intentionally insulting or interrupting a public servant sitting in a judicial proceeding?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 354",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 228",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Grok 4.1": {
+              "answer": "Section 228",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 224",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 267",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 260",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Kruti": {
+              "answer": "Section 266",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Meta AI": {
+              "answer": "Section 202",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "batchId": 5,
+      "questions": [
+        {
+          "questionIndex": 0,
+          "questionText": "What is the general section under the Bharatiya Nyaya Sanhita for attempting to commit an offence punishable with imprisonment?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 62",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 62",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Grok 4.1": {
+              "answer": "Section 62",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 62",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Gemini 3": {
+              "answer": "Section 62",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 62",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Kruti": {
+              "answer": "Section 62",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Meta AI": {
+              "answer": "Section 44",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            }
+          }
+        },
+        {
+          "questionIndex": 1,
+          "questionText": "Under the BNS, what section establishes joint liability when a criminal act is done by several persons in furtherance of a common intention?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 3(5)",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 3(5)",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Grok 4.1": {
+              "answer": "Section 3(5)",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Indus Sarvam": {
+              "answer": "Joint liability when a criminal act is done by several persons in furtherance of a common intention — Sections 55–56",
+              "evaluation": "wrong",
+              "author": "Harshal Patel"
+            },
+            "Gemini 3": {
+              "answer": "Section 3(5)",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 3(5)",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Kruti": {
+              "answer": "Section 3(5)",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Meta AI": {
+              "answer": "Section 2(7)",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            }
+          }
+        },
+        {
+          "questionIndex": 2,
+          "questionText": "Which section of the BNS states that nothing is an offence which is done by a child under seven years of age?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 20",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 20",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Grok 4.1": {
+              "answer": "Section 20",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 20",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Gemini 3": {
+              "answer": "Section 20",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 20",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Kruti": {
+              "answer": "Section 20",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Meta AI": {
+              "answer": "Section 23",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            }
+          }
+        },
+        {
+          "questionIndex": 3,
+          "questionText": "What is the BNS section providing the general exception for an act done by accident or misfortune while doing a lawful act?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 23",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 24",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Grok 4.1": {
+              "answer": "Section 26",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 18",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Gemini 3": {
+              "answer": "Section 18",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 18",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Kruti": {
+              "answer": "Section 18",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Meta AI": {
+              "answer": "Section 29",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            }
+          }
+        },
+        {
+          "questionIndex": 4,
+          "questionText": "What is the primary section number under the BNS that declares that nothing is an offence which is done in the exercise of the right of private defense?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 34",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 34",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Grok 4.1": {
+              "answer": "Section 34",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 35",
+              "evaluation": "somewhat correct",
+              "author": "Aryan"
+            },
+            "Gemini 3": {
+              "answer": "Section 34",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 34",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Kruti": {
+              "answer": "Section 34",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Meta AI": {
+              "answer": "Section 34",
+              "evaluation": "correct",
+              "author": "Aryan"
+            }
+          }
+        },
+        {
+          "questionIndex": 5,
+          "questionText": "Under the new BNS, which section defines 'Abetment of a thing'?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 45",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 45",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Grok 4.1": {
+              "answer": "Section 45",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 45",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Gemini 3": {
+              "answer": "Section 45",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 45",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Kruti": {
+              "answer": "Section 45",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Meta AI": {
+              "answer": "Section 45",
+              "evaluation": "correct",
+              "author": "Aryan"
+            }
+          }
+        },
+        {
+          "questionIndex": 6,
+          "questionText": "What is the specific section under the BNS for waging or attempting to wage war against the Government of India?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 147",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 147",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Grok 4.1": {
+              "answer": "Section 147",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 147",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Gemini 3": {
+              "answer": "Section 147",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 147",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Kruti": {
+              "answer": "Section 147",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Meta AI": {
+              "answer": "Section 147",
+              "evaluation": "correct",
+              "author": "Aryan"
+            }
+          }
+        },
+        {
+          "questionIndex": 7,
+          "questionText": "Which BNS section penalizes promoting enmity between different groups on grounds of religion, race, or language?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 196",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 196",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Grok 4.1": {
+              "answer": "Section 196",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 196",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Gemini 3": {
+              "answer": "Section 196",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 196",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Kruti": {
+              "answer": "Section 196",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Meta AI": {
+              "answer": "Section 194",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            }
+          }
+        },
+        {
+          "questionIndex": 8,
+          "questionText": "What is the BNS section for deliberate and malicious acts intended to outrage the religious feelings of any class?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 197",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 299",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Grok 4.1": {
+              "answer": "Section 299",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 299",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Gemini 3": {
+              "answer": "Section 299",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 299",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Kruti": {
+              "answer": "Section 299",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Meta AI": {
+              "answer": "Section 295",
+              "evaluation": "somewhat correct",
+              "author": "Aryan"
+            }
+          }
+        },
+        {
+          "questionIndex": 9,
+          "questionText": "If someone falsely charges a person with an offence with the intent to injure them, what BNS section applies?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 248",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 250",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Grok 4.1": {
+              "answer": "Section 248",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 248",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Gemini 3": {
+              "answer": "Section 248",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 248",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Kruti": {
+              "answer": "Section 248",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Meta AI": {
+              "answer": "Section 221",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            }
+          }
+        },
+        {
+          "questionIndex": 10,
+          "questionText": "What is the section under the BNS for harbouring or concealing an offender to screen them from legal punishment?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 249",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 238",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Grok 4.1": {
+              "answer": "Section 238",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 249",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Gemini 3": {
+              "answer": "Section 249",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 218",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Kruti": {
+              "answer": "Section 249",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Meta AI": {
+              "answer": "Section 222",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            }
+          }
+        },
+        {
+          "questionIndex": 11,
+          "questionText": "Under the BNS, what section prescribes the punishment for voluntarily causing a woman with child to miscarry?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 88",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 88",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Grok 4.1": {
+              "answer": "Section 88",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 88",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Gemini 3": {
+              "answer": "Section 89",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 88",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Kruti": {
+              "answer": "Section 86",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Meta AI": {
+              "answer": "Section 105",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            }
+          }
+        },
+        {
+          "questionIndex": 12,
+          "questionText": "What is the specific BNS section that criminalizes kidnapping or maiming a minor for the purposes of begging?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 139",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 141",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Grok 4.1": {
+              "answer": "Section 143",
+              "evaluation": "somewhat correct",
+              "author": "Aryan"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 139",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Gemini 3": {
+              "answer": "Section 139",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 139",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Kruti": {
+              "answer": "Section 137",
+              "evaluation": "somewhat correct",
+              "author": "Aryan"
+            },
+            "Meta AI": {
+              "answer": "Section 141",
+              "evaluation": "correct",
+              "author": "Aryan"
+            }
+          }
+        },
+        {
+          "questionIndex": 13,
+          "questionText": "What is the specific section defining and punishing the offence of 'Trafficking of Person' under the BNS?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 143",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 143",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Grok 4.1": {
+              "answer": "Section 143",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 143",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Gemini 3": {
+              "answer": "Section 143",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 143",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Kruti": {
+              "answer": "Section 141",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Meta AI": {
+              "answer": "Section 142",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            }
+          }
+        },
+        {
+          "questionIndex": 14,
+          "questionText": "If someone unlawfully compels any person to labour against their will, what BNS section is violated?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 144",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 144",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Grok 4.1": {
+              "answer": "Section 144",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 146",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Gemini 3": {
+              "answer": "Section 146",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 142",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Kruti": {
+              "answer": "Section 144",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Meta AI": {
+              "answer": "Section 143",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            }
+          }
+        },
+        {
+          "questionIndex": 15,
+          "questionText": "What is the section for habitually dealing in slaves under the Bharatiya Nyaya Sanhita?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 145",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 142",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Grok 4.1": {
+              "answer": "Section 145",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 145",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Gemini 3": {
+              "answer": "Section 145",
+              "evaluation": "correct",
+              "author": "Harshal Patel"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 141",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Kruti": {
+              "answer": "Section 122",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Meta AI": {
+              "answer": "Section 144",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            }
+          }
+        },
+        {
+          "questionIndex": 16,
+          "questionText": "Under the BNS, what section penalizes mischief by killing or maiming an animal?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 325",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 325",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Grok 4.1": {
+              "answer": "Section 325",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 325",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Gemini 3": {
+              "answer": "Section 325",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 325",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Kruti": {
+              "answer": "Section 80",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Meta AI": {
+              "answer": "Section 344",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            }
+          }
+        },
+        {
+          "questionIndex": 17,
+          "questionText": "What is the BNS section for a man deceitfully inducing a belief of lawful marriage to cause cohabitation?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 86",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 84",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Grok 4.1": {
+              "answer": "Section 69",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 81",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Gemini 3": {
+              "answer": "Section 81",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 81",
+              "evaluation": "correct",
+              "author": "Aryan"
+            },
+            "Kruti": {
+              "answer": "Section 156",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Meta AI": {
+              "answer": "Section 70",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            }
+          }
+        },
+        {
+          "questionIndex": 18,
+          "questionText": "The offence of being a 'Thug' was historically punished under the IPC. What is its exact equivalent section under the BNS?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 310",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 310",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Grok 4.1": {
+              "answer": "The offence of being a 'Thug' was historically punished under the IPC; its exact equivalent section under the BNS is omitted as no direct equivalent exists.",
+              "evaluation": "no answer",
+              "author": "Aryan"
+            },
+            "Indus Sarvam": {
+              "answer": "‘Thug’ (historical IPC offence) equivalent — Not explicitly mentioned; related provisions: Sections 111 and 310",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Gemini 3": {
+              "answer": "Section 111",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 311",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Kruti": {
+              "answer": "Section 152",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Meta AI": {
+              "answer": "Section 308(2)",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            }
+          }
+        },
+        {
+          "questionIndex": 19,
+          "questionText": "What is the BNS section for making or publishing statements, false information, or rumours conducing to public mischief?",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 353",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 197",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Grok 4.1": {
+              "answer": "Section 197",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Indus Sarvam": {
+              "answer": "Section 193",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Gemini 3": {
+              "answer": "Section 353",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "DeepSeek V3.2": {
+              "answer": "Section 197",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            },
+            "Kruti": {
+              "answer": "No answer extracted",
+              "evaluation": "no answer",
+              "author": "Aryan"
+            },
+            "Meta AI": {
+              "answer": "Section 194",
+              "evaluation": "wrong",
+              "author": "Aryan"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
