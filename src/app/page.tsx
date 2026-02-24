@@ -5,7 +5,7 @@ import { ALL_BATCHES, MODELS } from "@/lib/data";
 import QuestionCard from "@/components/QuestionCard";
 import UserModal from "@/components/UserModal";
 import UserLogs from "@/components/UserLogs";
-import { Download, CheckCircle, FolderOpen, Users, LogIn } from "lucide-react";
+import { Download, CheckCircle, FolderOpen, Users, LogIn, Shield, Lock, Trash2 } from "lucide-react";
 
 export type Grade = "correct" | "somewhat correct" | "wrong" | "no answer" | null;
 
@@ -23,6 +23,14 @@ export default function Home() {
   const [data, setData] = useState<GlobalGrades>({ grades: {}, gradedBy: {}, userStats: {} });
   const [isLoaded, setIsLoaded] = useState(false);
   const [lastLocalChange, setLastLocalChange] = useState<number>(0);
+  const [isAdmin, setIsAdmin] = useState(false);
+  const [showAdminPinModal, setShowAdminPinModal] = useState(false);
+  const [adminPinInput, setAdminPinInput] = useState("");
+
+  useEffect(() => {
+    const savedAdmin = localStorage.getItem("eval_admin_session");
+    if (savedAdmin === "true") setIsAdmin(true);
+  }, []);
   const [syncStatus, setSyncStatus] = useState<"synced" | "saving" | "error">("synced");
   
   // User Management
@@ -102,6 +110,58 @@ export default function Home() {
   }, [data, isLoaded, lastLocalChange]);
 
   // Loading state
+  // Admin Powers
+  const handleAdminLogin = () => {
+    if (adminPinInput === "1972") {
+      setIsAdmin(true);
+      localStorage.setItem("eval_admin_session", "true");
+      setShowAdminPinModal(false);
+      setAdminPinInput("");
+    } else {
+      alert("Invalid Admin PIN");
+      setAdminPinInput("");
+    }
+  };
+
+  const handleAdminLogout = () => {
+    setIsAdmin(false);
+    localStorage.removeItem("eval_admin_session");
+  };
+
+  const handleDeleteUser = (nameToDelete: string) => {
+    setData((prev) => {
+      const next = JSON.parse(JSON.stringify(prev)) as GlobalGrades;
+      if (next.userStats) {
+        delete next.userStats[nameToDelete];
+      }
+      
+      // Also clear their name from all graded cards to be thorough
+      if (next.gradedBy) {
+        Object.keys(next.gradedBy).forEach(bId => {
+          const batch = next.gradedBy[Number(bId)];
+          Object.keys(batch).forEach(qIdx => {
+            const question = batch[Number(qIdx)];
+            Object.keys(question).forEach(mName => {
+              if (question[mName] === nameToDelete) {
+                delete question[mName];
+              }
+            });
+          });
+        });
+      }
+      
+      setLastLocalChange(Date.now());
+      return next;
+    });
+  };
+
+  const handleWipeAllData = () => {
+    if (confirm("CRITICAL ACTION: Wipe all grades, user stats, and progress from the database? This cannot be undone.")) {
+      setData({ grades: {}, gradedBy: {}, userStats: {} });
+      setLastLocalChange(Date.now());
+    }
+  };
+
   if (!isLoaded) {
     return (
       <div className="min-h-screen bg-slate-50 flex flex-col items-center justify-center p-4">
@@ -240,13 +300,57 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 font-sans pb-20">
       <UserModal isOpen={showUserModal} onClose={() => setShowUserModal(false)} onNameSubmit={handleNameSubmit} />
-      <UserLogs isOpen={showLogs} onClose={() => setShowLogs(false)} logs={data.userStats || {}} />
+      <UserLogs 
+        isOpen={showLogs} 
+        onClose={() => setShowLogs(false)} 
+        logs={data.userStats || {}} 
+        isAdmin={isAdmin}
+        onDeleteUser={handleDeleteUser}
+      />
+
+      {/* Admin PIN Modal */}
+      {showAdminPinModal && (
+        <div className="fixed inset-0 z-[200] flex items-center justify-center bg-slate-900/60 backdrop-blur-md px-4">
+          <div className="bg-white rounded-3xl shadow-2xl p-8 max-w-xs w-full text-center">
+            <div className="w-12 h-12 bg-slate-100 rounded-xl flex items-center justify-center mx-auto mb-4 text-slate-600">
+              <Lock size={24} />
+            </div>
+            <h2 className="text-xl font-bold mb-2">Admin Access</h2>
+            <p className="text-sm text-slate-500 mb-6">Enter secret 4-digit PIN</p>
+            <input 
+              type="password" 
+              maxLength={4}
+              value={adminPinInput}
+              onChange={(e) => setAdminPinInput(e.target.value)}
+              className="w-full text-center text-2xl tracking-[1em] font-mono py-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-slate-900 mb-4"
+              autoFocus
+            />
+            <div className="flex gap-2">
+              <button 
+                onClick={() => setShowAdminPinModal(false)}
+                className="flex-1 py-3 text-sm font-bold text-slate-400 hover:text-slate-600"
+              >
+                Cancel
+              </button>
+              <button 
+                onClick={handleAdminLogin}
+                className="flex-1 py-3 bg-slate-900 text-white text-sm font-bold rounded-xl hover:bg-slate-800"
+              >
+                Enter
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Header */}
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-3 sm:px-4 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2 sm:gap-3 overflow-hidden">
-            <div className="bg-indigo-600 p-1.5 sm:p-2 rounded-lg text-white flex-shrink-0">
+            <div 
+              className="bg-indigo-600 p-1.5 sm:p-2 rounded-lg text-white flex-shrink-0 cursor-default"
+              onClick={() => setShowAdminPinModal(true)}
+            >
               <CheckCircle size={18} />
             </div>
             <div className="flex flex-col overflow-hidden">
@@ -305,6 +409,16 @@ export default function Home() {
                 </span>
               </div>
             </div>
+
+            {isAdmin && (
+              <button 
+                onClick={handleAdminLogout}
+                className="p-2 sm:p-2.5 bg-red-50 text-red-600 rounded-xl hover:bg-red-100 transition-all border border-red-100"
+                title="Logout as Admin"
+              >
+                <Shield size={18} />
+              </button>
+            )}
             
             <button onClick={handleExport} className="p-2 sm:p-2.5 bg-slate-900 hover:bg-slate-800 text-white rounded-xl transition-all shadow-sm flex-shrink-0">
               <Download size={16} />
@@ -339,13 +453,25 @@ export default function Home() {
             <h2 className="text-3xl font-bold text-slate-900">Batch {activeBatch.batchId} Evaluation</h2>
             <p className="text-slate-500 mt-1 text-lg">Compare AI model responses against the official BNS framework.</p>
           </div>
-          <button 
-            onClick={() => setShowLogs(true)}
-            className="flex items-center gap-2 text-indigo-600 font-bold text-sm bg-indigo-50 px-4 py-2 rounded-lg hover:bg-indigo-100 transition-all border border-indigo-100 w-fit"
-          >
-            <Users size={16} />
-            View Team Activity
-          </button>
+          
+          <div className="flex flex-wrap items-center gap-3">
+            {isAdmin && (
+              <button 
+                onClick={handleWipeAllData}
+                className="flex items-center gap-2 text-red-600 font-bold text-sm bg-red-50 px-4 py-2 rounded-lg hover:bg-red-100 transition-all border border-red-100"
+              >
+                <Trash2 size={16} />
+                Wipe All Data
+              </button>
+            )}
+            <button 
+              onClick={() => setShowLogs(true)}
+              className="flex items-center gap-2 text-indigo-600 font-bold text-sm bg-indigo-50 px-4 py-2 rounded-lg hover:bg-indigo-100 transition-all border border-indigo-100 w-fit"
+            >
+              <Users size={16} />
+              View Team Activity
+            </button>
+          </div>
         </div>
 
         <div className="space-y-8">

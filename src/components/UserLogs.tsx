@@ -1,6 +1,6 @@
 "use client";
 
-import { User, Activity } from "lucide-react";
+import { User, Activity, Trash2 } from "lucide-react";
 
 interface UserLog {
   name: string;
@@ -12,9 +12,11 @@ interface UserLogsProps {
   logs: Record<string, number>;
   isOpen: boolean;
   onClose: () => void;
+  isAdmin?: boolean;
+  onDeleteUser?: (name: string) => void;
 }
 
-export default function UserLogs({ logs, isOpen, onClose }: UserLogsProps) {
+export default function UserLogs({ logs, isOpen, onClose, isAdmin, onDeleteUser }: UserLogsProps) {
   if (!isOpen) return null;
 
   const sortedLogs = Object.entries(logs)
@@ -82,9 +84,23 @@ export default function UserLogs({ logs, isOpen, onClose }: UserLogsProps) {
                     <span className="text-[10px] text-slate-400 font-medium">Active contributor</span>
                   </div>
                 </div>
-                <div className="text-right">
-                  <span className="text-indigo-600 font-black text-lg">{log.count}</span>
-                  <span className="text-[10px] text-slate-400 block uppercase font-bold">Grades</span>
+                <div className="flex items-center gap-4">
+                  <div className="text-right">
+                    <span className="text-indigo-600 font-black text-lg">{log.count}</span>
+                    <span className="text-[10px] text-slate-400 block uppercase font-bold">Grades</span>
+                  </div>
+                  {isAdmin && onDeleteUser && (
+                    <button 
+                      onClick={() => {
+                        if (confirm(`Delete user "${log.name}" and all their contribution stats?`)) {
+                          onDeleteUser(log.name);
+                        }
+                      }}
+                      className="p-2 text-red-400 hover:text-red-600 hover:bg-red-50 rounded-lg transition-all"
+                    >
+                      <Trash2 size={16} />
+                    </button>
+                  )}
                 </div>
               </div>
             )})
