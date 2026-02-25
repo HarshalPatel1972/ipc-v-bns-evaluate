@@ -155,6 +155,91 @@ export default function Methodology() {
               </div>
             </div>
           </div>
+
+          <hr className="my-16 border-slate-200" />
+
+          {/* Open Source Transparency */}
+          <div className="mb-12">
+            <div className="mb-10">
+              <h2 className="text-3xl font-black text-slate-900 mb-4 tracking-tight">Open-Source Transparency</h2>
+              <p className="text-lg text-slate-600 leading-relaxed font-medium">
+                Radical transparency is the cornerstone of trustworthy AI research. We don&apos;t just publish numbers; we open-source our entire algorithmic calculation engine and raw data state. Below is the exact methodology used to compute and parse the LLM rankings.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              {/* Python Code Block */}
+              <div className="bg-slate-900 rounded-2xl overflow-hidden shadow-xl border border-slate-800 flex flex-col">
+                <div className="bg-slate-800/50 px-4 py-3 border-b border-slate-700 flex items-center gap-2">
+                  <div className="w-3 h-3 rounded-full bg-red-500/80" />
+                  <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
+                  <div className="w-3 h-3 rounded-full bg-emerald-500/80" />
+                  <span className="ml-2 text-xs font-mono text-slate-400">generate_academic_benchmarks.py</span>
+                </div>
+                <div className="p-5 overflow-x-auto text-sm leading-relaxed">
+                  <pre className="text-slate-300 font-mono">
+{`def calculate_metrics(json_file_path):
+    # ... load 800 evaluations ...
+    
+    for m in models:
+        r = results[m]
+        total = max(r['total'], 1)
+        
+        lct = (r['correct'] / total) * 100
+        echr = (r['wrong'] / total) * 100
+        sgg = (r['somewhat correct'] / total) * 100
+        acr = (r['no answer'] / total) * 100
+        
+        # Raw LBAS Mathematical Penalty Engine
+        raw_lbas = (r['correct'] * 1.0) + \\
+                   (r['somewhat correct'] * 0.5) + \\
+                   (r['no answer'] * 0) + \\
+                   (r['wrong'] * -1.0)
+                   
+        # Floor net-negative dangerous scores at 0
+        lbas = max(0, min(100, (raw_lbas / total) * 100))`}
+                  </pre>
+                </div>
+              </div>
+
+              {/* JSON Data Block */}
+              <div className="bg-slate-900 rounded-2xl overflow-hidden shadow-xl border border-slate-800 flex flex-col">
+                <div className="bg-slate-800/50 px-4 py-3 border-b border-slate-700 flex items-center gap-2">
+                  <div className="w-3 h-3 rounded-full bg-red-500/80" />
+                  <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
+                  <div className="w-3 h-3 rounded-full bg-emerald-500/80" />
+                  <span className="ml-2 text-xs font-mono text-slate-400">bns_eval_results_complete.json</span>
+                </div>
+                <div className="p-5 overflow-x-auto text-sm leading-relaxed">
+                  <pre className="text-slate-300 font-mono">
+{`{
+  "batches": [
+    {
+      "batchId": 1,
+      "questions": [
+        {
+          "questionIndex": 0,
+          "questionText": "Under the current BNS...",
+          "evaluations": {
+            "ChatGPT 5.2": {
+              "answer": "Section 103",
+              "evaluation": "correct"
+            },
+            "Claude Sonnet 4.6": {
+              "answer": "Section 101",
+              "evaluation": "wrong"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}`}
+                  </pre>
+                </div>
+              </div>
+            </div>
+          </div>
           
           <div className="mt-16 flex justify-center">
              <Link href="/" className="inline-flex items-center justify-center gap-2 bg-slate-900 hover:bg-indigo-600 text-white px-8 py-4 rounded-xl font-bold transition-all shadow-lg shadow-indigo-200 hover:shadow-indigo-300 transform hover:-translate-y-1">
