@@ -1,64 +1,9 @@
-\documentclass[conference]{IEEEtran}
-\IEEEoverridecommandlockouts
-\usepackage{cite}
-\usepackage{amsmath,amssymb,amsfonts}
-\usepackage{algorithmic}
-\usepackage{graphicx}
-\usepackage{textcomp}
-\usepackage{xcolor}
-\usepackage{booktabs}
-\usepackage{array}
-\usepackage{multirow}
-\usepackage{url}
-\usepackage{hyperref}
-\usepackage{caption}
-\usepackage{subcaption}
-\usepackage{float}
+import re
 
-\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+with open("ieee_research_paper.tex", "r", encoding="utf-8") as f:
+    content = f.read()
 
-\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
-    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
-
-\begin{document}
-
-\title{Evaluating Legal Hallucinations in LLMs: A Comparative Analysis of the IPC to BNS Transition\\}
-
-\author{
-\IEEEauthorblockN{1\textsuperscript{st} Harshal Patel}
-\IEEEauthorblockA{\textit{Apex Institute of Technology} \\
-\textit{Chandigarh University}\\
-Mohali, India \\
-hp842484n@gmail.com}
-\and
-\IEEEauthorblockN{2\textsuperscript{nd} Aniruddh Agrahari}
-\IEEEauthorblockA{\textit{Apex Institute of Technology} \\
-\textit{Chandigarh University}\\
-Mohali, India \\
-agraharianiruddha@gmail.com}
-\and
-\IEEEauthorblockN{3\textsuperscript{rd} Priya Karn}
-\IEEEauthorblockA{\textit{Apex Institute of Technology} \\
-\textit{Chandigarh University}\\
-Mohali, India \\
-karnpriya721@gmail.com}
-\and
-\IEEEauthorblockN{4\textsuperscript{th} Aryan}
-\IEEEauthorblockA{\textit{Apex Institute of Technology} \\
-\textit{Chandigarh University}\\
-Mohali, India \\
-aryanbkumar777@gmail.com}
-\and
-\IEEEauthorblockN{5\textsuperscript{th} Aarti}
-\IEEEauthorblockA{\textit{Apex Institute of Technology} \\
-\textit{Chandigarh University}\\
-Mohali, India \\
-aarti.e15380@gmail.com}
-}
-
-\maketitle
-
-\begin{abstract}
+new_abstract = r"""\begin{abstract}
 The 1860 Indian Penal Code (IPC) was superseded by the Bharatiya Nyaya Sanhita (BNS) as of early 2026, radically altering Indian criminal law. However, in Large Language Models (LLMs) used for legal informatics, "Legacy Bias"—the persistence of antiquated statutory knowledge derived from historical training corpora—remains a crucial failure mode. This extensive study uses a unique, highly proprietary dataset of 100 transitional legal scenarios to benchmark eight leading foundational models against the IPC-to-BNS transition. Beyond surface-level accuracy, we present a multidimensional penalization framework that includes the Extrinsic Citation Hallucination Rate (ECHR), Substantive Groundedness (SGG), Abstention \& Calibration Rate (ACR), and Legal Claim Truthfulness (LCT). These metrics are combined to create the LegalBench Adjusted Score (LBAS). Our analysis of 800 distinct legal conclusions shows a significant variation in architectural safety. Although models like ChatGPT 5.2 attain 80.0\% raw truthfulness, their 17.0\% hallucination rate makes them unsuitable for unguarded legal deployment. While leading the LBAS index (77.5) and reducing extrinsic hallucinations to 6.0\%, Gemini 3 demonstrates unparalleled calibration. Open-weights models like Meta AI are severely penalized by our qualitative ablation studies, which also show that dense parameter scaling without targeted reinforcement learning is unable to reduce historical overfitting.
 \end{abstract}
 
@@ -205,29 +150,14 @@ For legal deployment, Gemini 3 turned out to be a much more calibrated architect
 A zero-shot inference protocol that was totally reliant on the parametric memory architectures of the models was used to carry out this benchmarking study. The majority of real-world legal technology applications use Retrieval-Augmented Generation (RAG) pipelines \cite{b_lewis_rag}, which ground the LLM through semantic similarity searches over reliable, current vector databases that contain the actual BNS text \cite{b_karpukhin_dpr}.
 
 Future studies must assess whether a RAG implementation effectively eliminates Legacy Bias for lower-scoring models, such as Meta AI, or whether the retrieved contextual window is overridden by deeply embedded IPC token correlations—a phenomenon referred to in the literature as "Contextual Rejection." Additionally, the immediate future of this benchmarking framework is represented by growing the IndoLegal dataset from 100 to over 5,000 algorithmic variations across particular State Amendments.
-\section*{Acknowledgment}
-The authors express their profound gratitude to the Apex Institute of Technology at Chandigarh University for providing the computational infrastructure allocations requisite to execute this extensive legal evaluation matrix and compile the visualizations.
+"""
 
-\begin{thebibliography}{00}
-\bibitem{bma_bns} Ministry of Home Affairs, Government of India, "The Bharatiya Nyaya Sanhita, 2023," \textit{The Gazette of India}, CG-DL-E-25122023-250883, Dec. 2023.
-\bibitem{b_legalbench} N. Guha, et al., "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models," \textit{arXiv preprint arXiv:2308.11462}, 2023.
-\bibitem{b_lawbench} Z. Fei, et al., "LawBench: Benchmarking Legal Knowledge of Large Language Models," \textit{Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing}, pp. 7933-7962, 2024.
-\bibitem{b_ji2023survey} Z. Ji, et al., "Survey of Hallucination in Natural Language Generation," \textit{ACM Computing Surveys}, vol. 55, no. 12, pp. 1-38, 2023.
-\bibitem{b_legalhal} D. Yue, et al., "LegalHalBench: A Benchmark for Evaluating Legal Hallucinations in Large Language Models," \textit{arXiv preprint arXiv:2408.06822}, 2024.
-\bibitem{b_falsecite} Y. Zhong, et al., "FalseCite: Benchmarking Hallucinated Citations in Legal Large Language Models," \textit{Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics}, 2024.
-\bibitem{b_rlhf} L. Ouyang, et al., "Training language models to follow instructions with human feedback," \textit{Advances in Neural Information Processing Systems}, vol. 35, pp. 27730-27744, 2022.
-\bibitem{b_vaswani} A. Vaswani, et al., "Attention is all you need," \textit{Advances in Neural Information Processing Systems}, vol. 30, 2017.
-\bibitem{b_brown} T. Brown, et al., "Language Models are Few-Shot Learners," \textit{Advances in Neural Information Processing Systems}, vol. 33, pp. 1877-1901, 2020.
-\bibitem{b_min} B. Min, et al., "Recent Advances in Natural Language Processing via Large Pre-Trained Language Models: A Survey," \textit{ACM Computing Surveys}, vol. 56, no. 2, pp. 1-40, 2023.
-\bibitem{b_katz} D. M. Katz, M. J. Bommarito, S. Gao, and P. Arredondo, "GPT-4 Passes the Bar Exam," \textit{Philosophical Transactions of the Royal Society A}, vol. 382, no. 2270, 2024.
-\bibitem{b_inlegalbert} S. Paul, A. Mandal, P. Goyal, and S. Ghosh, "Pre-training Transformers on Indian Legal Text," \textit{arXiv preprint arXiv:2209.06049}, 2022.
-\bibitem{b_geng_calibration} J. Geng, et al., "A Survey of Confidence Estimation and Calibration in Large Language Models," \textit{Proceedings of the North American Chapter of the Association for Computational Linguistics}, pp. 6577-6595, 2024.
-\bibitem{b_gpt4} OpenAI, "GPT-4 Technical Report," \textit{arXiv preprint arXiv:2303.08774}, 2023.
-\bibitem{b_llama2} H. Touvron, et al., "Llama 2: Open Foundation and Fine-Tuned Chat Models," \textit{arXiv preprint arXiv:2307.09288}, 2023.
-\bibitem{b_palm} A. Chowdhery, et al., "PaLM: Scaling Language Modeling with Pathways," \textit{Journal of Machine Learning Research}, vol. 24, no. 240, pp. 1-113, 2023.
-\bibitem{b_kadavath2022language} S. Kadavath, et al., "Language Models (Mostly) Know What They Know," \textit{arXiv preprint arXiv:2207.05221}, 2022.
-\bibitem{b_lewis_rag} P. Lewis, et al., "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks," \textit{Advances in Neural Information Processing Systems}, vol. 33, pp. 9459-9474, 2020.
-\bibitem{b_karpukhin_dpr} V. Karpukhin, et al., "Dense Passage Retrieval for Open-Domain Question Answering," \textit{Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing}, pp. 6769-6781, 2020.
-\end{thebibliography}
+start_index = content.find(r"\begin{abstract}")
+end_index = content.find(r"\section*{Acknowledgment}")
 
-\end{document}
+new_content = content[:start_index] + new_abstract + content[end_index:]
+
+with open("ieee_research_paper.tex", "w", encoding="utf-8") as f:
+    f.write(new_content)
+
+print("Replacement complete.")
